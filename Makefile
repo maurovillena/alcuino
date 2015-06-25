@@ -14,6 +14,6 @@ less:
 css: less
 
 dist:
-	cp -R bower_components/font-awesome/fonts fonts/font-awesome
+	cp -R bower_components/fontawesome/fonts/. fonts/fontawesome
 	cp bower_components/bootstrap/dist/js/bootstrap.min.js js
 	cp bower_components/jquery/dist/jquery.min.js js

@@ -44,7 +44,3 @@ active: home
 		<p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
 	</div>
 </div>
-
-<footer class="footer">
-	<p>&copy; Company 2014</p>
-</footer>

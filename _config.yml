@@ -8,7 +8,7 @@ baseurl: http://hspencer.github.io/jbbt
 author: ['Herbert Spencer', 'Perico de los Palotes', 'Fulano de Tal']
 highlighter: true
 permalink: pretty
-exclude: ['node_modules', 'bower_components', 'less', 'bower.json']
+exclude: ['bower_components', 'less', 'bower.json']
 
 # Aliases
 bootstrap: bower_components/bootstrap/dist
