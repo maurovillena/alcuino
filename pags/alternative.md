@@ -1,13 +1,13 @@
 ---
-layout: standard
+layout: standard-narrow
 title: JBBT
-active: home
+active: alternative
 ---
 
 <h3 class='uc'>JBBT</h3>
 
 <div class="jumbotron">
-	<h1>Jumbotron heading</h1>
+	<h1>Container Narrow</h1>
 	<p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
 	<p><a class="btn btn-lg btn-success" href="#" role="button">Sign up today</a></p>
 </div>
