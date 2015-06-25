@@ -1,0 +1,29 @@
+# Jekyll Configuration
+safe: false
+source: .
+destination: _gh-pages
+lsi: false
+markdown: rdiscount
+baseurl: http://hspencer.github.io/jbbt
+author: ['Herbert Spencer', 'Perico de los Palotes', 'Fulano de Tal']
+pygments: true
+permalink: pretty
+exclude: ['node_modules', 'bower_components', 'less', 'bower.json']
+
+# Aliases
+bootstrap: bower_components/bootstrap/dist
+jquery: bower_components/jquery
+font-awesome: bower_components/font-awesome
+
+# Project Settings
+mf: 
+    version: "0.1.0"
+    license: The Artistic License 2.0
+    author:
+        name: Herbert Spencer
+        email: hspencer@ead.cl
+        twitter: hspencer
+    github:
+        url: http://hspencer.github.io/jbbt
+        project: mf
+        org: mediafranca

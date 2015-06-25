@@ -1,0 +1,267 @@
+// backgrounds && colors
+.bk-white{
+	background-color: @white;
+	padding: 0 0 4em 0;
+}
+
+.bk-black{
+	background-color: @black;
+}
+
+.blue{
+	color: @blue;
+}
+
+// HTML standard elements
+header{
+	margin: 3em 0;
+	img{
+		width: 100px;
+		height: auto;
+	}
+	h1{ font-weight: 300;
+		display: inline;
+		span{
+			color: @gray-light
+		}
+	}
+	.nav{
+		width: 50%;
+		text-align: right;
+		li{margin: 0 16px 0 0}
+	}
+}
+
+.nav{
+	li{
+		display: inline-block;
+		margin: 16px 16px 0px 0;
+		font-weight: 700;
+		a:hover{
+			background-color: @white;
+			box-shadow: 0 0 0 4px fade(@component-active-bg, 30);
+		}
+	}
+}
+
+.label{
+	a{
+		color: @white;
+	}
+}
+
+.bio{
+	text-align: left;
+	h4{
+		color: @white !important;
+		.longShadow(darken(@brand-primary, 20), 6);
+		font-weight: 900;
+		margin: 0 0 -.5em 0 !important;
+		padding: 0;
+	}
+	.label{
+		font-size: 16px;
+	}
+	p{
+		font-size: 22px;
+	}
+	a{
+		color: @white;
+		font-weight: bolder;
+	}
+}
+.nav-secondary{
+	.container{
+		padding-top: @line-height-computed *.666;
+	}
+
+	.nav{
+		a{
+			color: fade(@white, 60);
+			padding: 3px 7px;
+			&:hover{
+				color: @white;
+				background-color: transparent;
+				border: none;
+			}
+		}
+	}
+}
+
+p, li{
+	font-weight: 300;
+}
+
+ul.ideas{
+	li{
+		.fa-li{
+			font-size: 22px;
+		}
+		//font-weight: lighter;
+		.air-vertical;
+	}
+}
+
+ol.experience{
+	li{
+		list-style: none;
+	}
+}
+
+.footer,
+footer{
+	color: @white;
+	margin: 1em 0;
+	nav{
+		margin: 0 0 2em 0;
+		li{
+			display: inline-block;
+			list-style-type: none;
+			font-size: 14px;
+			font-weight: 900;
+			margin: 0 3em 0 0;
+			.longShadow(@blue, 4);
+		}
+	}
+	a{
+		color: @white;
+		&:hover{
+			color: @white; 
+			text-decoration: underline;
+		}
+	}
+}
+// Backgound colors
+
+.bg-black{background-color: @black}
+.bg-white{background-color: @white}
+
+// Air
+
+.air{margin: @line-height-computed}
+.air-top{margin-top: @line-height-computed}
+.air-bottom{margin-bottom: @line-height-computed}
+.air-lg{margin: @line-height-computed * 2}
+.air-vertical{margin: @line-height-computed/2 0}
+.air-horizontal{margin: 0 @line-height-computed}
+.air-vertical-jumbo{margin: @line-height-computed*3 0}
+
+// alignment
+
+.tcenter{
+	text-align: center;
+}
+
+.w100{
+	width: 100%;
+}
+
+.h90 {
+	height: 90% !important;
+}
+
+// utils
+
+.bold,
+.strong{
+	font-weight: 900;
+}
+
+.inline{display: inline-block;}
+
+h1.nav-header{
+	display: inline-block;
+	img{height: 32px}
+	font-size: 32px;
+	font-weight: 500;
+	span{
+		color: @gray-light
+	}
+}
+
+.vcenter,
+.vertical-center {
+	min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+	min-height: 100vh; /* These two lines are counted as one :-)       */
+-moz-display: flex;
+-webkit-display: flex;
+-o-display: flex;
+display: flex;
+-moz-align-items: center;
+-webkit-align-items: center;
+-o-align-items: center;
+align-items: center;
+}
+
+
+.illustration{
+	text-align: center;
+	width: 90% !important;
+	height: auto !important;
+}
+
+.now90{
+	width: auto !important;
+}
+
+/*!
+* Less Long Shadow v1.0
+*
+* Open sourced under MIT license by @zensimilia.
+*/
+
+
+// Text-shadow
+.longShadow(@color, @size, @spread: 100, @flag: 1, @tmp: '') when (@size > 0) {
+	@percent: round(@flag / @size * 100) * @spread;
+	@shadowColor: fade(@color, @percent);
+	@shadow: ~"@{size}px @{size}px 1px @{shadowColor}";
+	@ends: ~"@{shadow}, @{tmp}";
+	@shadowString: ~"@{ends} 0px 0px 1px #000";
+	.longShadowLoop(@string, @index) when (@index < 1) {
+		text-shadow: @string;
+	}
+	.longShadowLoop(@shadowString, @size - 1);
+	.longShadow(@color, @size - 1, @spread, @flag + 1, @ends);
+}
+// Box-shadow
+.longShadowBox(@color, @size, @spread: 1, @flag: 1, @tmp: '') when (@size > 0) {
+	@percent: round(@flag / @size * 100) * @spread;
+	@shadowColor: fade(@color, @percent);
+	@shadow: ~"@{size}px @{size}px 0 0 @{shadowColor}";
+	@ends: ~"@{shadow}, @{tmp}";
+	@shadowString: ~"@{ends} 0px 0px 0 0 #000";
+	.longShadowLoop(@string, @index) when (@index < 1) {
+		-webkit-box-shadow: @string;
+		-moz-box-shadow: @string;
+		box-shadow: @string;
+	}
+	.longShadowLoop(@shadowString, @size - 1);
+	.longShadowBox(@color, @size - 1, @spread, @flag + 1, @ends);
+}
+
+.personas{
+	background-color: #f9fffc;
+	padding: 2em 0;
+	margin: 1em 0;
+	img{
+		display: block;
+		.longShadowBox(30, @brand-primary);
+		.size(200px, 200px);
+		.img-circle;
+		height: auto;
+		margin: 1em auto;
+	}
+	p{margin: 0}
+	p.small{
+		font-weight: bolder;
+		font-size: 14px;
+	}
+}
+
+em{
+	font-family: Georgia;
+}
+address{
+	font-size: 14px;
+}

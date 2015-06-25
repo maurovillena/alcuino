@@ -1,0 +1,22 @@
+{
+  "name": "projectName",
+  "version": "0.0.1",
+  "homepage": "http://www.projectURL.io",
+  "authors": [
+    "hspencer@ead.cl",
+  ],
+  "description": "project description",
+  "license": "None",
+  "private": false,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/_bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.1.1"
+  }
+}
