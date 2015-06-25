@@ -9,7 +9,7 @@ server:
 	jekyll server --watch --baseurl=
 
 less:
-	lessc less/mf.less css/mf.css --clean-css
+	lessc less/compiler.less css/style.css --clean-css
 
 css: less
 

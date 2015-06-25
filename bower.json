@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "homepage": "http://www.projectURL.io",
   "authors": [
-    "hspencer@ead.cl",
+    "hspencer@ead.cl", "putyourname@mail.com"
   ],
   "description": "project description",
   "license": "None",
@@ -17,6 +17,7 @@
     "tests"
   ],
   "dependencies": {
-    "bootstrap": "~3.1.1"
+    "bootstrap": "~3.1.1",
+    "fontawesome": "~4.3.0"
   }
 }
