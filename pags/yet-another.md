@@ -16,10 +16,10 @@ active: yet-another
 		</div>
 		<div id="navbar" class="navbar-collapse collapse">
 			<ul class="nav navbar-nav navbar-right">
-				<li><a href="#">Dashboard</a></li>
-				<li><a href="#">Settings</a></li>
-				<li><a href="#">Profile</a></li>
-				<li><a href="#">Help</a></li>
+				<li><a href="{{ site.baseurl }}/">Dashboard</a></li>
+				<li><a href="{{ site.baseurl }}/pags/alternative">Settings</a></li>
+				<li><a href="{{ site.baseurl }}/pags/other">Profile</a></li>
+				<li><a href="{{ site.baseurl }}/">Help</a></li>
 			</ul>
 			<form class="navbar-form navbar-right">
 				<input type="text" class="form-control" placeholder="Search...">
@@ -50,7 +50,7 @@ active: yet-another
 				<li><a href="">Another nav item</a></li>
 			</ul>
 		</div>
-		<div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+		<div class="col-sm-9 col-md-10 main">
 			<h1 class="page-header">Dashboard</h1>
 
 			<div class="row placeholders">
