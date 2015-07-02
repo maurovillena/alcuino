@@ -6,7 +6,6 @@ lsi: false
 markdown: rdiscount
 baseurl: http://hspencer.github.io/jbbt
 author: ['Herbert Spencer', 'Perico de los Palotes', 'Fulano de Tal']
-highlighter: true
 permalink: pretty
 exclude: ['bower_components', 'less', 'bower.json']
 
