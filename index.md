@@ -1,37 +1,69 @@
 ---
 layout: standard
-title: JBBT
+title: Curso de Tipografía
 active: home
 ---
 
-<h3 class='uc'>JBBT</h3>
+<div class="jumbotron" id="jumboinicio">
+	<div class="container">
+		<div class="col-md-6">
+			<h1>Aprende todo sobre Tipografía</h1>
+		</div>
+		<div class="col-md-6">
+				<div class="log-tabs">
+	    <ul class="nav nav-tabs">
+	        <li class="active"><a data-toggle="tab" href="#registrate">¡Regístrate!</a></li>
+	        <li><a data-toggle="tab" href="#iniciarsesion">Iniciar Sesión</a></li>
+	    </ul>
+	    <div class="tab-content" id="log">
+	        <div id="registrate" class="tab-pane fade in active">
+	            <h3>¡Regístrate!</h3>
+	            	<form>
+	            		<div class="form-group">
+						    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Correo Electrónico">
+						  </div>
+						  
+						<div class="form-group">
+						    <input type="username" class="form-control" id="exampleInputEmail1" placeholder="Nombre de Usuario">
+						</div>
 
-<div class="jumbotron">
-	<h1>Jumbotron heading</h1>
-	<p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-	<p><a class="btn btn-lg btn-success" href="#" role="button">Sign up today</a></p>
+						<div class="form-group">
+						    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Contraseña">
+						</div>
+
+						<a href="sesion.html">
+							<button type="submit" class="btn btn-default">Registrarme</button>
+						</a>
+						
+					</form>
+	        </div>
+	        <div id="iniciarsesion" class="tab-pane fade">
+	            <h3>Iniciar Sesión</h3>
+	            	<form>
+						  <div class="form-group">
+						    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Tu Email">
+						  </div>
+						  <div class="form-group">
+						    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Tu Contraseña">
+						  </div>
+						<a href="sesion.html">
+						  <button type="submit" class="btn btn-default">Iniciar Sesión</button>
+						</a>
+					</form>
+	        </div>
+	        
+	    </div>
+	</div>
+					
+	</div>
+	</div>
 </div>
 
-<div class="row marketing">
-	<div class="col-lg-6">
-		<h4>Subheading</h4>
-		<p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
-
-		<h4>Subheading</h4>
-		<p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum.</p>
-
-		<h4>Subheading</h4>
-		<p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
-	</div>
-
-	<div class="col-lg-6">
-		<h4>Subheading</h4>
-		<p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
-
-		<h4>Subheading</h4>
-		<p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum.</p>
-
-		<h4>Subheading</h4>
-		<p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
+<div class="seccion dos" id="seccion-1">
+	<div class="container">
+		<div class="col-md-6">
+			<h1>¿Qué encontrarás?</h1>
+			<p>Este curso se divide en seis módulos, de los cuales se desprenden varios capítulos, que por medio de diferentes ejercicios te permitirán entender cómo se relacionan entre ellos.</p>
+		</div>
 	</div>
 </div>
