@@ -4,7 +4,7 @@ source: .
 destination: _gh-pages
 lsi: false
 markdown: rdiscount
-baseurl: http://hspencer.github.io/jbbt
+baseurl: http://maurovillena.github.io/jbbt
 author: ['Herbert Spencer', 'Perico de los Palotes', 'Fulano de Tal']
 permalink: pretty
 exclude: ['bower_components', 'less', 'bower.json']
