@@ -21,7 +21,7 @@ title: Curso de Tipografía
       			<p>A través de los años, esta técnica ha ido evolucionando, pasando de la aplicación de tinta por medio de estos moldes, a la fotomecánica, y más tarde, a los tipos digitales, ampliamente utilizados hoy en día, en la mayoría de los hogares y oficinas.</p>
       		</div>
       		<div class="col-md-6">
-      			<img style="margin-top:-20px;" src="http://127.0.0.1:4000/img/0001.gif"/>
+      			<img style="margin-top:-20px;" src="{{ site.baseurl }}/img/0001.gif"/>
       		</div>
      	 </div>
     </div>
