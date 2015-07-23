@@ -7056,14 +7056,24 @@ footer {
 .carousel {
   top: 50px;
 }
+.carousel h2 {
+  margin-top: 0;
+  margin-bottom: 1em;
+}
+.carousel h3 {
+  margin-top: 0;
+}
+.carousel-control {
+  width: 5%;
+  background: none;
+}
 .item {
   height: 600px;
 }
 .item img {
-  max-height: 400px;
+  max-height: 350px;
   display: block;
   margin: 0 auto;
-  padding-top: 50px;
 }
 /*LOGIN/REGISTRO*/
 .log-tabs {
