@@ -7065,7 +7065,13 @@ footer {
 }
 .carousel-control {
   width: 5%;
-  background: none;
+  background-image: none!important;
+}
+.carousel-control .left {
+  background-image: none;
+}
+.carousel-control .right {
+  background-image: none;
 }
 .item {
   height: 600px;
