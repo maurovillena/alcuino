@@ -1,9 +1,7 @@
 ---
-layout: standard
+layout: session
 title: Curso de Tipografía
-active: home
 ---
-
 
 <div class="jumbotron" id="jumboinicio">
 	<div class="container">
@@ -32,7 +30,7 @@ active: home
 						    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Contraseña">
 						</div>
 
-						<a href="session">
+						<a href="sesion.html">
 							<button type="submit" class="btn btn-default">Registrarme</button>
 						</a>
 						
@@ -47,7 +45,7 @@ active: home
 						  <div class="form-group">
 						    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Tu Contraseña">
 						  </div>
-						<a href="session">
+						<a href="sesion.html">
 						  <button type="submit" class="btn btn-default">Iniciar Sesión</button>
 						</a>
 					</form>
@@ -65,16 +63,6 @@ active: home
 		<div class="col-md-6">
 			<h2>¿Qué encontrarás?</h2>
 			<p>Este curso se divide en seis módulos, de los cuales se desprenden varios capítulos, que por medio de diferentes ejercicios te permitirán entender cómo se relacionan entre ellos.</p>
-		</div>
-
-		<div class="col-md-6">
-			<h2>Objetivos</h2>
-			<ul>
-				<li>Conocer e identificar las partes que conforman a los dostintos caracteres tipográficos</li>
-				<li>Reonocer e identificar diferentes familias tipográficas por su clasificación formal</li>
-				<li>Conocer y aprender a aplicar los diferentes parámetros ajustables de la tipografía</li>
-				<li>Aprender a elejir diferentes tipografías según los requerimientos de una obra gráfica específica</li>
-			</ul>
 		</div>
 	</div>
 </div>
