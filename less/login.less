@@ -15,48 +15,51 @@
 
 
 .nav-tabs{
-	border-bottom: 1px solid transparent;
-	
+	border-bottom: 1px solid #fff;
 	a{
-		background-color: rgba(255,255,255,0.05);
+		background-color:@brand-primary;
 		color: #fff;
-		border-color:rgba(255,255,255,0.2); 
+		border-color:rgba(255,255,255,0.2);
 		border-bottom: none;
+		outline: none;
 	}
 
 }
 
-.nav-tabs li.active a{
-	background-color: rgba(255,255,255,0.2);
-	color: #fff;
-	border-color:rgba(255,255,255,0.2); 
+.nav-rabs li a{
 	border-bottom: none;
+}
+
+.nav-tabs li.active a{
+	background-color:@brand-primary;
+	color: #fff;
+	border-color:rgba(153,107,143,0.2);
 }
 
 .nav-tabs li.active a:hover{
-	background-color: rgba(255,255,255,0.2);
+	background-color:@brand-primary;
 	color: #fff;
-	border-color:rgba(255,255,255,0.2);
-	border-bottom: none;
+	border-color:rgba(153,107,143,0.7);
 }
 
 .nav-tabs li a:hover{
-	background-color: rgba(255,255,255,0.2);
+	background-color:rgba(153,107,143,0.2);
 	color: #fff;
-	border-color:rgba(255,255,255,0.2); 
-}
-
-.nav-tabs li.active a:focus{
-	background-color: rgba(255,255,255,0.2);
-	color: #fff;
-	border-color:rgba(255,255,255,0.2);
+	border-color:rgbargba(153,107,143,0.2);
+	border-bottom: none;
 	outline: none;
 }
 
+.nav-tabs li.active a:focus{
+	background-color: @brand-primary;
+	color: #fff;
+	border-color:rgba(255,255,255,0.2);
+}
+
 #log{
-	background-color: rgba(255,255,255,0.2);
+	background-color:@brand-primary;
 	padding: 10px;
-	border: 1px solid rgba(255,255,255,0.2);
+	border: 1px solid rgba(153,107,143,0.2);
 }
 
 .form-control{

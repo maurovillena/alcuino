@@ -7,9 +7,19 @@ active: home
 
 <div class="jumbotron" id="jumboinicio">
 	<div class="container">
-		<div class="col-md-6">
-			<h1>Aprende todo sobre Tipografía</h1>
+		<div class="col-md-12">
+			<h1>Aprende <span class="merri">todo sobre</span> Tipografía</h1>
 		</div>
+	</div>
+</div> <!--JUMBOTRON -->
+
+<div class="seccion dos" id="seccion-1">
+	<div class="container">
+		<div class="col-md-6">
+			<h2>¿Qué encontrarás?</h2>
+			<p>Este curso se divide en seis módulos, de los cuales se desprenden varios capítulos, que por medio de diferentes ejercicios te permitirán entender cómo se relacionan entre ellos.</p>
+		</div>
+		
 		<div class="col-md-6">
 				<div class="log-tabs">
 	    <ul class="nav nav-tabs">
@@ -57,16 +67,7 @@ active: home
 	</div>
 					
 	</div>
-	</div>
-</div> <!--JUMBOTRON -->
-
-<div class="seccion dos" id="seccion-1">
-	<div class="container">
-		<div class="col-md-6">
-			<h2>¿Qué encontrarás?</h2>
-			<p>Este curso se divide en seis módulos, de los cuales se desprenden varios capítulos, que por medio de diferentes ejercicios te permitirán entender cómo se relacionan entre ellos.</p>
-		</div>
-
+	<!--
 		<div class="col-md-6">
 			<h2>Objetivos</h2>
 			<ul>
@@ -76,5 +77,7 @@ active: home
 				<li>Aprender a elejir diferentes tipografías según los requerimientos de una obra gráfica específica</li>
 			</ul>
 		</div>
+
+	-->
 	</div>
 </div>
