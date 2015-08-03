@@ -7101,22 +7101,22 @@ footer {
   margin-bottom: 25px;
 }
 .nav-tabs {
-  border-bottom: 1px solid #fff;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 .nav-tabs a {
   background-color: #996b8f;
   color: #fff;
   border-color: rgba(255, 255, 255, 0.2);
-  border-bottom: none;
-  outline: none;
 }
 .nav-rabs li a {
-  border-bottom: none;
+  background-color: #996b8f;
+  color: #fff;
+  border: 1px solid rgba(153, 107, 143, 0.2);
 }
 .nav-tabs li.active a {
   background-color: #996b8f;
   color: #fff;
-  border-color: rgba(153, 107, 143, 0.2);
+  border-color: #996b8f;
 }
 .nav-tabs li.active a:hover {
   background-color: #996b8f;
@@ -7124,16 +7124,14 @@ footer {
   border-color: rgba(153, 107, 143, 0.7);
 }
 .nav-tabs li a:hover {
-  background-color: rgba(153, 107, 143, 0.2);
+  background-color: #996b8f;
   color: #fff;
-  border-color: rgbargba(153, 107, 143, 0.2);
-  border-bottom: none;
-  outline: none;
+  border-color: #996b8f;
 }
 .nav-tabs li.active a:focus {
   background-color: #996b8f;
   color: #fff;
-  border-color: rgba(255, 255, 255, 0.2);
+  border-color: #996b8f;
 }
 #log {
   background-color: #996b8f;

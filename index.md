@@ -18,6 +18,8 @@ active: home
 		<div class="col-md-6">
 			<h2>¿Qué encontrarás?</h2>
 			<p>Este curso se divide en seis módulos, de los cuales se desprenden varios capítulos, que por medio de diferentes ejercicios te permitirán entender cómo se relacionan entre ellos.</p>
+
+			<a class="btn" href="{{ site.baseurl }}/img/mapa.jpg">Mapa conceptual</a>
 		</div>
 		
 		<div class="col-md-6">
@@ -77,7 +79,6 @@ active: home
 				<li>Aprender a elejir diferentes tipografías según los requerimientos de una obra gráfica específica</li>
 			</ul>
 		</div>
-
 	-->
 	</div>
 </div>

@@ -15,25 +15,25 @@
 
 
 .nav-tabs{
-	border-bottom: 1px solid #fff;
+	border-bottom: 1px solid rgba(255,255,255,0.2);
 	a{
 		background-color:@brand-primary;
 		color: #fff;
 		border-color:rgba(255,255,255,0.2);
-		border-bottom: none;
-		outline: none;
 	}
 
 }
 
 .nav-rabs li a{
-	border-bottom: none;
+	background-color: @brand-primary;
+	color: #fff;
+	border: 1px solid rgba(153,107,143,0.2);
 }
 
 .nav-tabs li.active a{
 	background-color:@brand-primary;
 	color: #fff;
-	border-color:rgba(153,107,143,0.2);
+	border-color:@brand-primary;
 }
 
 .nav-tabs li.active a:hover{
@@ -43,17 +43,15 @@
 }
 
 .nav-tabs li a:hover{
-	background-color:rgba(153,107,143,0.2);
+	background-color:@brand-primary;
 	color: #fff;
-	border-color:rgbargba(153,107,143,0.2);
-	border-bottom: none;
-	outline: none;
+	border-color:@brand-primary;
 }
 
 .nav-tabs li.active a:focus{
 	background-color: @brand-primary;
 	color: #fff;
-	border-color:rgba(255,255,255,0.2);
+	border-color:@brand-primary;
 }
 
 #log{
