@@ -47,8 +47,8 @@ active: home
 						    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Contraseña">
 						</div>
 
-						<a href="session">
-							<button type="submit" class="btn btn-default">Registrarme</button>
+						<a href="{{ site.baseurl }}/pags/session">
+							<button type="button" class="btn btn-default">Registrarme</button>
 						</a>
 						
 					</form>
@@ -62,8 +62,8 @@ active: home
 						  <div class="form-group">
 						    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Tu Contraseña">
 						  </div>
-						<a href="session">
-						  <button type="submit" class="btn btn-default">Iniciar Sesión</button>
+						<a href="{{ site.baseurl }}/pags/session">
+						  <button type="button" class="btn btn-default">Iniciar Sesión</button>
 						</a>
 					</form>
 	        </div>

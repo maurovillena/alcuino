@@ -90,7 +90,40 @@ p{
 }
 
 footer{
-	background-color: #000;
+	font-family: @font-family-sans-serif;
+	background-color: @gray-dark;
+	padding: 20px 0;
+	color: @gray-light;
+	
+	a{
+		color: @gray-light;
+	}
+	
+	a:hover{
+		color: @gray-lighter;
+		text-decoration: none;
+	}
+
+	p{
+	font-size: 12px;
+	}
+	
+	ul{
+		font-size: 12px;
+		list-style: none;
+		padding: 0;
+	}
+
+	h2{
+		font-size: 14px;
+		color: @gray-lighter;
+		font-weight: 400;
+	}
+
+	strong{
+		font-weight: 400;
+		color: @gray-lighter;
+	}
 }
 
 .hiden .pager li{

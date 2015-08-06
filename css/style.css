@@ -7049,7 +7049,34 @@ p {
   background-color: #996b8f;
 }
 footer {
-  background-color: #000;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #333333;
+  padding: 20px 0;
+  color: #999999;
+}
+footer a {
+  color: #999999;
+}
+footer a:hover {
+  color: #eeeeee;
+  text-decoration: none;
+}
+footer p {
+  font-size: 12px;
+}
+footer ul {
+  font-size: 12px;
+  list-style: none;
+  padding: 0;
+}
+footer h2 {
+  font-size: 14px;
+  color: #eeeeee;
+  font-weight: 400;
+}
+footer strong {
+  font-weight: 400;
+  color: #eeeeee;
 }
 .hiden .pager li {
   display: none !important;
