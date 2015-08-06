@@ -7091,6 +7091,9 @@ footer {
   font-size: 0.8em;
   margin: 0 auto;
 }
+li {
+  font-weight: 300!important;
+}
 /*LOGIN/REGISTRO*/
 .log-tabs {
   margin-top: 25px;
@@ -7107,6 +7110,10 @@ footer {
   background-color: #996b8f;
   color: #fff;
   border-color: rgba(255, 255, 255, 0.2);
+}
+.nav-tabs > li > a {
+  background: rgba(153, 107, 143, 0.7);
+  border-bottom: 1px;
 }
 .nav-rabs li a {
   background-color: #996b8f;

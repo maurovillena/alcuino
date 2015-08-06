@@ -16,10 +16,13 @@ active: home
 <div class="seccion dos" id="seccion-1">
 	<div class="container">
 		<div class="col-md-6">
-			<h2>¿Qué encontrarás?</h2>
-			<p>Este curso se divide en seis módulos, de los cuales se desprenden varios capítulos, que por medio de diferentes ejercicios te permitirán entender cómo se relacionan entre ellos.</p>
-
-			<a class="btn" href="{{ site.baseurl }}/img/mapa.jpg">Mapa conceptual</a>
+			<h2>Objetivos</h2>
+			<ul>
+				<li>Conocer e identificar las partes que conforman a los dostintos caracteres tipográficos</li>
+				<li>Reonocer e identificar diferentes familias tipográficas por su clasificación formal</li>
+				<li>Conocer y aprender a aplicar los diferentes parámetros ajustables de la tipografía</li>
+				<li>Aprender a elejir diferentes tipografías según los requerimientos de una obra gráfica específica</li>
+			</ul>
 		</div>
 		
 		<div class="col-md-6">
@@ -71,13 +74,8 @@ active: home
 	</div>
 	<!--
 		<div class="col-md-6">
-			<h2>Objetivos</h2>
-			<ul>
-				<li>Conocer e identificar las partes que conforman a los dostintos caracteres tipográficos</li>
-				<li>Reonocer e identificar diferentes familias tipográficas por su clasificación formal</li>
-				<li>Conocer y aprender a aplicar los diferentes parámetros ajustables de la tipografía</li>
-				<li>Aprender a elejir diferentes tipografías según los requerimientos de una obra gráfica específica</li>
-			</ul>
+			<h2>¿Qué encontrarás?</h2>
+			<p>Este curso se divide en seis módulos, de los cuales se desprenden varios capítulos, que por medio de diferentes ejercicios te permitirán entender cómo se relacionan entre ellos.</p>
 		</div>
 	-->
 	</div>
