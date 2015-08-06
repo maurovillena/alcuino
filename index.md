@@ -18,7 +18,7 @@ active: home
 		<div class="col-md-6">
 			<h2>Objetivos</h2>
 			<ul>
-				<li>Conocer e identificar las partes que conforman a los dostintos caracteres tipográficos</li>
+				<li>Conocer e identificar las partes que conforman a los distintos caracteres tipográficos</li>
 				<li>Reonocer e identificar diferentes familias tipográficas por su clasificación formal</li>
 				<li>Conocer y aprender a aplicar los diferentes parámetros ajustables de la tipografía</li>
 				<li>Aprender a elejir diferentes tipografías según los requerimientos de una obra gráfica específica</li>
