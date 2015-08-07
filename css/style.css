@@ -7125,6 +7125,12 @@ li {
   border: none;
   border-radius: 0;
 }
+.navbar-header {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+.nav {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
 /*LOGIN/REGISTRO*/
 .log-tabs {
   margin-top: 25px;
@@ -7173,7 +7179,7 @@ li {
 }
 #log {
   background-color: #996b8f;
-  padding: 10px;
+  padding: 30px;
   border: 1px solid rgba(153, 107, 143, 0.2);
 }
 .form-control {
