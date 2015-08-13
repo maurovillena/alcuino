@@ -9,6 +9,14 @@ p{
 	letter-spacing: 0.01ex;
 }
 
+h1,h2{
+	font-weight: 800;
+}
+
+h3,h4,h5,h6{
+	text-transform: uppercase;
+}
+
 .main-nav{
 	margin-top: 1.1em;
 }
@@ -24,7 +32,7 @@ p{
 	margin-bottom: 0;
 
 	h1{
-	font-family: "Open Sans";
+	font-family: @font-family-sans-serif;
 	text-align: center;
 	letter-spacing: 0.03ex;
 }
@@ -35,7 +43,7 @@ p{
 
 .jumbotron h1{
 	font-size: 5em;
-	font-family: "Open Sans";
+	font-family: @font-family-sans-serif;
 	font-weight: 800;
 	text-transform: uppercase;
 	text-align: center;
@@ -191,4 +199,33 @@ li{
 
 .nav{
 	font-family: @font-family-sans-serif!important;
+}
+
+.thumbnail{
+	a:hover{
+		text-decoration: none;
+	}
+	li{
+		font-family: @font-family-sans-serif;
+	}
+}
+
+.thumbnail:hover{
+	background: @gray-lighter;
+}
+
+.img-thumbnail{
+	width: 100%;
+	height: 200px;
+	overflow: hidden;
+	border: 0 solid;
+	padding: 0;
+
+	img{
+		width: 100%;
+	}
+}
+
+.fa{
+	line-height: ((@line-height-base - 0.2));
 }
