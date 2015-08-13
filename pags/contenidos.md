@@ -3,7 +3,7 @@ layout: container
 title: Arquitectura de contenidos
 ---
 
-### Arquitectura de contenidos del curso ###
+## Arquitectura de contenidos del curso ##
 
 A continuación se describe el orden en que los contenidos necesarios para cumplir con los objetivos del curso, los cuales se listan divididos en tres módulos de dificultad creciente.
 

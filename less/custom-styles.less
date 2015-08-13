@@ -13,6 +13,10 @@ h1,h2{
 	font-weight: 800;
 }
 
+h2{
+	padding-bottom: 30px;
+}
+
 h3,h4,h5,h6{
 	text-transform: uppercase;
 }
@@ -56,6 +60,12 @@ h3,h4,h5,h6{
 	margin-bottom: 0;
 	position: fixed;
 	width: 100%;
+}
+
+.navbar-brand{
+	font-family: @font-family-serif;
+	font-style: italic;
+	font-weight: 400;
 }
 
 .jumbotron h1{
@@ -105,6 +115,8 @@ footer{
 	
 	a{
 		color: @gray-light;
+		letter-spacing: 0.01ex;
+		font-weight: 400;
 	}
 	
 	a:hover{
@@ -185,7 +197,7 @@ footer{
 }
 
 li{
-	font-weight: 300!important;
+	font-weight: 300;
 }
 
 .btn-default{
@@ -193,9 +205,7 @@ li{
 	border-radius: 0;
 }
 
-.navbar-header{
-	font-family: @font-family-sans-serif!important;
-}
+
 
 .nav{
 	font-family: @font-family-sans-serif!important;
@@ -206,7 +216,13 @@ li{
 		text-decoration: none;
 	}
 	li{
+		font-weight: 400;
+	}
+	p,li{
 		font-family: @font-family-sans-serif;
+	}
+	ul p{
+		padding-left: 15px;
 	}
 }
 
@@ -228,4 +244,17 @@ li{
 
 .fa{
 	line-height: ((@line-height-base - 0.2));
+}
+
+.panel-primary{
+	.panel-heading h3{
+		color: @white;
+	}
+}
+
+.panel-default{
+	color: @gray-light;
+	.panel-heading h3{
+		color: @gray-light;
+	}
 }
