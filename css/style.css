@@ -6988,12 +6988,23 @@ h4,
 h5,
 h6 {
   text-transform: uppercase;
+  letter-spacing: 0.06em;
 }
 .main-nav {
   margin-top: 1.1em;
 }
 .container-narrow {
   width: 740px;
+}
+.breadcrumb {
+  margin-top: 0;
+  padding-top: 63px;
+  padding-left: 0;
+  margin-bottom: 0;
+  background-color: transparent!important;
+}
+.breadcrumb > li + li::before {
+  content: ">" !important;
 }
 .jumbotron {
   padding-top: 80px;
@@ -7065,6 +7076,9 @@ h6 {
 .progress-bar {
   background-color: #996b8f;
 }
+.dropdown-menu .progress {
+  margin: 5px;
+}
 footer {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   background-color: #333333;
@@ -7099,9 +7113,6 @@ footer strong {
 }
 .hiden .pager li {
   display: none !important;
-}
-.carousel {
-  top: 50px;
 }
 .carousel h2 {
   margin-top: 0;
@@ -7173,6 +7184,9 @@ li {
 .img-thumbnail img {
   width: 100%;
 }
+.grey {
+  background-color: #eeeeee;
+}
 .fa {
   line-height: 1.6;
 }
@@ -7184,9 +7198,6 @@ li {
 }
 .panel-default .panel-heading h3 {
   color: #999999;
-}
-.disabled {
-  background-color: #999999;
 }
 /*LOGIN/REGISTRO*/
 .log-tabs {

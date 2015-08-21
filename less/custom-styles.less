@@ -19,6 +19,7 @@ h2{
 
 h3,h4,h5,h6{
 	text-transform: uppercase;
+	letter-spacing: 0.06em;
 }
 
 .main-nav{
@@ -27,6 +28,18 @@ h3,h4,h5,h6{
 
 .container-narrow{
 	width: 740px;
+}
+
+.breadcrumb{
+	margin-top: 0;
+	padding-top: 63px;
+	padding-left: 0;
+	margin-bottom: 0;
+	background-color: transparent!important;
+}
+
+.breadcrumb > li + li::before{
+	content: ">"!important;
 }
 
 .jumbotron{
@@ -99,12 +112,19 @@ h3,h4,h5,h6{
 	}
 }
 
+// SOLUCIONA EL PROBLEMA DEL HEADER SUPERPUESTO
+// SOBRE LA PRIMERA SECCIÓN DE CADA PÁGINA
+
 .inicial{
 	padding-top: 100px;
 }
 
 .progress-bar{
 	background-color: @brand-primary;
+}
+
+.dropdown-menu .progress{
+	margin: 5px;
 }
 
 footer{
@@ -151,7 +171,6 @@ footer{
 }
 
 .carousel{
-	top:50px;
 	
 	h2{
 		margin-top: 0;
@@ -240,6 +259,10 @@ li{
 	img{
 		width: 100%;
 	}
+}
+
+.grey{
+	background-color: @gray-lighter;
 }
 
 .fa{

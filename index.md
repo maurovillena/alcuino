@@ -8,7 +8,7 @@ active: home
 <div class="jumbotron" id="jumboinicio">
 	<div class="container">
 		<div class="col-md-12">
-			<h1>Aprende <span class="merri">todo sobre</span> Tipografía</h1>
+			<h1>Aprende <span class="merri">a utilizar</span> Tipografía</h1>
 		</div>
 	</div>
 </div> <!--JUMBOTRON -->

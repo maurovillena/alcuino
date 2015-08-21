@@ -3,13 +3,14 @@ layout: session
 title: Curso de Tipografía - Módulo Básico
 ---
 
+<!--
 <div class="seccion uno">
 	<div class="container">
 		<h1>Curso <span class="merri">de</span> tipografía</h1>
 	</div>
-</div> <!--JUMBOTRON -->
+</div> --><!--JUMBOTRON -->
 
-<div class="seccion dos" id="seccion-1">
+<div class="seccion dos inicial" id="seccion-1">
 	<div class="container">
 
 		<div class="row">
@@ -30,9 +31,9 @@ title: Curso de Tipografía - Módulo Básico
 					</div>					
 					<div class="panel-body">
 					<ul class="fa-ul">
-						<li><i class="fa-li fa fa-square"></i>Origen histórico de las familias tipográficas</li>
-						<li><i class="fa-li fa fa-square"></i>Catácter de la familia</li>
-						<li><i class="fa-li fa fa-square"></i>Ritmo y Contraste</li>
+						<li><i class="fa-li fa fa-circle"></i>Origen histórico de las familias tipográficas</li>
+						<li><i class="fa-li fa fa-circle"></i>Catácter de la familia</li>
+						<li><i class="fa-li fa fa-circle"></i>Ritmo y Contraste</li>
 					</ul>
 
 					<div class="progress">
@@ -53,9 +54,9 @@ title: Curso de Tipografía - Módulo Básico
 				  </div>
 				  <div class="panel-body">
 				    <ul class="fa-ul">
-						<li><i class="fa-li fa fa-square"></i>Relaciones espaciales</li>
-						<li><i class="fa-li fa fa-square"></i>Grilla/Retícula</li>
-						<li><i class="fa-li fa fa-square"></i>Composición y ajustes </li>
+						<li><i class="fa-li fa fa-circle"></i>Relaciones espaciales</li>
+						<li><i class="fa-li fa fa-circle"></i>Grilla/Retícula</li>
+						<li><i class="fa-li fa fa-circle"></i>Composición y ajustes </li>
 					</ul>
 
 					<div class="progress">

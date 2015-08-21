@@ -3,13 +3,14 @@ layout: session
 title: Curso de Tipografía - Módulo Básico
 ---
 
+<!--
 <div class="seccion uno">
 	<div class="container">
 		<h1>Curso <span class="merri">de</span> tipografía</h1>
 	</div>
-</div> <!--JUMBOTRON -->
+</div> --><!--JUMBOTRON -->
 
-<div class="seccion dos" id="seccion-1">
+<div class="seccion dos inicial" id="seccion-1">
 	<div class="container">
 
 		<div class="row">
@@ -32,14 +33,14 @@ title: Curso de Tipografía - Módulo Básico
 
 					<div class="panel-body">
 					<ul class="fa-ul">
-						<li><i class="fa-li fa fa-square"></i>Romanas</li>
-						<li><i class="fa-li fa fa-square"></i>Góticas</li>
-						<li><i class="fa-li fa fa-square"></i>Humanísticas</li>
-						<li><i class="fa-li fa fa-square"></i>Transicionales</li>
-						<li><i class="fa-li fa fa-square"></i>Neoclásicas</li>
-						<li><i class="fa-li fa fa-square"></i>Egipcias</li>
-						<li><i class="fa-li fa fa-square"></i>Paloseco</li>
-						<li><i class="fa-li fa fa-square"></i>Display</li>
+						<li><i class="fa-li fa fa-circle"></i>Romanas</li>
+						<li><i class="fa-li fa fa-circle"></i>Góticas</li>
+						<li><i class="fa-li fa fa-circle"></i>Humanísticas</li>
+						<li><i class="fa-li fa fa-circle"></i>Transicionales</li>
+						<li><i class="fa-li fa fa-circle"></i>Neoclásicas</li>
+						<li><i class="fa-li fa fa-circle"></i>Egipcias</li>
+						<li><i class="fa-li fa fa-circle"></i>Paloseco</li>
+						<li><i class="fa-li fa fa-circle"></i>Display</li>
 					</ul>
 
 					<div class="progress">
@@ -61,9 +62,9 @@ title: Curso de Tipografía - Módulo Básico
 				  </div>
 				  <div class="panel-body">
 				    <ul class="fa-ul">
-						<li><i class="fa-li fa fa-square"></i>*</li>
-						<li><i class="fa-li fa fa-square"></i>*</li>
-						<li><i class="fa-li fa fa-square"></i>*</li>
+						<li><i class="fa-li fa fa-circle"></i>*</li>
+						<li><i class="fa-li fa fa-circle"></i>*</li>
+						<li><i class="fa-li fa fa-circle"></i>*</li>
 					</ul>
 
 					<div class="progress">

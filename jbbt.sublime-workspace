@@ -1,0 +1,910 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"bac",
+				"background"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"spac",
+				"letter-spacing"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"marin",
+				"margin-top"
+			],
+			[
+				"font-",
+				"font-family"
+			],
+			[
+				"pa",
+				"padding-top"
+			],
+			[
+				"fo",
+				"font-family"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"con",
+				"contenedor"
+			],
+			[
+				"bor",
+				"border-bottom"
+			],
+			[
+				"nav",
+				"nav-tabs"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"brder",
+				"border-radius"
+			],
+			[
+				"max-",
+				"max-width"
+			],
+			[
+				"bag",
+				"background-color"
+			],
+			[
+				"conten",
+				"content-sidebar"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"paddin",
+				"padding-top"
+			],
+			[
+				"border-top",
+				"border-top-color"
+			],
+			[
+				"margi",
+				"margin-top"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"paddi",
+				"padding-left"
+			],
+			[
+				"li",
+				"link-text"
+			],
+			[
+				"navbar-",
+				"navbar-brand"
+			],
+			[
+				"he",
+				"height"
+			],
+			[
+				"te",
+				"text-transform"
+			],
+			[
+				"max",
+				"max-height"
+			],
+			[
+				"car",
+				"carousel-caption"
+			],
+			[
+				"f",
+				"font-family"
+			],
+			[
+				"i",
+				"important"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"margn",
+				"margin-left"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"tab",
+				"table-cell"
+			],
+			[
+				"border-s",
+				"border-style"
+			],
+			[
+				"im",
+				"important"
+			],
+			[
+				"background",
+				"background-position"
+			],
+			[
+				"rg",
+				"rgba()"
+			],
+			[
+				"PADD",
+				"padding-bottom"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"mari",
+				"margin-top"
+			],
+			[
+				"t",
+				"top"
+			],
+			[
+				"ma",
+				"margin-right"
+			],
+			[
+				"fot",
+				"font-weight"
+			],
+			[
+				"text-",
+				"text-indent"
+			],
+			[
+				"bl",
+				"block"
+			],
+			[
+				"se",
+				"section-gr"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"backgro",
+				"background-position"
+			],
+			[
+				"border-col",
+				"border-color"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"inli",
+				"inline-block"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Applications/XAMPP/xamppfiles/htdocs/jbbt/index.md",
+			"settings":
+			{
+				"buffer_size": 2709,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Applications/XAMPP/xamppfiles/htdocs/jbbt/mostrario.md",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Applications/XAMPP/xamppfiles/htdocs/jbbt/ejemplo.md",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Applications/XAMPP/xamppfiles/htdocs/jbbt/_config.yml",
+			"settings":
+			{
+				"buffer_size": 697,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Applications/XAMPP/xamppfiles/htdocs/jbbt/less/custom-styles.less",
+			"settings":
+			{
+				"buffer_size": 1410,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Applications/XAMPP/xamppfiles/htdocs/jbbt/_includes/nav.html",
+			"settings":
+			{
+				"buffer_size": 347,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Applications/XAMPP/xamppfiles/htdocs/jbbt/_includes/navsession.html",
+			"settings":
+			{
+				"buffer_size": 1450,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: Ins",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 443.0
+	},
+	"console":
+	{
+		"height": 111.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/maurovillena/Downloads/rooms-ajax-1.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/jbbt/less/login.less",
+		"/Applications/XAMPP/xamppfiles/htdocs/jbbt/less/variables.less",
+		"/Applications/XAMPP/xamppfiles/htdocs/jbbt/less/compiler.less",
+		"/Applications/XAMPP/xamppfiles/htdocs/jbbt/ejemplo.md",
+		"/Applications/XAMPP/xamppfiles/htdocs/jbbt/less/custom-fonts.less",
+		"/Applications/XAMPP/xamppfiles/htdocs/jbbt/session.md",
+		"/Applications/XAMPP/xamppfiles/htdocs/jbbt/mostrario.md",
+		"/Applications/XAMPP/xamppfiles/htdocs/jbbt/css/custom.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/jbbt/css/style.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/jbbt/_includes/head.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/jbbt/_includes/nav.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/jbbt/less/slides.less",
+		"/Users/maurovillena/Desktop/index.html",
+		"/Users/maurovillena/Desktop/maqueta tipografia/css/custom.css",
+		"/Users/maurovillena/Desktop/maqueta tipografia/sesion.html",
+		"/Users/maurovillena/Desktop/maqueta tipografia/index.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/jbbt/less/custom-styles.less",
+		"/Applications/XAMPP/xamppfiles/htdocs/jbbt/pags/contenido01.md",
+		"/Applications/XAMPP/xamppfiles/htdocs/jbbt/index.md",
+		"/Applications/XAMPP/xamppfiles/htdocs/jbbt/pags/sesion.md",
+		"/Applications/XAMPP/xamppfiles/htdocs/jbbt/_includes/navsession.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/jbbt/Makefile",
+		"/Applications/XAMPP/xamppfiles/htdocs/jbbt/_config.yml",
+		"/Applications/XAMPP/xamppfiles/htdocs/jbbt/_includes/footer.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/jbbt/pags/session.md",
+		"/Applications/XAMPP/xamppfiles/htdocs/jbbt/_layouts/standard.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/jbbt/_layouts/session.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/jbbt/_includes/navsesion.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/jbbt/_layouts/standard-narrow.html",
+		"/Users/maurovillena/Library/Application Support/Sublime Text 2/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/maurovillena/Maqueta Tipografia/bootstrap-3.3.5/README.md",
+		"/Users/maurovillena/curso-tipografia/_config.yml",
+		"/Users/maurovillena/prueba/_config.yml",
+		"/Users/maurovillena/prueba/_layouts/post.html",
+		"/Users/maurovillena/prueba/_includes/header.html",
+		"/Users/maurovillena/prueba/_posts/2015-06-24-post-de-prueba.markdown",
+		"/Users/maurovillena/prueba/_posts/2015-06-25-otro-post-de-prueba.markdown",
+		"/Users/maurovillena/prueba/_posts/2015-06-24-welcome-to-jekyll.markdown",
+		"/Users/maurovillena/Desktop/index.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/wp-content/themes/Prueba/functions.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/wp-content/themes/Prueba/footer.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/wp-content/themes/Prueba/index.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/wp-content/themes/Prueba/css/poop.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/wp-content/themes/Prueba/header.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/wp-content/themes/Te verde/functions.php",
+		"/Users/maurovillena/Desktop/header.php",
+		"/Users/maurovillena/Desktop/functions.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/wp-content/themes/Te verde/index.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/wp-content/themes/Te verde/footer.php",
+		"/Users/maurovillena/Desktop/headerr.php",
+		"/Users/maurovillena/Desktop/estatico.php",
+		"/Users/maurovillena/Desktop/full-width.php",
+		"/Users/maurovillena/Desktop/combomag/header.php",
+		"/Users/maurovillena/Desktop/teverde2/style.css",
+		"/Users/maurovillena/Desktop/teverde2/editor-style.css",
+		"/Users/maurovillena/Desktop/teverde2/rtl.css",
+		"/Users/maurovillena/Desktop/teverde2/header.php",
+		"/Users/maurovillena/Desktop/teverde2/content.php",
+		"/Users/maurovillena/Desktop/teverde2/functions.php",
+		"/Users/maurovillena/Desktop/teverde2/content-link.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/wp-content/themes/Te verde/content.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/wp-content/themes/Te verde/single.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/wp-content/themes/Te verde/css/teverde.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/wp-content/themes/Te verde/style.css",
+		"/Users/maurovillena/Desktop/style.css",
+		"/Users/maurovillena/Desktop/Info.plist",
+		"/Users/maurovillena/Desktop/teverde.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/wp-content/themes/Te verde/rtl.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/wp-content/themes/Te verde/css/bootstrap.min.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/wp-content/themes/Te verde/sidebar-content.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/wp-content/themes/Te verde/archive.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/wp-content/themes/Te verde/content-page.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/wp-content/themes/Te verde/category.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/wp-content/themes/index.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/wp-content/themes/Te verde/content-link.php",
+		"/Users/maurovillena/Desktop/central/content.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/wp-content/themes/Te verde/header.php",
+		"/Users/maurovillena/Desktop/central/functions.php",
+		"/Users/maurovillena/Desktop/Te verde/header.php",
+		"/Users/maurovillena/Desktop/central/css/central.css",
+		"/Users/maurovillena/Desktop/central/content-link.php",
+		"/Users/maurovillena/Desktop/central/header.php",
+		"/Users/maurovillena/Desktop/central/quienessomos.php",
+		"/Users/maurovillena/Desktop/central/page.php",
+		"/Users/maurovillena/Desktop/central/js/dropdown.js",
+		"/Users/maurovillena/Desktop/central/content-page.php",
+		"/Users/maurovillena/Desktop/central/css/bootstrap.min.css",
+		"/Users/maurovillena/Desktop/central/search.php",
+		"/Users/maurovillena/Documents/POLVORA/Proyectos/El Central/Desarrollo/css/central.css",
+		"/Users/maurovillena/Desktop/category.php",
+		"/Users/maurovillena/Desktop/central/sidebar-front.php",
+		"/Users/maurovillena/Documents/POLVORA/Proyectos/El Central/Desarrollo/index.html",
+		"/Users/maurovillena/Desktop/central/single.php",
+		"/Users/maurovillena/Desktop/central/index.php",
+		"/Users/maurovillena/Desktop/wordpress/wp-content/themes/twentytwelve/header.php",
+		"/Users/maurovillena/Documents/Segundo trimestre 2014/Construcción/Portafolio/HTML/index.html",
+		"/Users/maurovillena/Documents/Segundo trimestre 2014/Construcción/Portafolio/HTML/estilos.css",
+		"/Users/maurovillena/Documents/Fusión Fría/maqueta html/indexversionantiguaconcarousel.html",
+		"/Applications/XAMPP/xamppfiles/htdocs/wp-content/themes/twentyfourteen/header.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/index.php",
+		"/Users/maurovillena/Downloads/wordpress/wp-config-sample.php",
+		"/Users/maurovillena/Desktop/Tercer trimestre/Gráfica Digital/leydetabaco/css/estilos.css",
+		"/Users/maurovillena/Desktop/Tercer trimestre/Gráfica Digital/leydetabaco/index.html",
+		"/Users/maurovillena/Downloads/plane11.svg",
+		"/Users/maurovillena/Documents/leytabaco/css/estilos.css",
+		"/Users/maurovillena/Documents/leytabaco/index.html",
+		"/Users/maurovillena/Desktop/Tercer trimestre/Gráfica Digital/Sitio responsive ley de tabacos/ROOT/header/estilos.css",
+		"/Users/maurovillena/Desktop/Tercer trimestre/Gráfica Digital/Sitio responsive ley de tabacos/ROOT/header/header",
+		"/Users/maurovillena/Desktop/Tercer trimestre/Gráfica Digital/Sitio responsive ley de tabacos/ROOT/css/bootstrap.css",
+		"/Users/maurovillena/Desktop/Tercer trimestre/Construcción/Portafolio/HTML/index.html",
+		"/Users/maurovillena/Desktop/Tercer trimestre/Portafolio/HTML/costailus.html",
+		"/Users/maurovillena/Desktop/Tercer trimestre/Portafolio/HTML/delplanteamiento.html",
+		"/Users/maurovillena/Desktop/Tercer trimestre/Portafolio/HTML/Editorial.html",
+		"/Users/maurovillena/Desktop/Tercer trimestre/Portafolio/HTML/travmag.html",
+		"/Users/maurovillena/Desktop/Tercer trimestre/Portafolio/HTML/maurovillano.html",
+		"/Users/maurovillena/Desktop/Tercer trimestre/Portafolio/HTML/ensayodisinf.html",
+		"/Users/maurovillena/Desktop/Tercer trimestre/Portafolio/HTML/fotografia.html",
+		"/Users/maurovillena/Desktop/Tercer trimestre/Portafolio/HTML/ilustracion.html",
+		"/Users/maurovillena/Desktop/Tercer trimestre/Portafolio/HTML/infogr.html",
+		"/Users/maurovillena/Desktop/Tercer trimestre/Portafolio/HTML/obrassueltas.html",
+		"/Users/maurovillena/Desktop/Tercer trimestre/Portafolio/HTML/perfil.html",
+		"/Users/maurovillena/Desktop/Tercer trimestre/Portafolio/HTML/visualizacion.html",
+		"/Users/maurovillena/Desktop/Tercer trimestre/Portafolio/HTML/60anos.html",
+		"/Users/maurovillena/Desktop/Tercer trimestre/Portafolio/HTML/index.html",
+		"/Users/maurovillena/Desktop/Tercer trimestre/Portafolio/HTML/academico.html",
+		"/Users/maurovillena/Desktop/Tercer trimestre/Portafolio/HTML/avbrasil.html",
+		"/Users/maurovillena/Desktop/Tercer trimestre/Portafolio/HTML/branding.html"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"event-box",
+			"event-pic",
+			"line ",
+			"font-weight",
+			"title",
+			"custom",
+			"h2",
+			"#fff",
+			"h1",
+			"body{",
+			"color: #fff",
+			"heading",
+			"header",
+			"brand-primary",
+			"text col",
+			"headings-font-family",
+			"text-align",
+			"navbar",
+			"full-width",
+			"container",
+			"?>",
+			"full-width",
+			"linear-gradient",
+			"main-navigation",
+			"iegradient",
+			"layout",
+			"inac",
+			"activ",
+			"styleshe",
+			"entry-header",
+			".css",
+			"style.css",
+			"entry-header",
+			"stylesh",
+			"bootstrap",
+			"#content",
+			"conteni",
+			"entry-meta a",
+			"entry-header",
+			"teverde",
+			"bootstrap",
+			"main style",
+			"#primary",
+			"style",
+			"style.",
+			"content",
+			"a {",
+			"#24890D",
+			"style.css",
+			"sidebar",
+			"margin-top",
+			"comments",
+			"brand",
+			"carousel",
+			"navbar",
+			"navbar-brand",
+			"list-img",
+			"height",
+			"list-rec",
+			"list-text",
+			"@media",
+			"list-img",
+			"list-title",
+			"carousel-caption h",
+			"style.css",
+			"site-content article",
+			".css",
+			"styles",
+			"display: none",
+			"button",
+			"css",
+			"max-wi",
+			"max-w",
+			"max-wid",
+			"register_nav_menu",
+			"#",
+			"max-height",
+			"nav ",
+			"container",
+			"margin-top",
+			"hover",
+			"@media",
+			"get_tem",
+			"nav-",
+			"margin-top",
+			"top",
+			"javasc",
+			"header",
+			"footer",
+			"register_nav",
+			"wp_nav_menu",
+			"header",
+			"nav_menu",
+			"page",
+			"sid",
+			"h2",
+			"register_nav_menu",
+			"thumbnail",
+			"<?php wp_head(); ?>",
+			"sear",
+			"btn",
+			"últimas no",
+			"btn",
+			"h2",
+			"example-ge",
+			"fixx",
+			"jumbotron h1",
+			"color: #",
+			"200px",
+			"jumbo",
+			"jumbotron",
+			"li{",
+			"li",
+			"proyecto",
+			"prohibiciones",
+			"jumbotron",
+			"proyecto",
+			"jumbotron",
+			"p{",
+			"h4",
+			"ul",
+			"row",
+			"grafico circulo-03.png",
+			"bod",
+			"h2",
+			"bajada",
+			"h2",
+			"bajada1"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"costailus"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Applications/XAMPP/xamppfiles/htdocs/jbbt/index.md",
+					"settings":
+					{
+						"buffer_size": 2709,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1830,
+								1830
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Applications/XAMPP/xamppfiles/htdocs/jbbt/mostrario.md",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Applications/XAMPP/xamppfiles/htdocs/jbbt/ejemplo.md",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 908.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/Applications/XAMPP/xamppfiles/htdocs/jbbt/_config.yml",
+					"settings":
+					{
+						"buffer_size": 697,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								389,
+								389
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/YAML/YAML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 4,
+					"file": "/Applications/XAMPP/xamppfiles/htdocs/jbbt/less/custom-styles.less",
+					"settings":
+					{
+						"buffer_size": 1410,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1235,
+								1235
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1067.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/Applications/XAMPP/xamppfiles/htdocs/jbbt/_includes/nav.html",
+					"settings":
+					{
+						"buffer_size": 347,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								240,
+								259
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/Applications/XAMPP/xamppfiles/htdocs/jbbt/_includes/navsession.html",
+					"settings":
+					{
+						"buffer_size": 1450,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								573,
+								573
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 29.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.416098362375,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/Users/maurovillena/Documents/POLVORA/Proyectos/El Central/Desarrollo/css/central.css"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 196.0,
+	"status_bar_visible": true
+}

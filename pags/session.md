@@ -3,15 +3,16 @@ layout: session
 title: Curso de Tipografía
 ---
 
+<!--
 <div class="seccion uno">
 	<div class="container">
 		<h1>Curso <span class="merri">de</span> tipografía</h1>
 	</div>
-</div> <!--JUMBOTRON -->
+</div> --><!--JUMBOTRON -->
 
-<div class="seccion dos" id="seccion-1">
+<div class="seccion dos inicial" id="seccion-1">
 	<div class="container">
-		<h2>¡Bienvenido(a)!</h2>
+		<h2>¡Bienvenido!</h2>
 		<div class="row">
 			<div class="col-md-8">
 				<p>Este curso se divide en tres módulos, de dificultad ascendente. En cada uno de ellos encontrarás diferentes lecciones de las cuales se desprenden conocimientos que te ayudarán a comprender desde cómo se conforman, hasta cómo se aplican e interactúan entre ellas las diferentes familias tipográficas.</p>

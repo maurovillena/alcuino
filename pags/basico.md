@@ -3,13 +3,14 @@ layout: session
 title: Curso de Tipografía - Módulo Básico
 ---
 
+<!--
 <div class="seccion uno">
 	<div class="container">
 		<h1>Curso <span class="merri">de</span> tipografía</h1>
 	</div>
-</div> <!--JUMBOTRON -->
+</div> --><!--JUMBOTRON -->
 
-<div class="seccion dos" id="seccion-1">
+<div class="seccion dos inicial" id="seccion-1">
 	<div class="container">
 
 	<div class="row">
@@ -30,9 +31,9 @@ title: Curso de Tipografía - Módulo Básico
 					
 					<div class="panel-body">
 						<ul class="fa-ul">
-							<li><i class="fa-li fa fa-check-square"></i>Definicón de tipografía</li>
-							<li><i class="fa-li fa fa-check-square"></i>Antecedentes históricos</li>
-							<li><i class="fa-li fa fa-square"></i>La medida tipográfica</li>
+							<li><i class="fa-li fa fa-check"></i>Definicón de tipografía</li>
+							<li><i class="fa-li fa fa-check"></i>Antecedentes históricos</li>
+							<li><i class="fa-li fa fa-circle"></i>La medida tipográfica</li>
 						</ul>
 
 						<div class="progress">
@@ -54,7 +55,7 @@ title: Curso de Tipografía - Módulo Básico
 				  </div>
 				  <div class="panel-body">
 				    <ul class="fa-ul">
-						<li><i class="fa-li fa fa-square"></i>Caja tipográfica</li>
+						<li><i class="fa-li fa fa-circle"></i>Caja tipográfica</li>
 						<li>
 							<ul>
 								<li>Altura ascendente</li>
@@ -64,7 +65,7 @@ title: Curso de Tipografía - Módulo Básico
 								<li>Rebarba</li>
 							</ul>
 						</li>
-						<li><i class="fa-li fa fa-square"></i>Forma</li>
+						<li><i class="fa-li fa fa-circle"></i>Forma</li>
 						<li>
 							<ul>
 								<li>Trazo</li>
@@ -82,7 +83,7 @@ title: Curso de Tipografía - Módulo Básico
 								<li>Serif</li>
 							</ul>
 						</li>
-						<li><i class="fa-li fa fa-square"></i>Variaciones tipográficas</li>
+						<li><i class="fa-li fa fa-circle"></i>Variaciones tipográficas</li>
 						<li>
 							<ul>
 								<li>Peso</li>
