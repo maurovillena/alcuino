@@ -36,7 +36,7 @@ title: Curso de Tipografía - Módulo Básico
 						<ul class="fa-ul">
 							<li><i class="fa-li fa fa-check"></i>Definicón de tipografía</li>
 							<li><i class="fa-li fa fa-check"></i>Antecedentes históricos</li>
-							<li><i class="fa-li fa fa-circle"></i>La medida tipográfica</li>
+							<li><i class="fa-li fa fa-check"></i>La medida tipográfica</li>
 						</ul>
 
 					
