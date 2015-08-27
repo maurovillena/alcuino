@@ -7160,6 +7160,9 @@ li {
 .nav {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
 }
+.thumbnail {
+  background: #ffffff;
+}
 .thumbnail a:hover {
   text-decoration: none;
 }
