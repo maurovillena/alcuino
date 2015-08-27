@@ -15,10 +15,12 @@
 @white:                  #fff;
 
 @brand-primary:         #996B8F;
+@brand-lighter:         fade(@brand-primary, 20%);
 @brand-success:         #5cb85c;
 @brand-info:            #5bc0de;
 @brand-warning:         #f0ad4e;
 @brand-danger:          #d9534f;
+@brand-disabled:        fade(@brand-primary, 60%);
 @type-black:             #333;
 
 //== Scaffolding
@@ -26,7 +28,7 @@
 // ## Settings for some of the most global styles.
 
 //** Background color for `<body>`.
-@body-bg:               #fff;
+@body-bg:               @gray-dark;
 //** Global text color on `<body>`.
 @text-color:            @type-black;
 

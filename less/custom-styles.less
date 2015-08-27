@@ -19,7 +19,7 @@ h2{
 
 h3,h4,h5,h6{
 	text-transform: uppercase;
-	letter-spacing: 0.06em;
+	letter-spacing: 0.1em;
 }
 
 .main-nav{
@@ -36,6 +36,18 @@ h3,h4,h5,h6{
 	padding-left: 0;
 	margin-bottom: 0;
 	background-color: transparent!important;
+
+	li{
+		font-family: @font-family-sans-serif;
+		text-transform: uppercase;
+		font-size: @font-size-base * 0.8;
+		font-weight: 100;
+		letter-spacing: 0.1em;
+	}
+
+	a:hover{
+		text-decoration: none;
+	}
 }
 
 .breadcrumb > li + li::before{
@@ -105,7 +117,7 @@ h3,h4,h5,h6{
 }
 
 .dos{
-	background-color: @body-bg;
+	background-color: @white;
 	color: @type-black;
 	h1,h2,h3,h4,h5,h6{
 		color: @type-black;
@@ -116,7 +128,7 @@ h3,h4,h5,h6{
 // SOBRE LA PRIMERA SECCIÓN DE CADA PÁGINA
 
 .inicial{
-	padding-top: 100px;
+	padding-top: 70px;
 }
 
 .progress-bar{
@@ -124,7 +136,7 @@ h3,h4,h5,h6{
 }
 
 .dropdown-menu .progress{
-	margin: 5px;
+	margin: 0 20px;
 }
 
 footer{
@@ -193,18 +205,6 @@ footer{
 	}
 }
 
-
-
-.item{
-	height: 600px;
-
-	img{
-		max-height: 350px;
-		display: block;
-		margin: 0 auto;
-	}
-}
-
 .merri{
 	font-family: @font-family-serif;
 	font-style: italic;
@@ -246,12 +246,11 @@ li{
 }
 
 .thumbnail:hover{
-	background: @gray-lighter;
+	background: @brand-lighter;
 }
 
 .img-thumbnail{
 	width: 100%;
-	height: 200px;
 	overflow: hidden;
 	border: 0 solid;
 	padding: 0;
@@ -277,7 +276,39 @@ li{
 
 .panel-default{
 	color: @gray-light;
+	.panel-heading{
+		background-color: @brand-disabled;
+	}
 	.panel-heading h3{
-		color: @gray-light;
+		color: @white;
+	}
+}
+
+// ESTILOS PARA IMÁGENES EN SLIDER
+
+.item{
+	height: 600px;
+
+	img{
+		max-height: 350px;
+		display: block;
+		margin: 0 auto;
+	}
+}
+
+.solo{
+	margin-top: -80px!important;
+	max-height: 450px!important;
+}
+
+.un-tercio{
+	display: block;
+	width: 90%;
+	border-radius: @border-radius-large;
+	bottom: 0;
+	overflow: hidden;
+
+	img{
+		width: 100%;
 	}
 }

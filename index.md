@@ -8,7 +8,7 @@ active: home
 <div class="jumbotron" id="jumboinicio">
 	<div class="container">
 		<div class="col-md-12">
-			<h1>Aprende <span class="merri">a utilizar</span> Tipografía</h1>
+			<h1>Aprende <span class="merri">a utilizar</span> Tipografías</h1>
 		</div>
 	</div>
 </div> <!--JUMBOTRON -->
@@ -47,8 +47,8 @@ active: home
 						    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Contraseña">
 						</div>
 
-						<a href="{{ site.baseurl }}/pags/session">
-							<button type="button" class="btn btn-default">Registrarme</button>
+						<a href="{{ site.baseurl }}/pags/1.2.1.caja/">
+							<button type="button" class="btn btn-default">¡Comenzar!</button>
 						</a>
 						
 					</form>
@@ -62,7 +62,7 @@ active: home
 						  <div class="form-group">
 						    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Tu Contraseña">
 						  </div>
-						<a href="{{ site.baseurl }}/pags/session">
+						<a href="{{ site.baseurl }}/pags/1.2.1.caja/">
 						  <button type="button" class="btn btn-default">Iniciar Sesión</button>
 						</a>
 					</form>

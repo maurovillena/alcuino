@@ -1,6 +1,6 @@
 ---
 layout: session
-title: Curso de Tipografía - Módulo Básico
+title: Curso de Tipografía - Módulo Intermedio
 ---
 
 <!--
@@ -12,11 +12,14 @@ title: Curso de Tipografía - Módulo Básico
 
 <div class="seccion dos inicial" id="seccion-1">
 	<div class="container">
+		<ol class="breadcrumb">
+		  <li><a href="{{ site.baseurl }}/pags/session">Índice</a></li>
+		  <li class="active">Módulo Intermedio</li>
+		</ol>
 
 		<div class="row">
-			<h2>Módulo Intermedio</h2>
-
 			<div class="col-md-6">
+				<h2>Módulo Intermedio</h2>
 				<p>Aquí puedes revisar tu avance y elegir las lecciones a medida que vayas completando cada módulo</p>
 			</div>
 		</div>
@@ -24,7 +27,6 @@ title: Curso de Tipografía - Módulo Básico
 		<div class="row">
 				
 			<div class="col-md-6">
-				
 				
 				<div class="panel panel-default">
 					<div class="panel-heading">
@@ -42,12 +44,6 @@ title: Curso de Tipografía - Módulo Básico
 						<li><i class="fa-li fa fa-circle"></i>Paloseco</li>
 						<li><i class="fa-li fa fa-circle"></i>Display</li>
 					</ul>
-
-					<div class="progress">
-					  <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 0%;">
-					    0%
-					  </div>
-					</div>
 
 					</div>
 				</div> <!-- PANEL 1 -->
@@ -67,11 +63,6 @@ title: Curso de Tipografía - Módulo Básico
 						<li><i class="fa-li fa fa-circle"></i>*</li>
 					</ul>
 
-					<div class="progress">
-						<div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 0%;">
-					    0%
-						</div>
-					</div>
 				  </div>
 				</div> <!-- PANEL 2 -->
 

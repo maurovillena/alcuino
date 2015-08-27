@@ -15,11 +15,6 @@ A continuación se describe el orden en que los contenidos necesarios para cumpl
    3. La medida tipográfica
 2. Elementos de la tipogrfía
    1. Caja tipográfica
-      1. Altura ascendente
-      2. Altura de "x"
-      3. Altura descendente
-      4. Línea de base
-      5. Rebarba
    2. Forma
       1. Trazo
       2. Asta
