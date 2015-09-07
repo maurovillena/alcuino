@@ -11,8 +11,7 @@ active: home
 			<h1>Aprende <span class="merri">a utilizar</span> Tipografías</h1>
 		</div>
 	</div>
-</div> <!--JUMBOTRON -->
-
+</div>
 <div class="seccion dos" id="seccion-1">
 	<div class="container">
 		<div class="col-md-6">

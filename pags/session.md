@@ -21,7 +21,7 @@ title: Curso de Tipografía
 		<h2>¡Bienvenido!</h2>
 		<div class="row">
 			<div class="col-md-8">
-				<p>¡Elige un módulo y comienza tus leccines ahora!</p>
+				<p>¡Elige un módulo y comienza tus lecciones ahora!</p>
 				<p></p>
 			</div>
 		</div>
@@ -39,7 +39,7 @@ title: Curso de Tipografía
 					        <ul class="fa-ul">
 					        	<li><i class="fa-li fa fa-hand-o-right"></i>Introducción al curso</li>
 					        		<p>Aprenderás qué es y para qué sirve la tipografía, conocerás el contexto histórico en el que nació y cómo se ha desarrollado a través del tiempo.</p>
-					        	<li><i class="fa-li fa fa-puzzle-piece"></i>Elementos de la tipogrfía </li>
+					        	<li><i class="fa-li fa fa-puzzle-piece"></i>Elementos de la tipografía </li>
 					        		<p>Conocerás cómo se conforma el caracter tipográfico, cuáles son sus partes y sus variaciones.</p>
 					        </ul>
 					    </div>
