@@ -6,36 +6,41 @@ title: Arquitectura de contenidos
 ## Arquitectura de contenidos del curso ##
 
 A continuación se describe el orden en que los contenidos necesarios para cumplir con los objetivos del curso, los cuales se listan divididos en tres módulos de dificultad creciente.
+Hay algunos sub puntos que se repiten, y corresponden a relaciones entre los contenidos, o bien, elementos que se pueden encontrar en más de un lugar, o clasificación.
 
-#### Módulo Básico ####
+#### Partes del Caracter tipográfico ####
 
-1. Introducción
-   1. Definicón de tipografía
-   2. Antecedentes históricos
-   3. La medida tipográfica
-2. Elementos de la tipogrfía
-   1. Caja tipográfica
-   2. Forma
-      1. Trazo
-      2. Asta
-      3. Asta ascendente
-      4. Asta descendente
-      5. Ápice
-      6. Perfil
-      7. Brazo
-      8. Bucle
-      9. Cruz
-      10. Cola
-      11. Cuello
-      12. Contraforma
-      13. Serif
-   3. Variaciones tipográficas
-      1. Peso
-      2. Inclinación
-      3. Ancho
-      4. Versalitas
+1. Altura de "x"
+   1. Línea de Base
+   2. Apertura
+   3. Oreja
+   4. Trampa de Tinta
+   5. Soporte o Bracket
+   6. Contraforma
+   7. Espolón
+   8. Zona Característica
+   9. Serif
+   10. Contraforma
+   11. Brazo
+   12. Terminación en gota
+   13. Pierna
+   14. Línea de Gromenauer (Overshoot)
+   15. Modulación
+   16. Perfil o Barra
+   17. Asta
+   18. Trazo
+2. Altura Ascendente
+   1. Trazo
+   2. Gancho, o Arco
+   3. Contraforma
+   4. Ápice
+   5. Asta Ascendente
+3. Altura Descendente
+   1. Línea de Base
+   2. Asta descendente
+   3. Cola
 
-#### Módulo Intermedio ####
+#### Familias Tipográficas ####
 
 1. Clasificaciones Tipográficas
    1. Romanas
@@ -47,20 +52,33 @@ A continuación se describe el orden en que los contenidos necesarios para cumpl
    6. Egipcias
    7. Paloseco
    8. Display
-2. Legibilidad y Lecturabilidad
+2. Variaciones
+   1. Peso
+   2. Inclinación
+   3. Ancho
+   4. Versalitas
 
-#### Módulo Avanzado ####
+#### Ajustes de Párrafo ####
+
+1. Legibilidad y Lecturabilidad
+   1. Kerning
+   2. Tracking
+   3. Interlínea
+   4. Sangría
+   5. Alineación
+      1. Izquierda
+      2. Derecha
+      3. Centrado
+      4. Justificado
+
+#### Diagramación del espacio Tipográfico ####
+
+1. Relaciones espaciales
+2. Grilla/Retícula
+
+#### Afinidad Tipográfica ####
 
 1. Elección de una paleta tipográfica
    1. Origen histórico de las familias tipográficas
    2. Carácter de la familia
-   3. Ritmo y contraste
-2. Diagramación
-   1. Relaciones espaciales
-   2. Grilla/Retícula
-   3. Composición y ajustes
-      1. Kerning
-      2. Tracking
-      3. Interlínea
-      4. Sangría
-      5. Alineación
+   3. Ritmo y contraste      

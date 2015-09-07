@@ -93,9 +93,14 @@ h3,h4,h5,h6{
 	font-weight: 400;
 }
 
+.navbar-inverse{
+	background-color: @gray-dark;
+}
+
 .jumbotron h1{
-	font-size: 4em;
+	font-size: 3.7em;
 	text-align: center;
+	line-height: 1.05em;
 }
 
 /*LOGING/REGISTRO*/
@@ -213,6 +218,29 @@ footer{
 	display: block;
 	font-size: 0.8em;
 	margin: 0 auto;
+}
+
+.list-item{
+	display: block;
+}
+
+dt{
+	font-family: @font-family-sans-serif;
+	color: @gray;
+
+	&::after{
+	content: "|";
+	padding: 0 8px;
+	}
+}
+
+dd{
+	font-weight: 400;
+}
+
+dt,dd{
+	display: inline-block;
+	letter-spacing: 1px;
 }
 
 li{

@@ -8,24 +8,44 @@ active: home
 <div class="jumbotron" id="jumboinicio">
 	<div class="container">
 		<div class="col-md-12">
-			<h1>Aprende <span class="merri">a utilizar</span> Tipografías</h1>
+			<h1>Fundamentos<span class="merri">de la comunicación visual</span>Tipográfica</h1>
 		</div>
 	</div>
 </div>
 <div class="seccion dos" id="seccion-1">
 	<div class="container">
 		<div class="col-md-6">
-			<h2>Objetivos del curso</h2>
-			<ul>
-				<li>Conocer e identificar las partes que conforman a los distintos caracteres tipográficos</li>
-				<li>Reonocer e identificar diferentes familias tipográficas por su clasificación formal</li>
-				<li>Conocer y aprender a aplicar los diferentes parámetros ajustables de la tipografía</li>
-				<li>Aprender a elejir diferentes tipografías según los requerimientos de una obra gráfica específica</li>
-			</ul>
+			<h2>¿Qué aprenderás?</h2>
+			<dl>
+				<div class="lsit-item">
+					<dt>Etapa 1</dt>
+						<dd>Partes del caracter tipográfico</dd>
+				</div>
+				<div class="lsit-item">
+					<dt>Etapa 2</dt>
+						<dd>Familias tipográficas</dd>
+				</div>
+				<div class="lsit-item">
+					<dt>Etapa 3</dt>
+						<dd>Ajustes de párrafo</dd>
+				</div>
+				<div class="lsit-item">
+					<dt>Etapa 4</dt>
+						<dd>Diagramación del espacio tipográfico</dd>
+				</div>
+				<div class="lsit-item">
+					<dt>Etapa 5</dt>
+						<dd>Afinidad tipográfica</dd>
+				</div>
+			</dl>
 		</div>
 		
 		<div class="col-md-6">
-				<div class="log-tabs">
+			<h2>Lo que encontrarás</h2>
+			<p><strong>Alcuino</strong> es un curso interactivo, que te permitirá desarrollar habilidades comunicativas en el ámbito tipográfico por medio de tutoriales y ejercicios.</p>
+
+			<a class="btn btn-primary" href="{{ site.baseurl }}/pags/session/" role="link">¡Comenzar Ahora!</a>
+	<!--<div class="log-tabs">
 	    <ul class="nav nav-tabs">
 	        <li class="active"><a data-toggle="tab" href="#registrate">¡Regístrate!</a></li>
 	        <li><a data-toggle="tab" href="#iniciarsesion">Iniciar Sesión</a></li>
@@ -69,17 +89,13 @@ active: home
 	        
 	    </div>
 	</div>
-					
+	-->				
 	</div>
-	<!--
-		<div class="col-md-6">
-			<h2>¿Qué encontrarás?</h2>
-			<p>Este curso se divide en seis módulos, de los cuales se desprenden varios capítulos, que por medio de diferentes ejercicios te permitirán entender cómo se relacionan entre ellos.</p>
-		</div>
-	-->
+
 	</div>
 </div>
 
+<!--
 <div class="seccion uno" id="seccion-2">
 	<div class="container">
 		<h2>¿Qué aprenderás?</h2>
@@ -90,4 +106,4 @@ active: home
 			</div>
 		</div>
 	</div>
-</div>
+</div> -->
