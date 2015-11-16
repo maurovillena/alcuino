@@ -7251,6 +7251,33 @@ li {
 .un-tercio img {
   width: 100%;
 }
+.module {
+  padding: 0!important;
+  background-color: #ffffff;
+  border: 1px solid #999999;
+  border-radius: 6px;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+.module:hover {
+  background-color: #eeeeee;
+  transition: all ease 1s;
+}
+.module img {
+  width: 100%;
+}
+.module header {
+  background-color: #b75d99 !important;
+  margin: 0!important;
+  border-bottom: 1px solid #999999;
+  display: block;
+  width: 100%;
+  padding: 20px;
+}
+.module h3 {
+  margin: 0;
+  color: #ffffff !important;
+}
 /*LOGIN/REGISTRO*/
 .log-tabs {
   margin-top: 25px;
