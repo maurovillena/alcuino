@@ -1,4 +1,3 @@
-
 var clicks;
 var message;
 var score;
@@ -6,8 +5,7 @@ var lines;
 var results = new Array(210, 111, 73, 255);
 
 function setup() {
-  var myCanvas = createCanvas(600, 300);
-  myCanvas.parent('inter001');
+  createCanvas(600, 300);
   textFont("Merriweather");
   start();
 }
@@ -61,7 +59,7 @@ function draw() {
   text(message, 10, 25);
 
   textSize(180);
-  text("Axhp", Width * .1, Height * .7);
+  text("Axhp", width * .1, height * .7);
 
   stroke(0, 180, 222);
   line(0, mouseY, width, mouseY);
@@ -79,6 +77,8 @@ function mouseReleased() {
 
     var diff = abs(results[clicks] - lines[clicks]);
     score = +diff;
+
+    println(mouseY);
 
     clicks++;
   }
