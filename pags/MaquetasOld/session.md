@@ -23,7 +23,7 @@ title: Curso de Tipografía
 
 			<div class="col-sm-6 col-sm-offset-3 module">
 				<header>
-					<h3>Etapa 1: Partes del caracter tipográfico</h3>
+					<h3>Módulo 1: Elementos de la Tipografía</h3>
 				</header>
 				<img src="{{ site.baseurl }}/img/uno.svg">	
 
@@ -31,7 +31,14 @@ title: Curso de Tipografía
 
 			<div class="col-sm-6 col-sm-offset-3 module">
 				<header>
-					<h3>Etapa 2: Familias Tipográficas</h3>
+					<h3>Módulo 2: Origen y Tradición Tipográfica</h3>
+				</header>
+				<img src="{{ site.baseurl }}/img/dos.svg">	
+			</div>
+
+			<div class="col-sm-6 col-sm-offset-3 module">
+				<header>
+					<h3>Módulo 3: Técnico y Sensible</h3>
 				</header>
 				<img src="{{ site.baseurl }}/img/dos.svg">	
 			</div>

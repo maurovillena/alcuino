@@ -7217,6 +7217,11 @@ li {
 .fa {
   line-height: 1.6;
 }
+.panel-sidebar {
+  position: fixed;
+  margin-top: 27px;
+  width: inherit;
+}
 .panel-primary .panel-heading h3 {
   color: #ffffff;
 }
@@ -7277,6 +7282,16 @@ li {
 .module h3 {
   margin: 0;
   color: #ffffff !important;
+}
+.seccion p {
+  text-align: justify;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  -webkit-hyphens: auto;
+  -o-hyphens: auto;
+  hyphens: auto;
+  /* otros valores: auto & none */
+  word-wrap: break-word;
 }
 /*LOGIN/REGISTRO*/
 .log-tabs {

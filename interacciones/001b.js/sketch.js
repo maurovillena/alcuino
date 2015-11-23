@@ -14,6 +14,8 @@ function start() {
   clicks = 0;
   score = 0;
   lines = new Array();
+  fill(0);
+  cursor(HAND);
 }
 
 function draw() {
@@ -21,6 +23,7 @@ function draw() {
 
 
   switch (clicks) {
+    
     case 0:
       message = "Ubica la línea de base";
       break;
@@ -55,7 +58,7 @@ function draw() {
 
   noStroke();
 
-  textSize(18);
+  textSize(16);
   text(message, 10, 25);
 
   textSize(180);

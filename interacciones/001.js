@@ -16,6 +16,7 @@ function start() {
   clicks = 0;
   score = 0;
   lines = new Array();
+  fill(0);
 }
 
 function draw() {
@@ -57,7 +58,7 @@ function draw() {
 
   noStroke();
 
-  textSize(18);
+  textSize(16);
   text(message, 10, 25);
 
   textSize(180);
