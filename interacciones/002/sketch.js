@@ -1,7 +1,10 @@
 function setup() {
-  //createCanvas(600, 300);
+
   var canvas = createCanvas(600, 300);
   canvas.parent('inter002');
+  var maxWidth = document.getElementById('inter002').offsetWidth;
+  println(maxWidth);
+  resizeCanvas(maxWidth, 300);
   textFont("Merriweather");
   
 }
