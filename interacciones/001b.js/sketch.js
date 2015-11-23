@@ -5,7 +5,9 @@ var lines;
 var results = new Array(210, 111, 73, 255);
 
 function setup() {
-  createCanvas(600, 300);
+  var canvas = createCanvas(600, 300);
+  canvas.parent('inter001');
+  //createCanvas(600, 300);
   textFont("Merriweather");
   start();
 }

@@ -9,15 +9,15 @@ function setup() {
   background(255);
   textFont("Merriweather");
   widthControl = createSlider(2, 60, 2);
-  widthControl.position(25, 25);
+  widthControl.position(5, 35);
   noStroke();
   textSize(16);
   text("Presiona 'r' para comenzar de nuevo", 10, 25);
   cursor(ARROW);
   fill(244);
-  rect(m, m, width - m, height - m);
+  rect(0, m, width - m, height - m);
 }
-  var m = 40;
+  var m = 65;
 function insidePage(){
 
   if (mouseX > m && mouseX < width - m && mouseY > m && mouseY < height - m ){return true;}else{return false;}
