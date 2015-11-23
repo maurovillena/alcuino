@@ -45,6 +45,11 @@ active: home
 			<p><strong>Alcuino</strong> es un curso interactivo, que te permitirá desarrollar habilidades comunicativas en el ámbito tipográfico por medio de tutoriales y ejercicios.</p>
 
 			<a class="btn btn-primary" href="{{ site.baseurl }}/pags/session/" role="link">¡Comenzar Ahora!</a>
+		
+		<ul>
+			<li><a href="{{ site.baseurl }}/pags/01-modulo-elementos-de-la-tipografia/01-la-caja-tipografica/">Link 1</a></li>
+			<li><a href="{{ site.baseurl }}/pags/01-modulo-elementos-de-la-tipografia/02-partes-del-caracter/">Link 2</a></li>
+		</ul>
 	<!--<div class="log-tabs">
 	    <ul class="nav nav-tabs">
 	        <li class="active"><a data-toggle="tab" href="#registrate">¡Regístrate!</a></li>
