@@ -7221,6 +7221,15 @@ li {
   position: fixed;
   margin-top: 27px;
   width: inherit;
+  height: 400px;
+  overflow-y: scroll;
+}
+.panel-sidebar .panel-heading {
+  position: fixed;
+  width: inherit;
+}
+.panel-sidebar li {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .panel-primary .panel-heading h3 {
   color: #ffffff;
