@@ -38,7 +38,7 @@ title: Curso de Tipografía
 
 			<div class="col-sm-6 col-sm-offset-3 module">
 				<header>
-					<h3>Módulo 3: Técnico y Sensible</h3>
+					<h3>Módulo 3: Espacialidad y Afinidad</h3>
 				</header>
 				<img src="{{ site.baseurl }}/img/dos.svg">	
 			</div>

@@ -52,7 +52,7 @@ active: home
 
 							<li><a href="#" data-placement="right" data-toggle="tooltip" title="Trazo con forma similar a una oreja, normalmente se utiliza sólo en la letra g de doble bucle.">Oreja</a></li>
 
-							<li><a href="#" data-placement="right" data-toggle="tooltip" title=Corresponde al trazo curvo que encierra una contraforma".">Bucle</a></li>
+							<li><a href="#" data-placement="right" data-toggle="tooltip" title="Corresponde al trazo curvo que encierra una contraforma".">Bucle</a></li>
 
 							<li><a href="#" data-placement="right" data-toggle="tooltip" title="Línea horizontal ubicada entre astas verticales, diagonales, o bucles.">Perfil/Barra</a></li>
 

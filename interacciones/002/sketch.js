@@ -22,7 +22,7 @@ function draw() {
   noStroke();
   
   textSize(16);
-  text("message", 10, 25);
+  text("Escribe el nombre de cada parte de los caracteres", 10, 25);
   
   textSize(85);
   textLeading(85);

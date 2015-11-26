@@ -7,7 +7,7 @@ title: Página de prueba tipografía
 	<div class="container">
 		<h1>Este es un h1 dentro de un Jumbotron</h1>
 		<p>Este es un párrafo dentro de jumbotron</p>
-		<p>Jumbotron es básicamente un fondo de gradiente <strong>@brand-mix</strong> con un encabezado y unos textos gigantes.</p>
+		<p>Jumbotron es básicamente un fondo de color <strong>@brand-primary</strong> con un encabezado y unos textos gigantes.</p>
 	</div>
 </div>
 
@@ -45,7 +45,7 @@ title: Página de prueba tipografía
 
 			<h3>Encabezado h3</h3>
 
-			<p>Texto corrido sin ningún tipo de estilos. Lorem <span class="sub">ipsum</span> dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. <strong>Cum sociis natoque penatibus</strong> et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. <em>Donec pede justo, fringilla vel</em>, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. </p>
+			<p>Texto corrido sin ningún tipo de estilos. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. <strong>Cum sociis natoque penatibus</strong> et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. <em>Donec pede justo, fringilla vel</em>, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. </p>
 
 			<h4>Encabezado h4</h4>
 

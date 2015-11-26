@@ -66,10 +66,10 @@ function draw() {
   textSize(180);
   text("Axhp", width * .1, height * .7);
 
-  stroke(0, 180, 222);
+  stroke(268, 61, 100);
   line(0, mouseY, width, mouseY);
 
-  stroke(200, 0, 0);
+  stroke(0, 180, 222);
   for (var i = 0; i < lines.length; i++) {
     line(0, lines[i], width, lines[i]);
   }

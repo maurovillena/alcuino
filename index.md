@@ -14,89 +14,54 @@ active: home
 </div>
 <div class="seccion dos" id="seccion-1">
 	<div class="container">
-		<div class="col-md-6">
-			<h2>¿Qué aprenderás?</h2>
-			<dl>
-				<div class="lsit-item">
-					<dt>Etapa 1</dt>
-						<dd>Partes del caracter tipográfico</dd>
-				</div>
-				<div class="lsit-item">
-					<dt>Etapa 2</dt>
-						<dd>Familias tipográficas</dd>
-				</div>
-				<div class="lsit-item">
-					<dt>Etapa 3</dt>
-						<dd>Ajustes de párrafo</dd>
-				</div>
-				<div class="lsit-item">
-					<dt>Etapa 4</dt>
-						<dd>Diagramación del espacio tipográfico</dd>
-				</div>
-				<div class="lsit-item">
-					<dt>Etapa 5</dt>
-						<dd>Afinidad tipográfica</dd>
-				</div>
-			</dl>
+		<div class="row">
+			<div class="col-md-6">
+				<h2>¿Qué aprenderás?</h2>
+				<dl>
+					<div class="lsit-item">
+						<dt>Etapa 1</dt>
+							<dd>Partes del caracter tipográfico</dd>
+					</div>
+					<div class="lsit-item">
+						<dt>Etapa 2</dt>
+							<dd>Familias tipográficas</dd>
+					</div>
+					<div class="lsit-item">
+						<dt>Etapa 3</dt>
+							<dd>Ajustes de párrafo</dd>
+					</div>
+					<div class="lsit-item">
+						<dt>Etapa 4</dt>
+							<dd>Diagramación del espacio tipográfico</dd>
+					</div>
+					<div class="lsit-item">
+						<dt>Etapa 5</dt>
+							<dd>Afinidad tipográfica</dd>
+					</div>
+				</dl>
+			</div>
+			
+			<div class="col-md-6">
+				<h2>¿Qué es Alcuino?</h2>
+
+				<p><strong>Alcuino</strong> es un curso interactivo, que te permitirá desarrollar habilidades comunicativas en el ámbito tipográfico por medio de tutoriales y ejercicios.</p>
+
+				<a class="btn btn-primary" href="{{ site.baseurl }}/pags/sesion/" role="link">¡Comenzar Ahora!</a>
+			<!--
+			<ul>
+				<li><a href="{{ site.baseurl }}/pags/01-modulo-elementos-de-la-tipografia/01-la-caja-tipografica/">Link 1</a></li>
+				<li><a href="{{ site.baseurl }}/pags/01-modulo-elementos-de-la-tipografia/02-partes-del-caracter/">Link 2</a></li>
+			</ul>
+			-->
+				
+			</div>
 		</div>
-		
-		<div class="col-md-6">
-			<h2>Lo que encontrarás</h2>
-			<p><strong>Alcuino</strong> es un curso interactivo, que te permitirá desarrollar habilidades comunicativas en el ámbito tipográfico por medio de tutoriales y ejercicios.</p>
-
-			<a class="btn btn-primary" href="{{ site.baseurl }}/pags/session/" role="link">¡Comenzar Ahora!</a>
-		
-		<ul>
-			<li><a href="{{ site.baseurl }}/pags/01-modulo-elementos-de-la-tipografia/01-la-caja-tipografica/">Link 1</a></li>
-			<li><a href="{{ site.baseurl }}/pags/01-modulo-elementos-de-la-tipografia/02-partes-del-caracter/">Link 2</a></li>
-		</ul>
-	<!--<div class="log-tabs">
-	    <ul class="nav nav-tabs">
-	        <li class="active"><a data-toggle="tab" href="#registrate">¡Regístrate!</a></li>
-	        <li><a data-toggle="tab" href="#iniciarsesion">Iniciar Sesión</a></li>
-	    </ul>
-	    <div class="tab-content" id="log">
-	        <div id="registrate" class="tab-pane fade in active">
-	            <h3>¡Regístrate!</h3>
-	            	<form>
-	            		<div class="form-group">
-						    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Correo Electrónico">
-						  </div>
-						  
-						<div class="form-group">
-						    <input type="username" class="form-control" id="exampleInputEmail1" placeholder="Nombre de Usuario">
-						</div>
-
-						<div class="form-group">
-						    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Contraseña">
-						</div>
-
-						<a href="{{ site.baseurl }}/pags/session/">
-							<button type="button" class="btn btn-default">¡Comenzar!</button>
-						</a>
-						
-					</form>
-	        </div>
-	        <div id="iniciarsesion" class="tab-pane fade">
-	            <h3>Iniciar Sesión</h3>
-	            	<form>
-						  <div class="form-group">
-						    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Tu Email">
-						  </div>
-						  <div class="form-group">
-						    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Tu Contraseña">
-						  </div>
-						<a href="{{ site.baseurl }}/pags/session/">
-						  <button type="button" class="btn btn-default">Iniciar Sesión</button>
-						</a>
-					</form>
-	        </div>
-	        
-	    </div>
-	</div>
-	-->				
-	</div>
-
+		<div class="row">
+			<div class="col-md-8 col-md-offset-2 quote">
+				<p>"La mujer y el hombre tienen una responsabilidad: ser conscientes de que la clave del pasado se convierte en la piedra angular del futuro"</p>
+				<p class="author">–Adrian Frutiger</p>
+			</div>
+		</div>
 	</div>
 </div>
 
