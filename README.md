@@ -2,7 +2,7 @@
 
 Alcuino es un curso interactivo, que te permitirá desarrollar habilidades comunicativas en el ámbito tipográfico por medio de tutoriales y ejercicios.
 
-Este repositorio es una maqueta de lo que se espera convertir en una herramienta real de e-learning, y está construída en base a la plantilla JBBT y la librería Javascript p5.js
+Este repositorio es una maqueta de lo que se espera convertir en una herramienta real de e-learning, y está construída en base a la plantilla [JBBT](http://github.com/hspencer/jbbt) y la librería Javascript [p5.js](http://p5js.org/)
 
 ## JBBT
 
