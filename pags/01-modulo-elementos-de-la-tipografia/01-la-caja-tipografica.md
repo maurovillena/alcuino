@@ -8,8 +8,8 @@ active: home
 <div class="seccion dos" id="seccion-1">
 	<div class="container">
 		<ol class="breadcrumb">
-		  <li><a href="{{ site.baseurl }}/pags/session">Índice</a></li>
-		  <li><a href="{{ site.baseurl }}/pags/basico">PARTES DEL CARACTER TIPOGRÁFICO</a></li>
+		  <li><a href="{{ site.baseurl }}/pags/sesion">Índice</a></li>
+		  <li><a href="{{ site.baseurl }}/pags/sesion">PARTES DEL CARACTER TIPOGRÁFICO</a></li>
 		  <li class="active">LA CAJA TIPOGRÁFICA</li>
 		</ol>
 		<div class="col-md-7">

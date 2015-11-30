@@ -7365,6 +7365,7 @@ li {
 .video,
 canvas {
   margin: 40px 0;
+  border-radius: 4px;
 }
 /*LOGIN/REGISTRO*/
 .log-tabs {
