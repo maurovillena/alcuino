@@ -24,7 +24,7 @@ active: home
 			<p>A continuación, pon a prueba lo que acabas de aprender, posicionando cada guía, de modo que marquen las diferentes alturas de la tipografía.</p>
 			
 			<div style="display:block;" id="inter001">
-				<script language="javascript" type="text/javascript" src="{{ site.baseurl }}/interacciones/001b.js/sketch.js/"></script>
+				<script language="javascript" type="text/javascript" src="{{ site.baseurl }}/interacciones/001/sketch.js/"></script>
 			</div>
 
 			<div id="siguiente" style="display:none;">
