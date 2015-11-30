@@ -54,7 +54,7 @@ title: Alcuino - Curso online de tipografía
 						<li><a href="#">EL GRIS TIPOGRÁFICO</a></li>
 						<li><a href="#">AJUSTES TIPOGRÁFICOS</a></li>
 						<li><a href="#">DIAGRAMACIÓN DEL ESPACIO TIPOGRÁFICO</a></li>
-						<li><a href="#">ELECCIOÓN DE UNA PALETA TIPOGRÁFICA</a></li>
+						<li><a href="#">ELECCIÓN DE UNA PALETA TIPOGRÁFICA</a></li>
 					</ul>
 
 				</div>

@@ -7265,6 +7265,9 @@ li {
 .panel-default .panel-heading h3 {
   color: #FCFBFB;
 }
+.panel-default .panel-heading p {
+  color: #FCFBFB;
+}
 .panel-sesion h3 {
   font-size: 15px;
 }
@@ -7285,9 +7288,11 @@ li {
 }
 .panel-sesion .panel-body a {
   color: #999999;
+  letter-spacing: 0.1ex!important;
 }
 .panel-sesion .panel-body a:hover {
   color: #D03D64;
+  text-decoration: none;
 }
 .item {
   height: 600px;
