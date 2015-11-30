@@ -7247,6 +7247,7 @@ li {
   width: 28%;
   max-height: 200px;
   overflow-y: scroll;
+  box-shadow: rgba(208, 61, 100, 0.4) 7px 7px 0px;
 }
 .panel-sidebar .panel-heading {
   position: fixed;
