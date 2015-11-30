@@ -4,11 +4,9 @@ Alcuino es un curso interactivo, que te permitirá desarrollar habilidades comun
 
 Este repositorio es una maqueta de lo que se espera convertir en una herramienta real de e-learning, y está construída en base a la plantilla [JBBT](http://github.com/hspencer/jbbt) y la librería Javascript [p5.js](http://p5js.org/)
 
-## JBBT
+## Jekyll Bootstrap Bower Template  (JBBT)
 
 Una plantilla elemental para comenzar un proyecto basado en Bootstrap usando Jekyll. Ideal para maketear o comenzar desde cero algo que será mucho más grande...
-
-## Jekyll Bootstrap Bower Template 
 
 ### Usa
 
@@ -16,8 +14,6 @@ Una plantilla elemental para comenzar un proyecto basado en Bootstrap usando Jek
 - [Bower](http://bower.io/)
 - [Bootstrap](http://getbootstrap.com/)
 - [Fontawsome](http://fortawesome.github.io/Font-Awesome/)
-
-## Otras dependencias.
 
 ## P5.JS
 

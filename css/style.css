@@ -6984,6 +6984,10 @@ address {
 /* Custom Styles */
 * {
   letter-spacing: -0.03ex;
+  opacity: 1;
+  transition: opacity 0.25s ease-in-out;
+  -moz-transition: opacity 0.25s ease-in-out;
+  -webkit-transition: opacity 0.25s ease-in-out;
 }
 p {
   font-weight: 300;
