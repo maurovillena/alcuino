@@ -8,8 +8,6 @@ function setup() {
   var canvas = createCanvas(600, 300);
   canvas.parent('inter001');
   textFont("Merriweather");
-  //createCanvas(600, 300);
-  textFont("Merriweather");
   start();
 }
 
@@ -17,8 +15,11 @@ function start() {
   clicks = 0;
   score = 0;
   lines = new Array();
-  fill(0);
   cursor(HAND);
+  var maxWidth = document.getElementById('inter001').offsetWidth;
+  println(maxWidth);
+  resizeCanvas(maxWidth, 300);
+  fill(0);
 }
 
 function draw() {
@@ -42,12 +43,12 @@ function draw() {
     case 4:
       if (score < 3) {
         message = "¡Felicidades, lo has conseguido!";
-        background(24,127,32);
+        background(183, 93, 153);
         fill(255);
         $("#siguiente").attr("style","display:block");
       } else {
         message = "Has fracasado, haz clic para volver a intentarlo";
-        background(220,30,50);
+        background(0);
         fill(225);
       }
       break;

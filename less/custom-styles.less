@@ -299,16 +299,22 @@ li{
 	line-height: ((@line-height-base - 0.2));
 }
 
+.panel{
+	h3,p,a,li{
+		font-family: @font-family-sans-serif;
+	}
+}
+
 .panel-sidebar{
 	position: fixed;
 	margin-top: 27px;
-	width: inherit;
+	width: 28%;
 	max-height: 200px;
 	overflow-y: scroll;
 
 	.panel-heading{
 		position: fixed;
-		width: inherit;
+		width: 27.9%;
 	}
 
 	li{
@@ -319,6 +325,7 @@ li{
 .panel-primary{
 	.panel-heading h3{
 		color: @white;
+		text-transform: none!important;
 	}
 }
 
@@ -329,6 +336,39 @@ li{
 	}
 	.panel-heading h3{
 		color: @white;
+	}
+}
+
+.panel-sesion{
+	h3{
+		font-size: 15px;
+	}
+
+	.panel-heading{
+		padding-left: 55px;
+	}
+
+	.panel-heading p{
+		font-size: 20px;
+		margin: 0;
+	}
+
+	li{
+		list-style: none;
+	}
+
+	a .panel-heading{
+		color: @white;
+		background: @brand-mix;
+		text-decoration: none;
+	}
+
+	.panel-body a{
+		color: @gray-light;
+	}
+
+	.panel-body a:hover{
+		color: @brand-mix;
 	}
 }
 
@@ -417,3 +457,7 @@ li{
 /* otros valores: auto & none */
     word-wrap:break-word;
   }
+
+ .video, canvas{
+ 	margin: 40px 0;
+ }

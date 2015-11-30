@@ -7232,31 +7232,62 @@ li {
 .fa {
   line-height: 1.6;
 }
+.panel h3,
+.panel p,
+.panel a,
+.panel li {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
 .panel-sidebar {
   position: fixed;
   margin-top: 27px;
-  width: inherit;
+  width: 28%;
   max-height: 200px;
   overflow-y: scroll;
 }
 .panel-sidebar .panel-heading {
   position: fixed;
-  width: inherit;
+  width: 27.9%;
 }
 .panel-sidebar li {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .panel-primary .panel-heading h3 {
   color: #FCFBFB;
+  text-transform: none!important;
 }
 .panel-default {
   color: #999999;
 }
 .panel-default .panel-heading {
-  background-color: rgba(183, 93, 153, 0.6);
+  background-color: rgba(208, 61, 100, 0.6);
 }
 .panel-default .panel-heading h3 {
   color: #FCFBFB;
+}
+.panel-sesion h3 {
+  font-size: 15px;
+}
+.panel-sesion .panel-heading {
+  padding-left: 55px;
+}
+.panel-sesion .panel-heading p {
+  font-size: 20px;
+  margin: 0;
+}
+.panel-sesion li {
+  list-style: none;
+}
+.panel-sesion a .panel-heading {
+  color: #FCFBFB;
+  background: #D03D64;
+  text-decoration: none;
+}
+.panel-sesion .panel-body a {
+  color: #999999;
+}
+.panel-sesion .panel-body a:hover {
+  color: #D03D64;
 }
 .item {
   height: 600px;
@@ -7330,6 +7361,10 @@ li {
   hyphens: auto;
   /* otros valores: auto & none */
   word-wrap: break-word;
+}
+.video,
+canvas {
+  margin: 40px 0;
 }
 /*LOGIN/REGISTRO*/
 .log-tabs {

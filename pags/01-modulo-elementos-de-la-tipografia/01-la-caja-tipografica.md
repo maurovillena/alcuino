@@ -17,6 +17,8 @@ active: home
 
 			<p>Por caja tipográfica, entendemos la serie de guías que rigen la forma de los caracteres, determinando la altura de sus diferentes segmentos, su interlínea e interletraje predeterminados.</p>
 
+			<iframe class="video" width="100%;" height="315" src="https://www.youtube.com/embed/mBoVoj5jLfbleble" frameborder="0" allowfullscreen></iframe>
+
 			<p>Los conceptos mencionados provienen de los antiguos tipos móviles de metal fundido, y se siguen aplicando para las actuales tipografías digitales, ya que son determinantes para el diseño de cualquier familia tipográfica.</p>
 
 			<p>A continuación, pon a prueba lo que acabas de aprender, posicionando cada guía, de modo que marquen las diferentes alturas de la tipografía.</p>
@@ -34,7 +36,7 @@ active: home
 		<div class="col-md-4 col-md-offset-1">
 			<div class="panel panel-primary panel-sidebar">
 					<div class="panel-heading">
-						<h3 class="panel-title">En esta lección</h3>
+						<h3 class="panel-title">EN ESTA LECCIÓN</h3>
 					</div>
 
 					<div class="panel-body">

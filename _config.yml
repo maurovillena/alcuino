@@ -19,10 +19,9 @@ mf:
     version: "0.1.0"
     license: The Artistic License 2.0
     author:
-        name: Herbert Spencer
-        email: hspencer@ead.cl
-        twitter: hspencer
+        name: Mauro Villena
+        email: maurovillena@hotmail.cl
     github:
-        url: http://hspencer.github.io/jbbt
+        url: http://maurovillena.github.io/alcuino
         project: mf
         org: mediafranca

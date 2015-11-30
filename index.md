@@ -20,23 +20,15 @@ active: home
 				<dl>
 					<div class="lsit-item">
 						<dt>Etapa 1</dt>
-							<dd>Partes del caracter tipográfico</dd>
+							<dd>Elementos de la tipografía</dd>
 					</div>
 					<div class="lsit-item">
 						<dt>Etapa 2</dt>
-							<dd>Familias tipográficas</dd>
+							<dd>Origen y tradición tipográfica</dd>
 					</div>
 					<div class="lsit-item">
 						<dt>Etapa 3</dt>
-							<dd>Ajustes de párrafo</dd>
-					</div>
-					<div class="lsit-item">
-						<dt>Etapa 4</dt>
-							<dd>Diagramación del espacio tipográfico</dd>
-					</div>
-					<div class="lsit-item">
-						<dt>Etapa 5</dt>
-							<dd>Afinidad tipográfica</dd>
+							<dd>Legibilidad y composición</dd>
 					</div>
 				</dl>
 			</div>

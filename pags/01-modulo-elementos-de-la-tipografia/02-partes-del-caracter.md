@@ -22,8 +22,16 @@ active: home
 
 			<p>Es imposible llegar a entender todo esto, sin conocer cuáles son las partes que componen a los caracteres tipográficos.</p>
 
+			<iframe class="video" width="100%;" height="315" src="https://www.youtube.com/embed/mBoVoj5jLfbleble" frameborder="0" allowfullscreen></iframe>
+
+			<p>Teniendo en cuenta lo anterior, completa el siguiente ejercicio.</p>
+
 			<div style="display:block;" id="inter002">
 				<script language="javascript" type="text/javascript" src="{{ site.baseurl }}/interacciones/002/sketch.js"></script>
+			</div>
+
+			<div id="siguiente" style="display:none;">
+				<a href="#" class="btn btn-primary pull-right">Siguiente lección</a>
 			</div>
 
 
@@ -32,7 +40,7 @@ active: home
 		<div class="col-md-4 col-md-offset-1">
 			<div class="panel panel-primary panel-sidebar">
 					<div class="panel-heading">
-						<h3 class="panel-title">En esta lección</h3>
+						<h3 class="panel-title">EN ESTA LECCIÓN</h3>
 					</div>
 
 					<div class="panel-body">
