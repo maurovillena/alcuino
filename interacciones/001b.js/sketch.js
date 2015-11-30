@@ -7,6 +7,7 @@ var results = new Array(210, 111, 73, 255);
 function setup() {
   var canvas = createCanvas(600, 300);
   canvas.parent('inter001');
+  textFont("Merriweather");
   //createCanvas(600, 300);
   textFont("Merriweather");
   start();
@@ -43,6 +44,7 @@ function draw() {
         message = "¡Felicidades, lo has conseguido!";
         background(24,127,32);
         fill(255);
+        $("#siguiente").attr("style","display:block");
       } else {
         message = "Has fracasado, haz clic para volver a intentarlo";
         background(220,30,50);

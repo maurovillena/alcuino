@@ -8,10 +8,10 @@ active: home
 <div class="seccion dos" id="seccion-1">
 	<div class="container">
 		<ol class="breadcrumb">
-  <li><a href="{{ site.baseurl }}/pags/session">Índice</a></li>
-  <li><a href="{{ site.baseurl }}/pags/basico">PARTES DEL CARACTER TIPOGRÁFICO</a></li>
-  <li class="active">LA CAJA TIPOGRÁFICA</li>
-</ol>
+		  <li><a href="{{ site.baseurl }}/pags/session">Índice</a></li>
+		  <li><a href="{{ site.baseurl }}/pags/basico">PARTES DEL CARACTER TIPOGRÁFICO</a></li>
+		  <li class="active">LA CAJA TIPOGRÁFICA</li>
+		</ol>
 		<div class="col-md-7">
 			<h2>LA CAJA TIPOGRÁFICA</h2>
 
@@ -25,8 +25,9 @@ active: home
 				<script language="javascript" type="text/javascript" src="{{ site.baseurl }}/interacciones/001b.js/sketch.js/"></script>
 			</div>
 
-			<p>blablablo</p>
-
+			<div id="siguiente" style="display:none;">
+				<a href="{{ site.baseurl }}/pags/01-modulo-elementos-de-la-tipografia/02-partes-del-caracter/" class="btn btn-primary pull-right">Siguiente lección</a>
+			</div>
 
 		</div>
 
@@ -57,15 +58,3 @@ active: home
 
 	</div>
 </div>
-<!--
-<div class="seccion uno" id="seccion-2">
-	<div class="container">
-		<h2>¿Qué aprenderás?</h2>
-		<div class="row">
-			<div class="col-md-8">
-				<p>Este curso se divide en tres módulos, de dificultad ascendente. En cada uno de ellos encontrarás diferentes lecciones de las cuales se desprenden conocimientos que te ayudarán a comprender desde cómo se conforman, hasta cómo se aplican e interactúan entre ellas las diferentes familias tipográficas.</p>
-				<p></p>
-			</div>
-		</div>
-	</div>
-</div> -->
