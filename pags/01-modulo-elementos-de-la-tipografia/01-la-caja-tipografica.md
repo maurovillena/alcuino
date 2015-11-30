@@ -15,7 +15,7 @@ active: home
 		<div class="col-md-7">
 			<h2>LA CAJA TIPOGRÁFICA</h2>
 
-			<p>Por caja tipográfica, entendemos la serie de guías que rigen la forma de los caracteres, determinando la altura de sus diferentes segmentos, su interlínea e interletraje predeterminados.</p>
+			<p>Por caja tipográfica, entendemos la serie de guías que rigen la forma de los caracteres, determinando la altura de sus diferentes <span class="sub">segmentos</span>, su interlínea e interletraje predeterminados.</p>
 
 			<iframe class="video" width="100%;" height="315" src="https://www.youtube.com/embed/mBoVoj5jLfbleble" frameborder="0" allowfullscreen></iframe>
 
