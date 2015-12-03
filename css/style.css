@@ -7295,6 +7295,9 @@ li {
 .panel-index li {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+.panel-index a {
+  border-bottom: none;
+}
 .panel-primary .panel-heading h3 {
   color: #FCFBFB;
   text-transform: none!important;

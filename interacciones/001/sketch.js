@@ -43,9 +43,11 @@ function draw() {
     case 4:
       if (score < 3) {
         message = "¡Felicidades, lo has conseguido!";
-        background(183, 93, 153);
+        //background(183, 93, 153);
+        background(176, 235, 255);
         fill(255);
         $("#siguiente").attr("style","display:block");
+        $("#siguiente-desactivado").attr("style","display:none");
       } else {
         message = "Has fracasado, haz clic para volver a intentarlo";
         background(0);
