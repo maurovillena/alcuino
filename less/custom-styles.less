@@ -10,18 +10,28 @@ p{
 }
 
 a:hover{
-	transition: all 0.8s ease;
+	transition: all 0.5s ease;
 }
 
-h1,h2{
+h1{
 	font-weight: 800;
 }
 
-h2{
-	margin-bottom: 40px;
+h2,h3{
+	font-family: @font-family-serif;
+	letter-spacing: 0.1em;
 }
 
-h3,h4,h5,h6{
+h2{
+	margin-bottom: 30px;
+	font-weight: 400;
+}
+
+h3{
+	font-weight: 100;
+}
+
+h4,h5,h6{
 	text-transform: uppercase;
 	letter-spacing: 0.1em;
 }
@@ -49,8 +59,15 @@ h3,h4,h5,h6{
 		letter-spacing: 0.1em;
 	}
 
+	a{
+		border-bottom: none!important;
+		color: @brand-mix!important;
+	}
+
 	a:hover{
+		color: @white!important;
 		text-decoration: none;
+		background-color: @brand-mix;
 	}
 }
 
@@ -63,6 +80,7 @@ h3,h4,h5,h6{
 	background: @gradient-primary;
 	color: #fff;
 	margin-bottom: 0;
+	overflow: hidden;
 
 	h1{
 	font-family: @font-family-sans-serif;
@@ -71,6 +89,15 @@ h3,h4,h5,h6{
 	text-shadow: 2px 2px 10px rgba(0,0,0,0.3);
 }
 
+}
+
+.jumbo-back{
+	color: fade(@white, 20%);
+	font-size: 300px;
+	position: absolute;
+	font-style: italic;
+	margin-top: -143px;
+	margin-left: -161px;
 }
 
 @media (min-width: 992px){
@@ -134,6 +161,33 @@ h3,h4,h5,h6{
 	}
 }
 
+.content a{
+	text-decoration: none;
+	color: @type-black;
+	line-height: 0.9;
+	padding-bottom: 0;
+	display: inline-block;
+	border-bottom: 1px solid @text-color;
+    text-shadow: 0.03em 0px @white, -0.03em 0px @white, 0px 0.03em @white, 0px -0.03em @white, 0.06em 0px @white, -0.06em 0px @white, 0.09em 0px @white, -0.09em 1px @white, 0.12em 1px @white, -0.12em 0px @white, 0.15em 0px @white, -0.15em 0px @white;
+    &:hover{
+    	color:@white;
+    	background-color: @brand-mix;
+    	text-shadow:none;
+    	padding:4px 0;
+    	border-bottom: none;
+    	text-decoration: none;
+    }
+}
+
+
+//Soluciona conflicto de enlaces con botones
+.btn{
+	color: @white!important;
+	text-shadow:none!important;
+	padding:15px 12px!important;
+	border:1px solid transparent!important;
+}
+
 // SOLUCIONA EL PROBLEMA DEL HEADER SUPERPUESTO
 // SOBRE LA PRIMERA SECCIÓN DE CADA PÁGINA
 
@@ -178,6 +232,7 @@ footer{
 	}
 
 	h2{
+		font-family: @font-family-sans-serif;
 		font-size: 14px;
 		color: @gray-lighter;
 		font-weight: 400;
@@ -309,18 +364,11 @@ li{
 	}
 }
 
-.panel-sidebar{
-	position: fixed;
-	margin-top: 27px;
-	width: 28%;
-	max-height: 200px;
-	overflow-y: scroll;
+.panel-index{
+	
+	margin-top: 40px;
+	margin-bottom: 45px;
 	box-shadow: fade(@brand-mix, 40%) 7px 7px 0px;
-
-	.panel-heading{
-		position: fixed;
-		width: 27.9%;
-	}
 
 	li{
 		font-family: @font-family-sans-serif;
@@ -348,12 +396,16 @@ li{
 }
 
 .panel-sesion{
-	h3{
-		font-size: 15px;
-	}
 
 	.panel-heading{
-		padding-left: 55px;
+		overflow: hidden;
+		max-height: 73px;
+	}
+	ul{
+		padding-left: 0;
+	}
+	h3{
+		font-size: 15px;
 	}
 
 	.panel-heading p{
@@ -371,13 +423,30 @@ li{
 		text-decoration: none;
 	}
 
+	.font-back{
+		display:block;
+		float:right;
+		position:float;
+		margin-top:-131px;
+		font-size:118px;
+		color:fade(@white, 20%);
+		font-family:@font-family-sans-serif;
+	}
+
+	.panel-body{
+		padding-bottom: 0;
+	}
+
 	.panel-body a{
+		display: block;
 		color: @gray-light;
 		letter-spacing: 0.1ex!important;
+		padding: 0 10px;
 	}
 
 	.panel-body a:hover{
-		color: @brand-mix;
+		background-color: @brand-mix;
+		color: @white;
 		text-decoration: none;
 	}
 }

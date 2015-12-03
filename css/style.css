@@ -6990,16 +6990,23 @@ p {
   letter-spacing: 0.01ex;
 }
 a:hover {
-  transition: all 0.8s ease;
+  transition: all 0.5s ease;
 }
-h1,
-h2 {
+h1 {
   font-weight: 800;
 }
-h2 {
-  margin-bottom: 40px;
+h2,
+h3 {
+  font-family: "Merriweather", "Times New Roman", Times, serif;
+  letter-spacing: 0.1em;
 }
-h3,
+h2 {
+  margin-bottom: 30px;
+  font-weight: 400;
+}
+h3 {
+  font-weight: 100;
+}
 h4,
 h5,
 h6 {
@@ -7026,8 +7033,14 @@ h6 {
   font-weight: 100;
   letter-spacing: 0.1em;
 }
+.breadcrumb a {
+  border-bottom: none!important;
+  color: #D03D64 !important;
+}
 .breadcrumb a:hover {
+  color: #FCFBFB !important;
   text-decoration: none;
+  background-color: #D03D64;
 }
 .breadcrumb > li + li::before {
   content: ">" !important;
@@ -7037,12 +7050,21 @@ h6 {
   background: linear-gradient(to right, #B75D99, red);
   color: #fff;
   margin-bottom: 0;
+  overflow: hidden;
 }
 .jumbotron h1 {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-align: center;
   letter-spacing: 0.03ex;
   text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+}
+.jumbo-back {
+  color: rgba(252, 251, 251, 0.2);
+  font-size: 300px;
+  position: absolute;
+  font-style: italic;
+  margin-top: -143px;
+  margin-left: -161px;
 }
 @media (min-width: 992px) {
   .jumbotron h1 {
@@ -7101,6 +7123,29 @@ h6 {
 .dos h6 {
   color: #333;
 }
+.content a {
+  text-decoration: none;
+  color: #333;
+  line-height: 0.9;
+  padding-bottom: 0;
+  display: inline-block;
+  border-bottom: 1px solid #333;
+  text-shadow: 0.03em 0px #FCFBFB, -0.03em 0px #FCFBFB, 0px 0.03em #FCFBFB, 0px -0.03em #FCFBFB, 0.06em 0px #FCFBFB, -0.06em 0px #FCFBFB, 0.09em 0px #FCFBFB, -0.09em 1px #FCFBFB, 0.12em 1px #FCFBFB, -0.12em 0px #FCFBFB, 0.15em 0px #FCFBFB, -0.15em 0px #FCFBFB;
+}
+.content a:hover {
+  color: #FCFBFB;
+  background-color: #D03D64;
+  text-shadow: none;
+  padding: 4px 0;
+  border-bottom: none;
+  text-decoration: none;
+}
+.btn {
+  color: #FCFBFB !important;
+  text-shadow: none!important;
+  padding: 15px 12px!important;
+  border: 1px solid transparent!important;
+}
 .inicial {
   padding-top: 70px;
   background: linear-gradient(to right, #B75D99, red);
@@ -7135,6 +7180,7 @@ footer ul {
   padding: 0;
 }
 footer h2 {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   color: #eeeeee;
   font-weight: 400;
@@ -7241,19 +7287,12 @@ li {
 .panel li {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-.panel-sidebar {
-  position: fixed;
-  margin-top: 27px;
-  width: 28%;
-  max-height: 200px;
-  overflow-y: scroll;
+.panel-index {
+  margin-top: 40px;
+  margin-bottom: 45px;
   box-shadow: rgba(208, 61, 100, 0.4) 7px 7px 0px;
 }
-.panel-sidebar .panel-heading {
-  position: fixed;
-  width: 27.9%;
-}
-.panel-sidebar li {
+.panel-index li {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .panel-primary .panel-heading h3 {
@@ -7272,11 +7311,15 @@ li {
 .panel-default .panel-heading p {
   color: #FCFBFB;
 }
+.panel-sesion .panel-heading {
+  overflow: hidden;
+  max-height: 73px;
+}
+.panel-sesion ul {
+  padding-left: 0;
+}
 .panel-sesion h3 {
   font-size: 15px;
-}
-.panel-sesion .panel-heading {
-  padding-left: 55px;
 }
 .panel-sesion .panel-heading p {
   font-size: 20px;
@@ -7290,12 +7333,27 @@ li {
   background: #D03D64;
   text-decoration: none;
 }
+.panel-sesion .font-back {
+  display: block;
+  float: right;
+  position: float;
+  margin-top: -131px;
+  font-size: 118px;
+  color: rgba(252, 251, 251, 0.2);
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.panel-sesion .panel-body {
+  padding-bottom: 0;
+}
 .panel-sesion .panel-body a {
+  display: block;
   color: #999999;
   letter-spacing: 0.1ex!important;
+  padding: 0 10px;
 }
 .panel-sesion .panel-body a:hover {
-  color: #D03D64;
+  background-color: #D03D64;
+  color: #FCFBFB;
   text-decoration: none;
 }
 .item {

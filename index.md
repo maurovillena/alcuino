@@ -1,5 +1,5 @@
 ---
-layout: standard
+layout: inicio
 title: Curso de Tipografía - Inicio
 active: home
 ---
@@ -8,6 +8,7 @@ active: home
 <div class="jumbotron" id="jumboinicio">
 	<div class="container">
 		<div class="col-md-12">
+		<span class="jumbo-back">ALCUINO</span>
 			<h1>Fundamentos<span class="merri">de la comunicación visual</span>Tipográfica</h1>
 		</div>
 	</div>
