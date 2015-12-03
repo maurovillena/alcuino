@@ -443,7 +443,7 @@ li{
 
 	.panel-body a{
 		display: block;
-		color: @gray-light;
+		color: @gray;
 		letter-spacing: 0.1ex!important;
 		padding: 0 10px;
 	}
@@ -544,4 +544,13 @@ li{
  .video, canvas{
  	margin: 40px 0;
  	border-radius: @border-radius-base;
+ }
+
+ .desactivado{
+ 	color:@gray-light!important;
+ 	pointer-events: none;
+   	cursor: default!important;
+ 	&:hover{
+ 		background-color: transparent!important;
+ 	}
  }

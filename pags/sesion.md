@@ -39,9 +39,9 @@ title: Alcuino - Curso online de tipografía
 	<div class="panel-body">
 
 		<ul>
-			<li><a href="#">ORIGEN HISTÓRICO</a></li>
-			<li><a href="#">CLASIFICACIONES TIPOGRÁFICAS</a></li>
-			<li><a href="#">VARIACIONES DE LA TIPOGRAFÍA</a></li>
+			<li><a class="desactivado">ORIGEN HISTÓRICO</a></li>
+			<li><a class="desactivado">CLASIFICACIONES TIPOGRÁFICAS</a></li>
+			<li><a class="desactivado">VARIACIONES DE LA TIPOGRAFÍA</a></li>
 		</ul>
 	</div>
 </div>
@@ -55,11 +55,11 @@ title: Alcuino - Curso online de tipografía
 	<div class="panel-body">
 
 		<ul>
-			<li><a href="#">¿QUÉ ES LEGIBILIDAD?</a></li>
-			<li><a href="#">EL GRIS TIPOGRÁFICO</a></li>
-			<li><a href="#">AJUSTES TIPOGRÁFICOS</a></li>
-			<li><a href="#">DIAGRAMACIÓN DEL ESPACIO TIPOGRÁFICO</a></li>
-			<li><a href="#">ELECCIÓN DE UNA PALETA TIPOGRÁFICA</a></li>
+			<li><a class="desactivado">¿QUÉ ES LEGIBILIDAD?</a></li>
+			<li><a class="desactivado">EL GRIS TIPOGRÁFICO</a></li>
+			<li><a class="desactivado">AJUSTES TIPOGRÁFICOS</a></li>
+			<li><a class="desactivado">DIAGRAMACIÓN DEL ESPACIO TIPOGRÁFICO</a></li>
+			<li><a class="desactivado">ELECCIÓN DE UNA PALETA TIPOGRÁFICA</a></li>
 		</ul>
 
 	</div>
