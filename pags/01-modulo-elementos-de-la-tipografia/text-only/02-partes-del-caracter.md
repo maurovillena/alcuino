@@ -13,15 +13,13 @@ active: home
 
 <h2>PARTES DEL CARACTER TIPOGRÁFICO</h2>
 
-<a href="{{ site.baseurl }}/pags/01-modulo-elementos-de-la-tipografia/text-only/02-partes-del-caracter">Ver versión sólo texto</a>
+<a href="{{ site.baseurl }}/pags/01-modulo-elementos-de-la-tipografia/02-partes-del-caracter">Volver a versión interactiva</a>
 
 <p>¿Te has preguntado alguna vez cuáles son las partes que componen un caracter tipográfico?</p>
 
 <p>Para comprender cómo la tipografía constituye un modo visual de representar el lenguaje por de signos visuales, es fundamental entender cómo la forma de estos signos, rige la interacción entre ellos, y por lo tanto, la experiencia del lector.</p>
 
 <p>Es imposible llegar a entender todo esto, sin conocer cuáles son las partes que componen a los caracteres tipográficos.</p>
-
-<iframe class="video" width="100%;" height="315" src="https://www.youtube.com/embed/mBoVoj5jLfbleble" frameborder="0" allowfullscreen></iframe>
 
 <p>Teniendo en cuenta lo anterior, completa el siguiente ejercicio.</p>
 

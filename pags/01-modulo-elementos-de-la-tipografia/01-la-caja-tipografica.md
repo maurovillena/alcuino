@@ -20,9 +20,6 @@ active: home
 
 					<div class="panel-body">
 						<ul>
-							<li><a href="#" data-placement="right" data-toggle="tooltip" title="Por cuerpo, se entiende la altura completa que contiene al caracter, no sólo del área dibujada del caracter.">Cuerpo (tamaño tipográfico)</a>
-							
-							</li>
 							<li><a href="#" data-placement="right" data-toggle="tooltip" title="La altura ascendente se refiere al espacio que se extiende un caracter minúsculo por sobre la altura de “x”">Altura ascendente</a></li>
 
 							<li><a href="#" data-placement="right" data-toggle="tooltip" title="Corresponde al espacio entre la línea base y la altura de los caracteres minúsculos que no poseen altura ascendente.">Altura de "x"</a></li>
@@ -32,9 +29,14 @@ active: home
 							<li><a href="#" data-placement="right" data-toggle="tooltip" title="Es la línea imaginaria donde se asientan la mayoría de los caracteres, y donde comienza la altura descendente.">Línea de base</a></li>
 
 							<li><a href="#" data-placement="right" data-toggle="tooltip" title="Es el espacio existente entre el dibujo del caracter, y el borde de la caja que lo contiene.">Rebarba</a></li>
+
+							<li><a href="#" data-placement="right" data-toggle="tooltip" title="Por cuerpo, se entiende la altura completa que contiene al caracter, no sólo del área dibujada del caracter.">Cuerpo (tamaño tipográfico)</a>
+							</li>
 						</ul>
 					</div>
 			</div>
+
+<a href="{{ site.baseurl }}/pags/01-modulo-elementos-de-la-tipografia/text-only/01-la-caja-tipografica">Ver versión sólo texto</a>
 
 <h3>¿Qué es la caja tipográfica?</h3>
 

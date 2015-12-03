@@ -2,15 +2,17 @@
 
 *{
 	letter-spacing: -.03ex;
+	transition: all 0.5s ease;
+}
+
+.video, canvas{
+	margin: 40px 0;
+	border-radius: @border-radius-base;
 }
 
 p{
 	font-weight: 300;
 	letter-spacing: 0.01ex;
-}
-
-a:hover{
-	transition: all 0.5s ease;
 }
 
 h1{
@@ -62,6 +64,8 @@ h4,h5,h6{
 	a{
 		border-bottom: none!important;
 		color: @brand-mix!important;
+		padding: 3px!important;
+		margin: -3px!important;
 	}
 
 	a:hover{
@@ -196,14 +200,6 @@ h4,h5,h6{
 	background: @gradient-primary;
 }
 
-.progress-bar{
-	background-color: @brand-primary;
-}
-
-.dropdown-menu .progress{
-	margin: 0 20px;
-}
-
 footer{
 	font-family: @font-family-sans-serif;
 	background-color: @gray-dark;
@@ -244,33 +240,6 @@ footer{
 	}
 }
 
-.hiden .pager li{
-	display: none !important;
-}
-
-.carousel{
-	
-	h2{
-		margin-top: 0;
-		margin-bottom: 1em;
-	}
-	h3{
-		margin-top: 0; 
-	}
-}
-
-.carousel-control{
-	width: 5%;
-	background-image: none!important;
-
-	.left{
-		background-image: none;
-	}
-	.right{
-		background-image: none;
-	}
-}
-
 .merri{
 	font-family: @font-family-serif;
 	font-style: italic;
@@ -308,6 +277,10 @@ li{
 	font-weight: 300;
 }
 
+.content ul li{
+	padding-bottom: 5px;
+}
+
 .btn-default{
 	border: none;
 	border-radius: 0;
@@ -317,37 +290,6 @@ li{
 
 .nav{
 	font-family: @font-family-sans-serif!important;
-}
-
-.thumbnail{
-	background:@white;
-	a:hover{
-		text-decoration: none;
-	}
-	li{
-		font-weight: 400;
-	}
-	p,li{
-		font-family: @font-family-sans-serif;
-	}
-	ul p{
-		padding-left: 15px;
-	}
-}
-
-.thumbnail:hover{
-	background: @brand-lighter;
-}
-
-.img-thumbnail{
-	width: 100%;
-	overflow: hidden;
-	border: 0 solid;
-	padding: 0;
-
-	img{
-		width: 100%;
-	}
 }
 
 .grey{
@@ -455,63 +397,6 @@ li{
 	}
 }
 
-// ESTILOS PARA IMÁGENES EN SLIDER
-
-.item{
-	height: 600px;
-
-	img{
-		max-height: 350px;
-		display: block;
-		margin: 0 auto;
-	}
-}
-
-.solo{
-	margin-top: -80px!important;
-	max-height: 450px!important;
-}
-
-.un-tercio{
-	display: block;
-	width: 90%;
-	border-radius: @border-radius-large;
-	bottom: 0;
-	overflow: hidden;
-
-	img{
-		width: 100%;
-	}
-}
-
-.module{
-	padding: 0!important;
-	background-color: @white;
-	border: 1px solid @gray-light;
-	border-radius: @border-radius-large;
-	overflow: hidden;
-	margin-bottom: 30px;
-	&:hover{
-		background-color: @gray-lighter;
-		transition: all ease 1s;
-	}
-	img{
-		width: 100%;
-	}
-	header{
-		background-color: @brand-primary!important;
-		margin: 0!important;
-		border-bottom: 1px solid @gray-light;
-		display: block;
-		width: 100%;
-		padding: 20px;
-	}
-	h3{
-		margin: 0;
-		color: @white!important;
-	}
-}
-
 .quote{
 
 	margin-top: 50px;
@@ -540,11 +425,6 @@ li{
 /* otros valores: auto & none */
     word-wrap:break-word;
   }
-
- .video, canvas{
- 	margin: 40px 0;
- 	border-radius: @border-radius-base;
- }
 
  .desactivado{
  	color:@gray-light!important;

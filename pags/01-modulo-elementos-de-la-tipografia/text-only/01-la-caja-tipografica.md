@@ -1,0 +1,123 @@
+---
+layout: standard
+title: La caja tipográfica - Curso de Tipografía
+active: home
+---
+		
+
+<ol class="breadcrumb">
+	<li><a href="{{ site.baseurl }}/">Inicio</a></li>
+	<li><a href="{{ site.baseurl }}/pags/sesion">índice</a></li>
+	<li class="active">LA CAJA TIPOGRÁFICA</li>
+</ol>
+
+<h2>LA CAJA TIPOGRÁFICA</h2>
+
+<div class="panel panel-primary panel-index">
+					<div class="panel-heading">
+						<h3 class="panel-title">EN ESTA LECCIÓN</h3>
+					</div>
+
+					<div class="panel-body">
+						<ul>
+							<li><a href="#lineadebase" data-placement="right" data-toggle="tooltip" title="Es la línea imaginaria donde se asientan la mayoría de los caracteres, y donde comienza la altura descendente.">Línea de base</a></li>
+
+							<li><a href="#altasc" data-placement="right" data-toggle="tooltip" title="La altura ascendente se refiere al espacio que se extiende un caracter minúsculo por sobre la altura de “x”">Altura ascendente</a></li>
+
+							<li><a href="#altx" data-placement="right" data-toggle="tooltip" title="Corresponde al espacio entre la línea base y la altura de los caracteres minúsculos que no poseen altura ascendente.">Altura de "x"</a></li>
+
+							<li><a href="#altdesc" data-placement="right" data-toggle="tooltip" title="Corresponde al espacio que se extiende un caracter, por debajo de la línea de base.">Altura descendente</a></li>
+
+							<li><a href="#rebarba" data-placement="right" data-toggle="tooltip" title="Es el espacio existente entre el dibujo del caracter, y el borde de la caja que lo contiene.">Rebarba</a></li>
+
+							<li><a href="#cuerpo" data-placement="right" data-toggle="tooltip" title="Por cuerpo, se entiende la altura completa que contiene al caracter, no sólo del área dibujada del caracter.">Cuerpo (tamaño tipográfico)</a>
+							
+							</li>
+						</ul>
+					</div>
+			</div>
+
+<a href="{{ site.baseurl }}/pags/01-modulo-elementos-de-la-tipografia/01-la-caja-tipografica">Volver a versión interactiva</a>
+
+<h3>¿Qué es la caja tipográfica?</h3>
+
+<p>Por caja tipográfica, entendemos la serie de guías que rigen la forma de los caracteres, determinando la altura de sus diferentes <a href="#">segmentos</a>, su interlínea e interletraje predeterminados.</p>
+
+<p>La tipografía, desde que aprendemos a relacionarnos con el mundo por medio de la palabra escrita, la tipografía está presente en casi todos los ámbitos de nuestra vida. Libros, anuncios, revistas, señaléticas, documentos, y hasta en los envoltorios de los productos que utilizamos día a día, por sólo nombrar algunos. Pero ¿alguna vez te has preguntado cuál es la estructura básica que conforma a cada uno de los caracteres tipográficos que leemos a cada instante?</p>
+
+<p>Bueno, cada uno de ellos, con serif, sin serif, itálicas, etc. tienen un elemento en común: La caja tipográfica.</p>
+
+<p>Esta caja, no es más que un conjunto de líneas imaginarias que rigen la estructura de los caracteres, y definen el lugar en que estos se posan en relación a los demás, y hasta donde llegan, hacia arriba, hacia abajo, y hacia los costados.</p>
+
+<h3 id="lineadebase">Línea de base</h3>
+
+<p>Se conoce como línea de base, a la línea imaginaria donde se posan los caracteres que no tienen segmento descendente.</p>
+
+<h3 id="altasc">Altura ascendente</h3>
+
+<p>La altura ascendente, es la línea que marca hasta dónde llegan los caracteres altos de cada familia tipográfica.</p>
+
+<h3 id="altx">Altura de x</h3>
+
+<p>La altura de “x” corresponde a la línea donde llegan todos los caracteres que no posean segmento ascendente.</p>
+
+<h3 id="altdesc">Altura descendente</h3>
+
+<p>Por último, la altura descendente, marca hasta dónde llegan los caracteres que se extiendan por debajo de la línea de base.</p>
+
+<p>Si separamos de forma verticas los caracteres, podemos ver cómo se conforma la “caja tipográfica”, y cuáles son sus alturas: Ascendente, de x, y descendente.</p>
+
+<h3 id="rebarba">Rebarba</h3>
+
+<p>El espacio blanco de esta caja, al exterior del caracter, es conocido como rebarba, y proviene de los antiguos tipos móviles fundidos en metal, donde el relieve imprimible de estos correspondía al caracter, y la rebarba, que quedaba bajo relieve, y por lo tanto no quedaba impresa, definía la interlínea e interletraje estándar.</p>
+
+<h3 id="cuerpo">Cuerpo</h3>
+
+<p>Es importante comprender que el cuerpo, o tamaño tipográfico, no corresponde a la altura del dibujo de cada letra, sino, a la distancia entre la línea de altura descendente, hasta la línea de altura ascendente.</p>
+
+<p>Los conceptos mencionados <a href="#">provienen</a> de los antiguos tipos móviles de metal fundido, y se siguen aplicando para las actuales <a href="#">tipografías</a> digitales, ya que son determinantes para el diseño de cualquier familia tipográfica.</p>
+
+<p>A continuación, pon a prueba lo que acabas de aprender, posicionando cada guía, de modo que marquen las diferentes alturas de la tipografía.</p>
+			
+<div style="display:block;" id="inter001">
+	<script language="javascript" type="text/javascript" src="{{ site.baseurl }}/interacciones/001/sketch.js"></script>
+</div>
+
+<div id="siguiente" style="display:none;">
+	<a href="{{ site.baseurl }}/pags/01-modulo-elementos-de-la-tipografia/text-only/02-partes-del-caracter/" class="btn btn-primary pull-right">Siguiente lección</a>
+</div>
+<div id="siguiente-desactivado" style="display:block ;">
+	<a href="{{ site.baseurl }}/pags/01-modulo-elementos-de-la-tipografia/02-partes-del-caracter/" class="btn btn-primary disabled pull-right">Siguiente lección</a>
+</div>
+
+<script type="text/javascript">
+	$(window).on("hashchange", function () {
+    window.scrollTo(window.scrollX, window.scrollY - 70);
+});
+</script>
+<!--
+		<div class="col-md-4 col-md-offset-1">
+			<div class="panel panel-primary panel-sidebar">
+					<div class="panel-heading">
+						<h3 class="panel-title">EN ESTA LECCIÓN</h3>
+					</div>
+
+					<div class="panel-body">
+						<ul>
+							<li><a href="#" data-placement="right" data-toggle="tooltip" title="Por cuerpo, se entiende la altura completa que contiene al caracter, no sólo del área dibujada del caracter.">Cuerpo (tamaño tipográfico)</a>
+							
+							</li>
+							<li><a href="#" data-placement="right" data-toggle="tooltip" title="La altura ascendente se refiere al espacio que se extiende un caracter minúsculo por sobre la altura de “x”">Altura ascendente</a></li>
+
+							<li><a href="#" data-placement="right" data-toggle="tooltip" title="Corresponde al espacio entre la línea base y la altura de los caracteres minúsculos que no poseen altura ascendente.">Altura de "x"</a></li>
+
+							<li><a href="#" data-placement="right" data-toggle="tooltip" title="Corresponde al espacio que se extiende un caracter, por debajo de la línea de base.">Altura descendente</a></li>
+
+							<li><a href="#" data-placement="right" data-toggle="tooltip" title="Es la línea imaginaria donde se asientan la mayoría de los caracteres, y donde comienza la altura descendente.">Línea de base</a></li>
+
+							<li><a href="#" data-placement="right" data-toggle="tooltip" title="Es el espacio existente entre el dibujo del caracter, y el borde de la caja que lo contiene.">Rebarba</a></li>
+						</ul>
+					</div>
+			</div>
+		</div>
+		-->
