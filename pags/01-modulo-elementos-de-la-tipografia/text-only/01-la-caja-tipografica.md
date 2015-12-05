@@ -49,13 +49,23 @@ active: home
 
 <p>Esta caja, no es más que un conjunto de líneas imaginarias que rigen la estructura de los caracteres, y definen el lugar en que estos se posan en relación a los demás, y hasta donde llegan, hacia arriba, hacia abajo, y hacia los costados.</p>
 
+<p>Esta estructura se conforma por estas cuatro líneas principales:</p>
+
 <h3 id="lineadebase">Línea de base</h3>
 
 <p>Se conoce como línea de base, a la línea imaginaria donde se posan los caracteres que no tienen segmento descendente.</p>
 
+<h4>Particularidades</h4>
+
+<p>Generalmente, los caracteres redondeados, al posarse sobre la línea de base, suelen dejar un pequeño excedente por debajo de esta, con la finalidad de calibrar visualmente su altura, ya que al no tener un "piso sólido" sobre el cual posarse, causan la ilusión de estar más arriba, en relación a los demás caracteres.</p>
+
+<p>También es común, aunque no general, encontrar en familias con serif, que los caracteres numéricos, se extiendan una buena porción por debajo de la línea de base, con el objetivo de cambiar el ritmo de la lectura al encontrarse con números.</p>
+
 <h3 id="altasc">Altura ascendente</h3>
 
 <p>La altura ascendente, es la línea que marca hasta dónde llegan los caracteres altos de cada familia tipográfica.</p>
+
+<p>Es común ver en familias tipográficas con serif que caracteres bajos, con segmento ascendente, sobrepasen esta línea, para compensar el peso visual de los caracteres altos, que suelen ser también más anchos.</p>
 
 <h3 id="altx">Altura de x</h3>
 
@@ -65,11 +75,13 @@ active: home
 
 <p>Por último, la altura descendente, marca hasta dónde llegan los caracteres que se extiendan por debajo de la línea de base.</p>
 
-<p>Si separamos de forma verticas los caracteres, podemos ver cómo se conforma la “caja tipográfica”, y cuáles son sus alturas: Ascendente, de x, y descendente.</p>
+<p>Si separamos de forma vertical los caracteres, podemos ver cómo se conforma la “caja tipográfica”, y cuáles son sus alturas: Ascendente, de x, y descendente.</p>
+
+<p>Además, conforman parte de la caja tipográfica los siguientes elementos:</p>
 
 <h3 id="rebarba">Rebarba</h3>
 
-<p>El espacio blanco de esta caja, al exterior del caracter, es conocido como rebarba, y proviene de los antiguos tipos móviles fundidos en metal, donde el relieve imprimible de estos correspondía al caracter, y la rebarba, que quedaba bajo relieve, y por lo tanto no quedaba impresa, definía la interlínea e interletraje estándar.</p>
+<p>Es el espacio blanco de esta caja, al exterior del caracter, y proviene de los antiguos tipos móviles fundidos en metal, donde el relieve imprimible correspondía al caracter, y la rebarba, que quedaba bajo relieve, y por lo tanto no se imprimía, definía la interlínea e interletraje estándar de la tipografía.</p>
 
 <h3 id="cuerpo">Cuerpo</h3>
 

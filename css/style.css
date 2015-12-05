@@ -7313,6 +7313,9 @@ li {
   color: #FCFBFB;
   text-decoration: none;
 }
+.no-sub:hover {
+  text-decoration: none;
+}
 .quote {
   margin-top: 50px;
 }

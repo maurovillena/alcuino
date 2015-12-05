@@ -11,7 +11,7 @@ title: Alcuino - Curso online de tipografía
 <h2>ÍNDICE</h2>
 
 <div class="panel panel-primary panel-sesion">
-	<a href="{{ site.baseurl }}/pags/01-modulo-elementos-de-la-tipografia/01-la-caja-tipografica/">
+	<a class="no-sub" href="{{ sit	e.baseurl }}/pags/01-modulo-elementos-de-la-tipografia/01-la-caja-tipografica/">
 		<div class="panel-heading">
 			<h3 class="panel-title">ETAPA 1</h3>
 			<p>Elementos de la tipografía</p>
