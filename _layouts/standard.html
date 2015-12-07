@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 {% include head.html %}
-	<body>
+	<body id="top">
 				{% include nav.html %}
 	<div class="seccion dos content">
 		<div class="container">
@@ -9,16 +9,41 @@
 		
 
 				{{ content }}
+
+				<a class="up" href="#top"><i class="fa fa-arrow-up"></i></a>
 			</div>
 		</div>
 	</div>
 
 				{% include footer.html %}
-				
-				<script>
-				$(document).ready(function(){
-				    $('[data-toggle="tooltip"]').tooltip();
-				});
-				</script>
+	
+	<!-- JS y jQuery -->		
+
+	<script>
+		$(document).ready(function(){
+		    $('[data-toggle="tooltip"]').tooltip();
+			});
+	</script>
+
+	<!-- Anchors - 70px Y -->
+
+	<script type="text/javascript">
+		$(window).on("hashchange", function () {
+	    window.scrollTo(window.scrollX, window.scrollY - 70);
+			});
+	</script>
+
+	<!-- Smooth scrolling -->
+
+	<script type="text/javascript">
+		$('a').click(function(){
+	    $('html, body').animate({
+	        scrollTop: $( $.attr(this, 'href') ).offset().top
+	    }, 500);
+	    return false;
+		});
+	</script>
+
+
 	</body>
 </html>

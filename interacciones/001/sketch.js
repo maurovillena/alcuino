@@ -8,6 +8,7 @@ function setup() {
   var canvas = createCanvas(600, 300);
   canvas.parent('inter001');
   textFont("Merriweather");
+  img = loadImage("../../../img/paper.jpg");
   start();
 }
 
@@ -23,7 +24,7 @@ function start() {
 }
 
 function draw() {
-  background(224);
+  image(img, 0, 0);
 
 
   switch (clicks) {
@@ -44,12 +45,12 @@ function draw() {
       if (score < 3) {
         message = "¡Felicidades, lo has conseguido!";
         //background(183, 93, 153);
-        background(176, 235, 255);
+        background(145, 168, 208, 100);
         fill(255);
         $("#siguiente").attr("style","display:block");
         $("#siguiente-desactivado").attr("style","display:none");
       } else {
-        message = "Has fracasado, haz clic para volver a intentarlo";
+        message = "¡Fallaste! haz clic para volver a intentarlo";
         background(0);
         fill(225);
       }
@@ -69,7 +70,7 @@ function draw() {
   text(message, 10, 25);
 
   textSize(180);
-  text("Axhp", width * .1, height * .7);
+  text("Aohg", width * .1, height * .7);
 
   stroke(268, 61, 100);
   line(0, mouseY, width, mouseY);

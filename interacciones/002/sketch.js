@@ -1,3 +1,7 @@
+function preload(){
+  img = loadImage("../../../img/paper.jpg");
+}
+
 function setup() {
 
   var canvas = createCanvas(600, 300);
@@ -6,12 +10,11 @@ function setup() {
   println(maxWidth);
   resizeCanvas(maxWidth, 300);
   textFont("Merriweather");
-  
 }
 
 function draw() {
-  background(224);
-
+  image(img, 0, 0);
+  
   stroke(0, 180, 222);
   
   line(0, 115, width, 115);

@@ -7026,7 +7026,7 @@ h1 {
 h2,
 h3 {
   font-family: "Merriweather", "Times New Roman", Times, serif;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.03em;
 }
 h2 {
   margin-bottom: 30px;
@@ -7372,6 +7372,25 @@ li {
 }
 .desactivado:hover {
   background-color: transparent!important;
+}
+.up {
+  color: rgba(51, 51, 51, 0.7) !important;
+  text-decoration: none;
+  right: 40px;
+  bottom: 30px;
+  display: block!important;
+  position: fixed!important;
+  text-shadow: 0 0 3px #FCFBFB !important;
+  border-bottom: none!important;
+  z-index: 100;
+}
+.up .fa {
+  font-size: 30px;
+}
+.up:hover {
+  padding: 0!important;
+  color: #333 !important;
+  background: none!important;
 }
 /*LOGIN/REGISTRO*/
 .log-tabs {

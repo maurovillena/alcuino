@@ -51,7 +51,7 @@ h1{
 
 h2,h3{
 	font-family: @font-family-serif;
-	letter-spacing: 0.1em;
+	letter-spacing: 0.03em;
 }
 
 h2{
@@ -471,3 +471,26 @@ li{
  		background-color: transparent!important;
  	}
  }
+
+
+.up{
+	color: fade(@type-black, 70%)!important;
+	text-decoration: none;
+	right: 40px;
+	bottom: 30px;
+	display: block!important;
+	position: fixed!important;
+	text-shadow: 0 0 3px @white!important;
+	border-bottom: none!important;
+	z-index: 100;
+
+	.fa{
+		font-size: 30px;
+	}
+
+	&:hover{
+		padding:0!important;
+		color: @type-black!important;
+		background: none!important;
+	}
+}
