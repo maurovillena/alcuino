@@ -6991,6 +6991,31 @@ canvas {
   margin: 40px 0;
   border-radius: 4px;
 }
+@media (max-width: 1199px) {
+  .video {
+    height: 335px!important;
+  }
+}
+@media (max-width: 991px) {
+  .video {
+    height: 388px!important;
+  }
+}
+@media (max-width: 557px) {
+  .video {
+    height: 278px!important;
+  }
+}
+@media (max-width: 360px) {
+  .video {
+    height: 169px!important;
+  }
+}
+@media (min-width: 1200px) {
+  .video {
+    height: 410px!important;
+  }
+}
 p {
   font-weight: 300;
   letter-spacing: 0.01ex;
