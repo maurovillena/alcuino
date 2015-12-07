@@ -17,4 +17,4 @@ Una plantilla elemental para comenzar un proyecto basado en Bootstrap usando Jek
 
 ## P5.JS
 
-p5.js es una librería de Javascript basada en la idea original de Processing, de hacer el código accesible para artistas, diseñadores, educadores y prncipiantes, y reinterpretada para la web de hoy en día.
+p5.js es una librería de Javascript basada en la idea original de Processing, de hacer el código accesible para artistas, diseñadores, educadores y principiantes, reinterpretada para la web de hoy en día.

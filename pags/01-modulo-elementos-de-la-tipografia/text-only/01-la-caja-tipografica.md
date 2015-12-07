@@ -73,8 +73,8 @@ active: home
 
 <h3 id="altdesc">Altura descendente</h3>
 
-<p>Por último, la altura descendente, marca hasta dónde llegan los caracteres que se extiendan por debajo de la línea de base.</p>
-
+<p>Por último, la altura descendente, marca hasta dónde llegan los caracteres que se extienden por debajo de la línea de base.</p>
+s
 <p>Si separamos de forma vertical los caracteres, podemos ver cómo se conforma la “caja tipográfica”, y cuáles son sus alturas: Ascendente, de x, y descendente.</p>
 
 <p>Además, conforman parte de la caja tipográfica los siguientes elementos:</p>
