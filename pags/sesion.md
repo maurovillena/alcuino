@@ -5,10 +5,10 @@ title: Alcuino - Curso online de tipografía
 
 <ol class="breadcrumb">
 	<li><a href="{{ site.baseurl }}/">Inicio</a></li>
-	<li class="active">Índice</li>
+	<li class="active">Avance</li>
 </ol>
 
-<h2>ÍNDICE</h2>
+<h2>AVANCE</h2>
 
 <div class="panel panel-primary panel-sesion">
 	<a class="no-sub" href="{{ sit	e.baseurl }}/pags/01-modulo-elementos-de-la-tipografia/01-la-caja-tipografica/">

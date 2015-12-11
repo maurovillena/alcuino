@@ -5,8 +5,44 @@ title: Arquitectura de contenidos
 
 ## Arquitectura de contenidos del curso ##
 
-A continuación se describe el orden en que los contenidos necesarios para cumplir con los objetivos del curso, los cuales se listan divididos en tres módulos de dificultad creciente.
-Hay algunos sub puntos que se repiten, y corresponden a relaciones entre los contenidos, o bien, elementos que se pueden encontrar en más de un lugar, o clasificación.
+A continuación se describe el orden en que los contenidos necesarios para cumplir con los objetivos del curso, los cuales se listan divididos en tres etapas de dificultad ascendente.
+<!--Hay algunos sub puntos que se repiten, y corresponden a relaciones entre los contenidos, o bien, elementos que se pueden encontrar en más de un lugar, o clasificación.-->
+
+* **Etapa 1 (Básico) Elementos de la tipografía**
+  * La caja tipográfica
+    * Línea de base
+    * Altura ascendente
+    * Altura de x
+    * Altura descendente
+    * Rebarba
+    * Cuerpo (tamaño tipográfico)
+  * Partes del caracter tipográfico
+    * Trazo
+    * Asta
+      * Ascendente
+      * Descendente
+    * Ápice
+    * Perfil
+    * Brazo
+    * Bucle
+    * Cruz
+    * Cuello
+    * Oreja
+    * Serif
+    * Espolón
+    * Ligaduras
+* **Etapa 2 (Intermedio) Origen y tradición tipográfica**
+  * Origen histórico de las familias tipográficas
+  * Clasificaciones tipográficas según era
+  * Variaciones tipográficas
+* **Etapa 3 (Avanzado) Legibilidad y composición**
+  * ¿Qué es legibilidad?
+  * El gris tipográfico
+  * Ajustes de la tipografía
+  * Diagramación del espacio tipográfico
+  * Elección de una paleta tipográfica (combinación de familias)
+
+<!--
 
 #### Partes del Caracter tipográfico ####
 
@@ -82,3 +118,5 @@ Hay algunos sub puntos que se repiten, y corresponden a relaciones entre los con
    1. Origen histórico de las familias tipográficas
    2. Carácter de la familia
    3. Ritmo y contraste      
+
+-->
