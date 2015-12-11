@@ -128,7 +128,7 @@ Las ligaduras son caracteres especiales que reemplazan a dos o más caracteres e
 
 Ahora que conoces las partes del caracter tipográfico, podrás comprender con mayor facilidad la forma en que estas interactúan, y cómo es posible ajustarlas según sea conveniente para enriquecer la experiencia de lectura.
 
-<iframe class="video" width="100%;" height="315" src="https://www.youtube.com/embed/mBoVoj5jLfbleble" frameborder="0" allowfullscreen></iframe>
+<iframe class="video" width="100%" height="315" src="https://www.youtube.com/embed/b5P7mD27USc" frameborder="0" allowfullscreen></iframe>
 
 Antes de pasar a la siguiente etapa, pon a prueba lo que acabas de aprender con el siguiente ejercicio.
 

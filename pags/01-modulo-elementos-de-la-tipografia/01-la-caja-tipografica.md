@@ -85,7 +85,7 @@ active: home
 
 <p>Los conceptos mencionados provienen de los antiguos tipos móviles de metal fundido, y se siguen aplicando para las actuales tipografías digitales, ya que son determinantes para el diseño de cualquier familia tipográfica.</p>
 
-<iframe class="video" width="100%" height="315" src="https://www.youtube.com/embed/6IaRwDSS5WQ" frameborder="0" allowfullscreen modestbranding></iframe>
+<iframe class="video" width="100%" height="315" src="https://www.youtube.com/embed/gRjS1d3kSis" frameborder="0" allowfullscreen></iframe>
 
 <p>Ahora, pon a prueba lo aprendido posicionando cada guía, de modo que marquen las diferentes alturas de la tipografía.</p>
 			
