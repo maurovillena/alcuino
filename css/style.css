@@ -7,6 +7,7 @@
 /* Custom Fonts */
 @import url(http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic);
+@import url(https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400italic,700);
 /*! normalize.css v3.0.0 | MIT License | git.io/normalize */
 html {
   font-family: sans-serif;
@@ -274,7 +275,7 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-  font-family: "Merriweather", "Times New Roman", Times, serif;
+  font-family: "Libre Baskerville", "Times New Roman", Times, serif;
   font-size: 16px;
   line-height: 1.8;
   color: #333;
@@ -7025,7 +7026,7 @@ h1 {
 }
 h2,
 h3 {
-  font-family: "Merriweather", "Times New Roman", Times, serif;
+  font-family: "Libre Baskerville", "Times New Roman", Times, serif;
   letter-spacing: 0.03em;
 }
 h2 {
@@ -7049,7 +7050,6 @@ h6 {
 }
 .breadcrumb {
   margin-top: 0;
-  padding-top: 63px;
   padding-left: 0;
   margin-bottom: 0;
   background-color: transparent!important;
@@ -7076,7 +7076,8 @@ h6 {
   content: ">" !important;
 }
 .jumbotron {
-  padding-top: 80px;
+  height: 100vh;
+  padding-top: 30vh;
   background: linear-gradient(to right, #B75D99, red);
   color: #fff;
   margin-bottom: 0;
@@ -7112,7 +7113,7 @@ h6 {
   width: 100%;
 }
 .navbar-brand {
-  font-family: "Merriweather", "Times New Roman", Times, serif;
+  font-family: "Libre Baskerville", "Times New Roman", Times, serif;
   font-style: italic;
   font-weight: 400;
 }
@@ -7128,6 +7129,9 @@ h6 {
 /* ESTILOS DE SECCIONES */
 .seccion {
   padding: 40px 0;
+}
+.anti-seccion {
+  margin-bottom: -41px;
 }
 .uno {
   background-color: #D03D64;
@@ -7214,7 +7218,7 @@ footer strong {
   color: #eeeeee;
 }
 .merri {
-  font-family: "Merriweather", "Times New Roman", Times, serif;
+  font-family: "Libre Baskerville", "Times New Roman", Times, serif;
   font-style: italic;
   text-transform: none;
   font-weight: 500;
@@ -7391,6 +7395,59 @@ li {
   padding: 0!important;
   color: #333 !important;
   background: none!important;
+}
+.seccion img {
+  max-width: 100%;
+}
+.avance-primary {
+  height: 150px;
+  display: inline-block;
+  width: 60%;
+}
+.porcentaje-avance {
+  display: block;
+  float: right;
+  border: solid 10px #D03D64;
+  border-radius: 100%;
+  width: 100px;
+  height: 100px;
+}
+.porcentaje-avance p {
+  font-size: 24px;
+  text-align: center;
+  padding-top: 19px;
+}
+.nivel {
+  background-color: #999999;
+  padding: 20px;
+}
+.nivel .miniatura {
+  background-color: #555555;
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  border-radius: 100%;
+}
+.nivel .text {
+  display: inline-block;
+  padding-left: 5%;
+  width: 70%;
+}
+.nivel .text h4 {
+  font-size: 14px;
+  line-height: 1.4;
+}
+.nivel .text p {
+  font-size: 13px;
+}
+.sidebar {
+  background-color: #FCFBFB;
+  padding: 30px;
+  margin-top: 30px;
+  border: 1px solid #D03D64;
+}
+.first {
+  padding-top: 100px;
 }
 /*LOGIN/REGISTRO*/
 .log-tabs {

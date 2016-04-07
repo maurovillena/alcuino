@@ -39,6 +39,8 @@ active: home
 
 <p>Por caja tipográfica, entendemos la serie de guías que rigen la forma de los caracteres, determinando la altura de sus diferentes segmentos, su interlínea e interletraje predeterminados.</p>
 
+<img src="{{ site.baseurl }}/img/0001.png"></img>
+
 <p>La tipografía, desde que aprendemos a relacionarnos con el mundo por medio de la palabra escrita, la tipografía está presente en casi todos los ámbitos de nuestra vida. Libros, anuncios, revistas, señaléticas, documentos, y hasta en los envoltorios de los productos que utilizamos día a día, por sólo nombrar algunos. Pero ¿alguna vez te has preguntado cuál es la estructura básica que conforma a cada uno de los caracteres tipográficos que leemos a cada instante?</p>
 
 <p>Bueno, cada uno de ellos, con serif, sin serif, itálicas, etc. tienen un elemento en común: La caja tipográfica.</p>
@@ -57,19 +59,27 @@ active: home
 
 <p>También es común, aunque no general, encontrar en familias con serif, que los caracteres numéricos, se extiendan una buena porción por debajo de la línea de base, con el objetivo de cambiar el ritmo de la lectura al encontrarse con números.</p>
 
+<img src="{{ site.baseurl }}/img/0002.png"></img>
+
 <h3 id="altasc">Altura ascendente</h3>
 
 <p>La altura ascendente, es la línea que marca hasta dónde llegan los caracteres altos de cada familia tipográfica.</p>
 
 <p>Es común ver en familias tipográficas con serif que caracteres bajos, con segmento ascendente, sobrepasen esta línea, para compensar el peso visual de los caracteres altos, que suelen ser también más anchos.</p>
 
+<img src="{{ site.baseurl }}/img/0003.png"></img>
+
 <h3 id="altx">Altura de x</h3>
 
 <p>La altura de “x” corresponde a la línea donde llegan todos los caracteres que no posean segmento ascendente.</p>
 
+<img src="{{ site.baseurl }}/img/0004.png"></img>
+
 <h3 id="altdesc">Altura descendente</h3>
 
 <p>Por último, la altura descendente, marca hasta dónde llegan los caracteres que se extienden por debajo de la línea de base.</p>
+
+<img src="{{ site.baseurl }}/img/0005.png"></img>
 
 <p>Si separamos de forma vertical los caracteres, podemos ver cómo se conforma la “caja tipográfica”, y cuáles son sus alturas: Ascendente, de x, y descendente.</p>
 

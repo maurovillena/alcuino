@@ -39,7 +39,7 @@ title: Alcuino - Curso online de tipografía
 	<div class="panel-body">
 
 		<ul>
-			<li><a class="desactivado">ORIGEN HISTÓRICO</a></li>
+			<li><a class="desactivado">DESARROLLO HISTÓRICO</a></li>
 			<li><a class="desactivado">CLASIFICACIONES TIPOGRÁFICAS</a></li>
 			<li><a class="desactivado">VARIACIONES DE LA TIPOGRAFÍA</a></li>
 		</ul>
