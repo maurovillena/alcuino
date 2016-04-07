@@ -3,7 +3,7 @@ safe: false
 source: .
 destination: _gh-pages
 lsi: false
-markdown: rdiscount
+markdown: kramdown
 baseurl: http://maurovillena.github.io/alcuino
 author: ['Herbert Spencer', 'Perico de los Palotes', 'Fulano de Tal']
 permalink: pretty
