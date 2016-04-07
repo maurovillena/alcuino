@@ -38,7 +38,7 @@ title: Inicio
 				</dl>
 			</div>
 			<div class="col-md-5">
-				<img class="anti-seccion pull-right" src="{{ site.baseurl }}img/alcuino-01.png">
+				<img class="anti-seccion pull-right" src="{{ site.baseurl }}/img/alcuino-01.png">
 			</div>
 			
 			
