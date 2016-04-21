@@ -18,6 +18,7 @@
 @brand-primary:         #B75D99;
 @brand-mix:             #D03D64;
 @brand-lighter:         fade(@brand-primary, 20%);
+@brand-lighter-solid:	#D59BAB;
 @brand-success:         #5cb85c;
 @brand-info:            #5bc0de;
 @brand-warning:         #f0ad4e;
@@ -47,12 +48,13 @@
 //## Font, line-height, and color for body text, headings, and more.
 
 @font-family-sans-serif:  "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+@font-family-title:  "Nixie One", "Helvetica Neue", Helvetica, Arial, sans-serif;
 @font-family-serif:       "Libre Baskerville", "Times New Roman", Times, serif;
 //** Default monospace fonts for `<code>`, `<kbd>`, and `<pre>`.
 @font-family-monospace:   Menlo, Monaco, Consolas, "Courier New", monospace;
 @font-family-base:        @font-family-serif;
 
-@font-size-base:          16px;
+@font-size-base:          15px;
 @font-size-large:         ceil((@font-size-base * 1.25)); // ~18px
 @font-size-small:         ceil((@font-size-base * 0.85)); // ~12px
 
@@ -148,8 +150,9 @@
 @btn-default-bg:                 #fff;
 @btn-default-border:             #ccc;
 
-@btn-primary-color:              #fff;
-@btn-primary-bg:                 @brand-mix;
+@btn-primary-color:              darken(@brand-mix, 5%);
+//@btn-primary-bg:                 darken(@brand-mix, 5%);
+@btn-primary-bg:                 @white;
 @btn-primary-border:             darken(@btn-primary-bg, 5%);
 
 @btn-success-color:              #fff;

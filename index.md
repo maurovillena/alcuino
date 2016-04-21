@@ -25,20 +25,44 @@ title: Inicio
 				<dl>
 					<div class="lsit-item">
 						<dt>Etapa 1</dt>
-							<dd>Elementos de la tipografía</dd>
+							<dd>Elementos de la tipografía
+							</dd>
+							<dd>
+								<ul>
+									<li>La caja tipográfica</li>
+									<li>Partes del caracter</li>
+								</ul>
+							</dd>
+
 					</div>
 					<div class="lsit-item">
 						<dt>Etapa 2</dt>
-							<dd>Origen y tradición tipográfica</dd>
+							<dd>Origen y tradición tipográfica
+							</dd>
+							<dd>
+								<ul>
+									<li>Origen Histórico</li>
+									<li>Clasificaciones formales</li>
+								</ul>
+							</dd>
 					</div>
 					<div class="lsit-item">
 						<dt>Etapa 3</dt>
 							<dd>Legibilidad y composición</dd>
+							<dd>
+								<ul>
+									<li>¿Qué es la Legibilidad?</li>
+									<li>Ajustes Tipográficos</li>
+									<li>Variaciones Tipográficas</li>
+									<li>Diagramación del espacio</li>
+									<li>Elección de una paleta tipográfica</li>
+								</ul>
+							</dd>
 					</div>
 				</dl>
 			</div>
 			<div class="col-md-5">
-				<img class="anti-seccion pull-right" src="{{ site.baseurl }}/img/alcuino-01.png">
+				
 			</div>
 			
 			
@@ -66,17 +90,55 @@ title: Inicio
 		<div class="row">
 
 		<div class="col-md-5 col-md-offset-1">
-			<img src="{{ site.baseurl }}/img/mac-01.png">
+
+			<h2>¿Qué es Alcuino?</h2>
+
+			<p><strong>Alcuino</strong> es un curso interactivo, que te permitirá desarrollar habilidades comunicativas en el ámbito tipográfico por medio de tutoriales, ejercicios y desafíos que pondrán a prueba tu aprendizaje.</p>
+
+			<a class="btn btn-primary center-block" href="{{ site.baseurl }}/pags/lecc-01/" role="link">¡Comenzar Ahora!</a>
+			
 		</div>
 
 		<div class="col-md-5">
-				<h2>¿Qué es Alcuino?</h2>
 
-				<p><strong>Alcuino</strong> es un curso interactivo, que te permitirá desarrollar habilidades comunicativas en el ámbito tipográfico por medio de tutoriales y ejercicios.</p>
-
-				<a class="btn btn-primary center-block" href="{{ site.baseurl }}/pags/lecc-01/" role="link">¡Comenzar Ahora!</a>
+			<img class="anti-seccion pull-right" src="{{ site.baseurl }}/img/alcuino-01.png">
+				
 		</div>
 
+		</div>
+	</div>
+</div>
+
+<div class="seccion dos" id="seccion-3">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-5 col-md-offset-1">
+				<h2>Ejercicios interactivos</h2>
+
+				<p>Aprende haciendo, por medio de juegos y ejercicios interactivos.</p>
+				<p>Descubre cuánto has aprendido en cada leccion, superando las pruebas al final de cada una.</p>
+				<p>Completa niveles y mejora tus habilidades de comunicación tipográfica</p>
+			</div>
+			<div class="col-md-5">
+				<img src="{{ site.baseurl }}/img/001.gif">	
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="seccion uno" id="seccion-4">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-5 col-md-offset-1">
+				<img src="{{ site.baseurl }}/img/002.gif">
+			</div>
+
+			<div class="col-md-5">
+				<h2>¡Más de x video lecciones!</h2>
+				<p>Sabemos que es más fácil aprender usando nuestros sentidos, por eso Alcuino también te enseña viendo y escuchando.</p>
+
+				<a class="btn btn-primary pull-right" href="{{ site.baseurl }}/pags/lecc-01/" role="link">¡Comenzar Ahora!</a>
+			</div>
 		</div>
 	</div>
 </div>

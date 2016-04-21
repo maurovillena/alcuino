@@ -6,7 +6,7 @@
 }
 
 .video, canvas{
-	margin: 40px 0;
+//	margin: 40px 0;
 	border-radius: @border-radius-base;
 }
 
@@ -46,11 +46,12 @@ p{
 }
 
 h1{
-	font-weight: 800;
+	font-weight: 300;
+	padding-bottom: 50px;
 }
 
 h2,h3{
-	font-family: @font-family-serif;
+//	font-family: @font-family-serif;
 	letter-spacing: 0.03em;
 }
 
@@ -86,7 +87,7 @@ h4,h5,h6{
 	li{
 		font-family: @font-family-sans-serif;
 		text-transform: uppercase;
-		font-size: @font-size-base * 0.8;
+		font-size: @font-size-base * 0.9;
 		font-weight: 100;
 		letter-spacing: 0.1em;
 	}
@@ -122,7 +123,8 @@ h4,h5,h6{
 	text-align: center;
 	letter-spacing: 0.03ex;
 	text-shadow: 2px 2px 10px rgba(0,0,0,0.3);
-}
+	}
+
 
 }
 
@@ -156,7 +158,6 @@ h4,h5,h6{
 
 .navbar-brand{
 	font-family: @font-family-serif;
-	font-style: italic;
 	font-weight: 400;
 }
 
@@ -181,6 +182,7 @@ h4,h5,h6{
 
 .anti-seccion{
 	margin-bottom: -41px;
+	line-height: 0;
 }
 
 .uno{
@@ -193,7 +195,9 @@ h4,h5,h6{
 }
 
 .dos{
-	background: @white;
+//	background-image: url(http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/cream_dust.png);
+background-image: url(http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/shattered.png);
+//	background: @white;
 	color: @type-black;
 	h1,h2,h3,h4,h5,h6{
 		color: @type-black;
@@ -221,10 +225,11 @@ h4,h5,h6{
 
 //Soluciona conflicto de enlaces con botones
 .btn{
-	color: @white!important;
+	color: @brand-mix!important;
 	text-shadow:none!important;
-	padding:15px 12px!important;
-	border:1px solid transparent!important;
+	padding:10px 12px!important;
+	border:2px solid @brand-mix!important;
+	font-family: @font-family-sans-serif;
 }
 
 // SOLUCIONA EL PROBLEMA DEL HEADER SUPERPUESTO
@@ -261,6 +266,7 @@ footer{
 		list-style: none;
 		padding: 0;
 	}
+
 
 	h2{
 		font-family: @font-family-sans-serif;
@@ -301,6 +307,11 @@ dt{
 
 dd{
 	font-weight: 400;
+	ul{
+		padding-left: 120px;
+		list-style: none;
+		font-style: italic;
+	}
 }
 
 dt,dd{
@@ -320,7 +331,6 @@ li{
 	border: none;
 	border-radius: 0;
 }
-
 
 
 .nav{
@@ -469,6 +479,7 @@ li{
   }
 
  .desactivado{
+ 	background-color: @gray-lighter!important;
  	color:@gray-light!important;
  	pointer-events: none;
    	cursor: default!important;
@@ -507,7 +518,7 @@ li{
 // TODO LO NUEVO
 
 .avance-primary{
-	height: 150px;
+	height: 110px;
 	display: inline-block;
 	width: 60%;
 }
@@ -528,8 +539,30 @@ li{
 }
 
 .nivel{
-	background-color: @gray-light;
+	background-color: @white;
+	color: @type-black;
 	padding: 20px;
+	border: 1px solid @brand-mix;
+	border-radius: @border-radius-base;
+	box-shadow: fade(@brand-mix, 40%) 7px 7px 0px;
+	margin-bottom: 15px;
+
+	h4{
+		color: @type-black;
+	}
+
+	a{
+		color: @type-black;
+		text-decoration: none;
+	}
+
+	a:hover{
+		text-decoration: none;
+	}
+
+	&:hover{
+		background-color: @brand-lighter;
+	}
 
 	.miniatura{
 		background-color: @gray;
@@ -537,12 +570,15 @@ li{
 		height: 60px;
 		width: 60px;
 		border-radius: 100%;
+		top:0;
+		&:hover{
+			text-decoration: none!important;
+		}
 	}
 
 	.text{
 		display: inline-block;
-		padding-left: 5%;
-		width: 70%;
+		padding: 0 5%;
 
 		h4{
 			font-size: 14px;
@@ -560,8 +596,24 @@ li{
 	padding: 30px;
 	margin-top: 30px;
 	border: 1px solid @brand-mix;
+	border-radius: @border-radius-base;
+	box-shadow: fade(@brand-mix, 40%) 7px 7px 0px;
+	
+	ul li{
+		font-family: @font-family-sans-serif;
+	}
 }
 
 .first{
 	padding-top: 100px;
+}
+
+.extracto{
+	font-style: italic;
+	font-size: @font-size-large;
+	text-align: center;
+}
+
+.activo{
+	font-weight: 600;
 }
