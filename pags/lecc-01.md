@@ -5,6 +5,7 @@ etapa: Las partes del caracter tipográfico
 anterior: avance
 siguiente: lecc-02
 active: introduccion
+percent: 14
 ---
 
 #Introducción#

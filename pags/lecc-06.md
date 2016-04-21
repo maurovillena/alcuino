@@ -8,3 +8,11 @@ active: rebarba
 ---
 
 #Rebarba#
+
+<div class="col-md-5 extracto">
+
+</div>
+
+<div class="col-md-7">
+	Proviene de los antiguos tipos móviles fundidos en metal, donde el relieve imprimible correspondía al caracter, y la rebarba, que quedaba bajo relieve, y por lo tanto no se imprimía, definía la interlínea e interletraje estándar de la tipografía.
+</div>

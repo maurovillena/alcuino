@@ -2,7 +2,7 @@ var clicks;
 var message;
 var score;
 var lines;
-var results = new Array(210, 111, 73, 255);
+var results = new Array(210, 144, 121, 238);
 
 function setup() {
   var canvas = createCanvas(600, 300);
@@ -42,7 +42,7 @@ function draw() {
       message = "Ubica la línea de altura descendente";
       break;
     case 4:
-      if (score < 3) {
+      if (score < 5) {
         message = "¡Felicidades, lo has conseguido!";
         //background(183, 93, 153);
         background(145, 168, 208, 100);
@@ -69,7 +69,7 @@ function draw() {
   textSize(16);
   text(message, 10, 25);
 
-  textSize(180);
+  textSize(120);
   text("Aohg", width * .1, height * .7);
 
   stroke(268, 61, 100);

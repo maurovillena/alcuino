@@ -5,6 +5,7 @@ etapa: Las partes del caracter tipográfico
 anterior: lecc-01
 siguiente: lecc-03
 active: linea de base
+percent: 28
 ---
 
 
