@@ -7,7 +7,8 @@ siguiente: lecc-06
 active: altura descendente
 ---
 
-#Altura descendente#
+Altura descendente
+============
 
 <div class="col-md-5 extracto">
 	
@@ -18,5 +19,5 @@ active: altura descendente
 	Por último, la altura descendente, marca hasta dónde llegan los caracteres que se extienden por debajo de la línea de base.
 
 	<img src="{{ site.baseurl }}/img/0005.png">
-	
+
 </div>

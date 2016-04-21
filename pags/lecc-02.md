@@ -9,7 +9,8 @@ percent: 28
 ---
 
 
-#Línea de base#
+Línea de base
+============
 
 <div class="col-md-5 extracto">
 	Se conoce como línea de base, a la línea imaginaria donde se posan los caracteres que no tienen segmento descendente.

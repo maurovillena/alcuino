@@ -8,7 +8,8 @@ active: introduccion
 percent: 14
 ---
 
-#Introducción#
+Introducción
+============
 
 <div class="col-md-5 extracto">
 	¿Qué es la caja tipográfica?

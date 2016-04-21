@@ -8,7 +8,8 @@ active: altura ascendente
 ---
 
 
-#Altura ascendente#
+Altura ascendente
+============
 
 <div class="col-md-5 extracto">
 	La altura ascendente, es la línea que marca hasta dónde llegan los caracteres altos de cada familia tipográfica.

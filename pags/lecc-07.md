@@ -7,7 +7,8 @@ siguiente: lecc-08
 active: cuerpo
 ---
 
-#Cuerpo#
+Cuerpo
+============
 
 <div class="col-md-5 extracto">
 	Es el espacio blanco de esta caja, al exterior del caracter

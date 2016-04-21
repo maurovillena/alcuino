@@ -7,7 +7,8 @@ siguiente: lecc-05
 active: altura de x
 ---
 
-#Altura de x#
+Altura de x
+============
 
 <div class="col-md-5 extracto">
 

@@ -7,7 +7,8 @@ siguiente: lecc-09
 active: prueba-01
 ---
 
-#Prueba#
+Prueba
+============
 
 <div class="col-md-5 extracto">
 	Pon a prueba lo aprendido completando este ejercicio

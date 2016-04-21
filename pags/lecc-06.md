@@ -7,7 +7,8 @@ siguiente: lecc-07
 active: rebarba
 ---
 
-#Rebarba#
+Rebarba
+============
 
 <div class="col-md-5 extracto">
 
