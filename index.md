@@ -11,7 +11,7 @@ title: Inicio
 			<h1>Fundamentos<span class="merri">de la comunicación visual</span>Tipográfica</h1>
 
 			<div class="col-md-2 col-md-offset-5">
-			<a class="btn btn-primary center-block" href="{{ site.baseurl }}/pags/lecc-01/">¡Aprende Ahora!</a>
+			<a class="btn btn-primary center-block" href="{{ site.baseurl }}/pags/introduccion/">¡Aprende Ahora!</a>
 			</div>
 
 		</div>
@@ -20,10 +20,53 @@ title: Inicio
 <div class="seccion dos" id="seccion-1">
 	<div class="container">
 		<div class="row">
+
+		<div class="col-md-10 col-md-offset-1">
+
+		<h1>¿Qué aprenderás?</h1>
+
+		<div class="col-md-4">
+			<div class="sidebar">
+				<h2>Etapa 1</h2>
+				<h3>Elementos de la tipografía</h3>
+				<ul>
+					<li>La caja tipográfica</li>
+					<li>Las partes del caracter</li>
+				</ul>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="sidebar">
+				<h2>Etapa 2</h2>
+				<h3>Origen y tradición tipográfica</h3>
+				<ul>
+					<li>Origen histórico</li>
+					<li>Clasificaciones formales</li>
+				</ul>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="sidebar">
+				<h2>Etapa 3</h2>
+				<h3>Legibilidad y composición</h3>
+				<ul>
+					<li>¿Que es legibilidad?</li>
+					<li>Ajustes tipográficos</li>
+					<li>Variaciones tipográficas</li>
+					<li>Diagramación</li>
+					<li>Elección de una paleta tipográfica</li>
+				</ul>
+			</div>
+		</div>
+
+		</div>
+
+		<!--
+
 			<div class="col-md-5 col-md-offset-1">
-				<h2>¿Qué aprenderás?</h2>
+				<h1>¿Qué aprenderás?</h1>
 				<dl>
-					<div class="lsit-item">
+					<div class="list-item">
 						<dt>Etapa 1</dt>
 							<dd>Elementos de la tipografía
 							</dd>
@@ -35,7 +78,7 @@ title: Inicio
 							</dd>
 
 					</div>
-					<div class="lsit-item">
+					<div class="list-item">
 						<dt>Etapa 2</dt>
 							<dd>Origen y tradición tipográfica
 							</dd>
@@ -46,7 +89,7 @@ title: Inicio
 								</ul>
 							</dd>
 					</div>
-					<div class="lsit-item">
+					<div class="list-item">
 						<dt>Etapa 3</dt>
 							<dd>Legibilidad y composición</dd>
 							<dd>
@@ -63,7 +106,7 @@ title: Inicio
 			</div>
 			<div class="col-md-5">
 				
-			</div>
+			</div> -->
 			
 			
 			<!--
@@ -91,11 +134,11 @@ title: Inicio
 
 		<div class="col-md-5 col-md-offset-1">
 
-			<h2>¿Qué es Alcuino?</h2>
+			<h1>¿Qué es Alcuino?</h1>
 
 			<p><strong>Alcuino</strong> es un curso interactivo, que te permitirá desarrollar habilidades comunicativas en el ámbito tipográfico por medio de tutoriales, ejercicios y desafíos que pondrán a prueba tu aprendizaje.</p>
 
-			<a class="btn btn-primary center-block" href="{{ site.baseurl }}/pags/lecc-01/" role="link">¡Comenzar Ahora!</a>
+			<a class="btn btn-primary center-block" href="{{ site.baseurl }}/pags/introduccion/" role="link">¡Comenzar Ahora!</a>
 			
 		</div>
 
@@ -113,7 +156,7 @@ title: Inicio
 	<div class="container">
 		<div class="row">
 			<div class="col-md-5 col-md-offset-1">
-				<h2>Ejercicios interactivos</h2>
+				<h1>Ejercicios interactivos</h1>
 
 				<p>Aprende haciendo, por medio de juegos y ejercicios interactivos.</p>
 				<p>Descubre cuánto has aprendido en cada leccion, superando las pruebas al final de cada una.</p>
@@ -134,10 +177,10 @@ title: Inicio
 			</div>
 
 			<div class="col-md-5">
-				<h2>¡Más de x video lecciones!</h2>
+				<h1>¡Más de x video lecciones!</h1>
 				<p>Sabemos que es más fácil aprender usando nuestros sentidos, por eso Alcuino también te enseña viendo y escuchando.</p>
 
-				<a class="btn btn-primary pull-right" href="{{ site.baseurl }}/pags/lecc-01/" role="link">¡Comenzar Ahora!</a>
+				<a class="btn btn-primary pull-right" href="{{ site.baseurl }}/pags/instroduccion/" role="link">¡Comenzar Ahora!</a>
 			</div>
 		</div>
 	</div>

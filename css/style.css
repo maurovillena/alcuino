@@ -6403,10 +6403,8 @@ fieldset[disabled] .btn-primary.active {
   background-color: #c42f57;
 }
 .btn-primary:hover {
-  background-color: #D59BAB;
-}
-.uno .btn-primary:hover {
-  background-color: #eeeeee;
+  color: #FCFBFB !important;
+  background-color: #D03D64;
 }
 .btn-success {
   color: #fff;
@@ -7000,12 +6998,12 @@ canvas {
 }
 @media (max-width: 1199px) {
   .video {
-    height: 335px!important;
+    height: 227px!important;
   }
 }
 @media (max-width: 991px) {
   .video {
-    height: 388px!important;
+    height: 227px!important;
   }
 }
 @media (max-width: 557px) {
@@ -7020,7 +7018,7 @@ canvas {
 }
 @media (min-width: 1200px) {
   .video {
-    height: 410px!important;
+    height: 227px!important;
   }
 }
 p {
@@ -7084,7 +7082,9 @@ h6 {
 .jumbotron {
   height: 100vh;
   padding-top: 30vh;
-  background: linear-gradient(to right, #B75D99, red);
+  background-image: url(../img/jumbotron.jpg);
+  background-position: center;
+  background-size: 100%;
   color: #fff;
   margin-bottom: 0;
   overflow: hidden;
@@ -7118,9 +7118,18 @@ h6 {
   position: fixed;
   width: 100%;
 }
+.navbar .container {
+  padding-top: 8px;
+}
 .navbar-brand {
   font-family: "Libre Baskerville", "Times New Roman", Times, serif;
   font-weight: 400;
+  color: #555555;
+  padding: 7.5px 15px;
+}
+.navbar-brand img {
+  height: 30px;
+  padding-bottom: 3px;
 }
 .navbar-inverse {
   background-color: #333333;
@@ -7450,7 +7459,7 @@ li {
   text-decoration: none;
 }
 .nivel:hover {
-  background-color: rgba(183, 93, 153, 0.2);
+  background-color: #D59BAB;
 }
 .nivel .miniatura {
   background-color: #555555;
@@ -7475,7 +7484,7 @@ li {
   font-size: 13px;
 }
 .sidebar {
-  background-color: #FCFBFB;
+  background-color: #eeeeee;
   padding: 30px;
   margin-top: 30px;
   border: 1px solid #D03D64;
@@ -7485,16 +7494,27 @@ li {
 .sidebar ul li {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+.lec ul {
+  padding-left: 0;
+}
+.lec ul li {
+  list-style: none;
+}
+.lec ul .fa {
+  padding-right: 15px;
+}
 .first {
   padding-top: 100px;
 }
 .extracto {
   font-style: italic;
   font-size: 19px;
-  text-align: center;
 }
 .activo {
   font-weight: 600;
+}
+.minimargin {
+  margin-top: 40px;
 }
 /*LOGIN/REGISTRO*/
 .log-tabs {

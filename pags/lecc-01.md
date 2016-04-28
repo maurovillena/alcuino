@@ -8,19 +8,18 @@ active: introduccion
 percent: 14
 ---
 
-Introducción
+La caja tipográfica
 ============
 
 <div class="col-md-5 extracto">
 	¿Qué es la caja tipográfica?
+
+	Por caja tipográfica, entendemos la serie de guías que rigen la forma de los caracteres, determinando la altura de sus diferentes segmentos, su interlínea e interletraje predeterminados.
 </div>
 
 <div class="col-md-7">
-	Por caja tipográfica, entendemos la serie de guías que rigen la forma de los caracteres, determinando la altura de sus diferentes segmentos, su interlínea e interletraje predeterminados.
+	
 
-	<img src="{{ site.baseurl }}/img/0001.png">
+	<iframe class="video" width="100%" height="315" src="https://www.youtube.com/embed/gRjS1d3kSis" frameborder="0" allowfullscreen></iframe>
+
 </div>
-
-<!--
-<iframe class="video" width="100%" height="315" src="https://www.youtube.com/embed/gRjS1d3kSis" frameborder="0" allowfullscreen></iframe> 
--->
