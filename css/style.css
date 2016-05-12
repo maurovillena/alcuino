@@ -7084,6 +7084,13 @@ h6 {
 .jumbotron {
   height: 100vh;
   padding-top: 30vh;
+  background: -webkit-radial-gradient(#2599bf, #1E7E9D);
+  /* Safari 5.1 to 6.0 */
+  background: -o-radial-gradient(#2599bf, #1E7E9D);
+  /* For Opera 11.6 to 12.0 */
+  background: -moz-radial-gradient(#2599bf, #1E7E9D);
+  /* For Firefox 3.6 to 15 */
+  background: radial-gradient(#2599bf, #1E7E9D);
   background-color: #1E7E9D;
   background-position: center;
   background-size: 100%;
