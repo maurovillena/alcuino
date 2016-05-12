@@ -15,15 +15,19 @@
 @white:                  #FCFBFB;
 
 //@brand-primary:         #996B8F;
-@brand-primary:         #B75D99;
-@brand-mix:             #D03D64;
-@brand-lighter:         fade(@brand-primary, 10%);
+//@brand-primary:         #B75D99;
+//@brand-primary:         #D03D64;
+@brand-primary:			#1E7E9D;
+//@brand-mix:             #D03D64;
+@brand-light:			lighten(@brand-primary, 8%);
+@brand-lighter:         lighten(@brand-primary, 30%);
 @brand-lighter-solid:	#D59BAB;
+//@brand-dark				
 @brand-success:         #5cb85c;
 @brand-info:            #5bc0de;
 @brand-warning:         #f0ad4e;
 @brand-danger:          #d9534f;
-@brand-disabled:        fade(@brand-mix, 60%);
+@brand-disabled:        fade(@brand-primary, 60%);
 @type-black:             #333;
 //Background gradients
 @gradient-primary:      linear-gradient(to right, @brand-primary, red);
@@ -38,7 +42,7 @@
 @text-color:            @type-black;
 
 //** Global textual link color.
-@link-color:            @brand-mix;
+@link-color:            @brand-primary;
 //** Link hover color set via `darken()` function.
 @link-hover-color:      darken(@link-color, 15%);
 
@@ -58,8 +62,8 @@
 @font-size-large:         ceil((@font-size-base * 1.25)); // ~18px
 @font-size-small:         ceil((@font-size-base * 0.85)); // ~12px
 
-@font-size-h1:            floor((@font-size-base * 2.6)); // ~36px
-@font-size-h2:            floor((@font-size-base * 1.5)); // ~16px
+@font-size-h1:            floor((@font-size-base * 1.9)); // ~28px
+@font-size-h2:            floor((@font-size-base * 1.5)); // ~22px
 @font-size-h3:            ceil((@font-size-base * 1.3)); // ~24px
 @font-size-h4:            ceil((@font-size-base * 1.1)); // ~18px
 @font-size-h5:            @font-size-base;
@@ -148,12 +152,13 @@
 
 @btn-default-color:              #333;
 @btn-default-bg:                 #fff;
-@btn-default-border:             #ccc;
+//@btn-default-border:             #ccc;
+@btn-default-border:             @brand-primary;
 
-@btn-primary-color:              darken(@brand-mix, 5%);
+@btn-primary-color:              @white;
 //@btn-primary-bg:                 darken(@brand-mix, 5%);
-@btn-primary-bg:                 @white;
-@btn-primary-border:             darken(@btn-primary-bg, 5%);
+@btn-primary-bg:                 @brand-primary;
+@btn-primary-border:             @brand-lighter;
 
 @btn-success-color:              #fff;
 @btn-success-bg:                 @brand-success;
@@ -188,9 +193,9 @@
 //** `<input>` border color
 @input-border:                   #ccc;
 //** `<input>` border radius
-@input-border-radius:            @border-radius-base;
+@input-border-radius:            @border-radius-large;
 //** Border color for inputs on focus
-@input-border-focus:             #66afe9;
+@input-border-focus:             @brand-primary;
 
 //** Placeholder text color
 @input-color-placeholder:        @gray-light;
@@ -684,8 +689,8 @@
 @panel-default-heading-bg:    #f5f5f5;
 
 @panel-primary-text:          #fff;
-@panel-primary-border:        @brand-mix;
-@panel-primary-heading-bg:    @brand-mix;
+@panel-primary-border:        @brand-primary;
+@panel-primary-heading-bg:    @brand-primary;
 
 @panel-success-text:          @state-success-text;
 @panel-success-border:        @state-success-border;

@@ -1,21 +1,19 @@
 ---
 layout: content-01
 title: La caja tipográfica
-etapa: Las partes del caracter tipográfico
+etapa: Etapa 1 - Elementos de la Tipografía
+leccion: La caja tipográfica
+numetapa: etapa1
 anterior: lecc-02
 siguiente: lecc-04
-active: altura ascendente
+active: Altura ascendente
 ---
 
-
-Altura ascendente
-============
-
-<div class="col-md-5 extracto">
+<div class="col-md-4 extracto">
 	La altura ascendente, es la línea que marca hasta dónde llegan los caracteres altos de cada familia tipográfica.
 </div>
 
-<div class="col-md-7">
+<div class="col-md-8">
 	Es común ver en familias tipográficas con serif que caracteres bajos, con segmento ascendente, sobrepasen esta línea, para compensar el peso visual de los caracteres altos, que suelen ser también más anchos.
 
 	<img src="{{ site.baseurl }}/img/0003.png">

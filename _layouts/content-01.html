@@ -9,11 +9,17 @@
 					<div class="col-md-12">
 						<ol class="breadcrumb">
 							<li><a href="{{ site.baseurl }}/pags/indice">Índice</a></li>
-							<li>{{ page.etapa }}</li>
+							<li><a href="{{ site.baseurl }}/pags/{{ page.numetapa }}">{{ page.etapa }}</a></li>
+							<li>{{ page.leccion }}</li>
 						</ol>
 					</div>
 				</div>
 
+				<div class="row">
+					<div class="col-md-12 content">
+						<h1>{{ page.active }}</h1>
+					</div>
+				</div>
 				<div class="row">
 					<div class="col-md-8">
 						{{ content }}

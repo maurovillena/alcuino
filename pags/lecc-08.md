@@ -1,20 +1,19 @@
 ---
 layout: content-01
 title: La caja tipográfica
-etapa: Las partes del caracter tipográfico
+etapa: Etapa 1 - Elementos de la Tipografía
+numetapa: etapa1
+leccion: La caja tipográfica
 anterior: lecc-07
-siguiente: lecc-09
-active: prueba-01
+siguiente: etapa1-complete
+active: Prueba
 ---
 
-Prueba
-============
-
-<div class="col-md-5 extracto">
+<div class="col-md-4 extracto">
 	Pon a prueba lo aprendido completando este ejercicio
 </div>
 
-<div class="col-md-7">
+<div class="col-md-8">
 
 	<div style="display:block;" id="inter001">
 	<script language="javascript" type="text/javascript" src="{{ site.baseurl }}/interacciones/001/sketch.js"></script>

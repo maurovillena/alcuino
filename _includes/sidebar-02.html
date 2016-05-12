@@ -1,0 +1,71 @@
+<div class="panel lec">
+
+<h4>{{ page.title }}</h4>
+	
+	<ul>
+		<li>
+			{% if page.active == 'Introducción' %}
+				<a class="activo" href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i>Introducción</a>
+			{% else %}
+				<a href="{{ site.baseurl }}/pags/lecc-09"><i class="fa fa-youtube-play" aria-hidden="true"></i>Introducción</a>
+			{% endif %}
+		</li>
+		<li>
+			{% if page.active == 'Trazo estructural' %}
+				<a class="activo" href="#"><i class="fa fa-align-left" aria-hidden="true"></i>Trazo estructural</a>
+			{% else %}
+				<a href="{{ site.baseurl }}/pags/lecc-10"><i class="fa fa-align-left" aria-hidden="true"></i>Trazo estructural</a>
+			{% endif %}
+		</li>
+		<li>
+			{% if page.active == 'Astas' %}
+				<a class="activo" href="#"><i class="fa fa-align-left" aria-hidden="true"></i>Astas</a>
+			{% else %}
+				<a href="{{ site.baseurl }}/pags/lecc-11"><i class="fa fa-align-left" aria-hidden="true"></i>Astas</a>
+			{% endif %}
+		</li>
+		<li>
+			{% if page.active == 'Trazos de forma' %}
+				<a class="activo" href="#"><i class="fa fa-align-left" aria-hidden="true"></i>Trazos de forma</a>
+			{% else %}
+				<a href="{{ site.baseurl }}/pags/lecc-12"><i class="fa fa-align-left" aria-hidden="true"></i>Trazos de forma</a>
+			{% endif %}
+		</li>
+		<li>
+			{% if page.active == 'Contraforma' %}
+				<a class="activo" href="#"><i class="fa fa-align-left" aria-hidden="true"></i>Contraforma</a>
+			{% else %}
+				<a href="{{ site.baseurl }}/pags/lecc-13"><i class="fa fa-align-left" aria-hidden="true"></i>Contraforma</a>
+			{% endif %}
+		</li>
+		<li>
+			{% if page.active == 'Terminaciones' %}
+				<a class="activo" href="#"><i class="fa fa-align-left" aria-hidden="true"></i>Terminaciones</a>
+			{% else %}
+				<a href="{{ site.baseurl }}/pags/lecc-14"><i class="fa fa-align-left" aria-hidden="true"></i>Terminaciones</a>
+			{% endif %}
+		</li>
+		<li>
+			{% if page.active == 'Prueba' %}
+				<a class="activo" href="#"><i class="fa fa-cubes" aria-hidden="true"></i>Prueba</a>
+			{% else %}
+				<a href="{{ site.baseurl }}/pags/lecc-08"><i class="fa fa-cubes" aria-hidden="true"></i>Prueba</a>
+			{% endif %}
+		</li>
+	</ul>
+
+<h4>Completado:</h4>
+
+
+<div class="progress">
+  <div class="progress-bar" role="progressbar" aria-valuenow="1/6"
+  aria-valuemin="0" aria-valuemax="100" style="width: {{ page.percent }}">
+    <span class="sr-only">1/6</span>
+  </div>
+</div>
+
+	<div>
+		<a class="btn btn-primary pull-left" href="{{ site.baseurl }}/pags/{{ page.anterior }}">Anterior</a>
+		<a class="btn btn-primary pull-right" href="{{ site.baseurl }}/pags/{{ page.siguiente }}">Siguiente</a>
+	</div>
+</div>

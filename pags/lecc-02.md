@@ -1,22 +1,20 @@
 ---
 layout: content-01
 title: La caja tipográfica
-etapa: Las partes del caracter tipográfico
+etapa: Etapa 1 - Elementos de la Tipografía
+leccion: La caja tipográfica
+numetapa: etapa1
 anterior: lecc-01
 siguiente: lecc-03
-active: linea de base
+active: Línea de base
 percent: 28
 ---
 
-
-Línea de base
-============
-
-<div class="col-md-5 extracto">
+<div class="col-md-4 extracto">
 	Se conoce como línea de base, a la línea imaginaria donde se posan los caracteres que no tienen segmento descendente.
 </div>
 
-<div class="col-md-7">
+<div class="col-md-8">
 	Generalmente, los caracteres redondeados, al posarse sobre la línea de base, suelen dejar un pequeño excedente por debajo de esta, con la finalidad de calibrar visualmente su altura, ya que al no tener un "piso sólido" sobre el cual posarse, causan la ilusión de estar más arriba, en relación a los demás caracteres.
 	También es común, aunque no general, encontrar en familias con serif, que los caracteres numéricos, se extiendan una buena porción por debajo de la línea de base, con el objetivo de cambiar el ritmo de la lectura al encontrarse con números.
 

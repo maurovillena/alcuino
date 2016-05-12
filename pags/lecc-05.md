@@ -1,20 +1,19 @@
 ---
 layout: content-01
 title: La caja tipográfica
-etapa: Las partes del caracter tipográfico
+etapa: Etapa 1 - Elementos de la Tipografía
+numetapa: etapa1
+leccion: La caja tipográfica
 anterior: lecc-04
 siguiente: lecc-06
-active: altura descendente
+active: Altura descendente
 ---
 
-Altura descendente
-============
-
-<div class="col-md-5 extracto">
+<div class="col-md-4 extracto">
 	
 </div>
 
-<div class="col-md-7">
+<div class="col-md-8">
 	
 	Por último, la altura descendente, marca hasta dónde llegan los caracteres que se extienden por debajo de la línea de base.
 
