@@ -227,8 +227,11 @@ h4,h5,h6{
 
 .dos{
 //	background-image: url(http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/cream_dust.png);
-	background-color: @gray-lighter;
-	background-image: url(http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/shattered.png);
+	background: radial-gradient(#fff, #e5e5e5);
+	background: -webkit-radial-gradient(#fff, #e5e5e5); /* Safari 5.1 to 6.0 */
+	background: -o-radial-gradient(#fff, #e5e5e5); /* For Opera 11.6 to 12.0 */
+	background: -moz-radial-gradient(#fff, #e5e5e5); /* For Firefox 3.6 to 15 */
+//	background-image: url(http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/shattered.png);
 //	background: @white;
 	color: @type-black;
 	h1,h2,h3,h4,h5,h6{
@@ -548,6 +551,7 @@ li{
 
 .seccion img{
 	max-width: 100%;
+	max-width: 400px;
 }
 
 // TODO LO NUEVO
@@ -573,6 +577,10 @@ li{
 	}
 }
 
+.nivel:hover > img{
+	transform: scale(1.1);
+}
+
 .nivel{
 	background-color: @white;
 	color: @type-black;
@@ -581,6 +589,7 @@ li{
 	border-radius: @border-radius-base;
 	box-shadow: fade(@brand-primary, 40%) 7px 7px 0px;
 	margin-bottom: 15px;
+	height: 270px;
 
 	p{
 		text-align: left;
@@ -649,7 +658,7 @@ li{
 }
 
 .panel{
-	background-color: @gray-lighter;
+	background-color: #fefefes;
 	padding: 30px;
 //	margin-top: 30px;
 	border: 1px solid @brand-primary;
@@ -687,6 +696,16 @@ li{
 	font-style: italic;
 	font-size: (@font-size-base + 2);
 //	text-align: center;
+	img{
+		max-width: 100%;
+	}
+}
+
+.footnote{
+	font-style: italic;
+	text-align: center;
+	font-size: (@font-size-base - 2);
+	line-height: (@line-height-base - 4);
 }
 
 .activo{

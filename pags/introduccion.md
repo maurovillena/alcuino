@@ -23,7 +23,7 @@ title: Introducción
 		</div>
 
 		<div class="col-md-4">
-			<img class="pull-right" src="{{ site.baseurl }}/img/alcuino-03.png">
+			<img style="max-height: 440px;" class="pull-right" src="{{ site.baseurl }}/img/alcuino-mod-05.svg">
 		</div>
 
 

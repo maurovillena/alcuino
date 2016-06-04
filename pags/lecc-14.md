@@ -34,6 +34,7 @@ active: Terminaciones
 		<img src="{{ site.baseurl }}/img/trazo-estructural-13.png">
 	<h2>Ligaduras</h2>
 		<p>Las ligaduras son caracteres especiales que reemplazan a dos o más caracteres en secuencia, para facilitar la fluidez de la lectura.</p>
+		<p>Su origen es tan antiguo como la tipografía en si, Gutenberg las utilizó en su biblia de 42 líneas, con la finalidad de ser fiel a la escritura manual de esa época.</p>
 		<img src="{{ site.baseurl }}/img/trazo-estructural-14.png">
 
 </div>

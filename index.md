@@ -52,7 +52,7 @@ title: Inicio
 				<div class="numero-leccion">3</div>
 					<h3>Legibilidad y Lecturabilidad</h3>
 					<ul>
-						<li>¿Que es legibilidad?</li>
+						<li>¿Qué es legibilidad?</li>
 						<li>Variaciones de la tipografía</li>
 					</ul>
 				</div>
@@ -145,17 +145,19 @@ title: Inicio
 
 		<div class="col-md-5 col-md-offset-1">
 
-			<h1>¿Qué es Alcuino?</h1>
+			<img style="max-height: 360px;" src="{{ site.baseurl }}/img/alcuino-mod-07.png">
 
-			<p><strong>Alcuino</strong> es un curso interactivo, que te permitirá desarrollar habilidades comunicativas en el ámbito tipográfico por medio de tutoriales, ejercicios y desafíos que pondrán a prueba tu aprendizaje.</p>
-
-			<a class="btn btn-primary text-center" href="{{ site.baseurl }}/pags/indice/" role="link">Ver los contenidos ahora</a>
+			
 			
 		</div>
 
 		<div class="col-md-5">
 
-			<img class="anti-seccion pull-right" src="{{ site.baseurl }}/img/alcuino-01.png">
+			<h1>¿Qué es Alcuino?</h1>
+
+			<p><strong>Alcuino</strong> es un curso interactivo, que te permitirá desarrollar habilidades comunicativas en el ámbito tipográfico por medio de tutoriales, ejercicios y desafíos que pondrán a prueba tu aprendizaje.</p>
+
+			<a class="btn btn-primary text-center" href="{{ site.baseurl }}/pags/indice/" role="link">Ver los contenidos ahora</a>
 				
 		</div>
 
@@ -212,7 +214,7 @@ title: Inicio
 			</div>
 
 			<div class="col-md-5">
-				<img class="pull-right anti-seccion" src="{{ site.baseurl }}/img/alcuino-04.png">
+				<img style="max-height: 400px;" class="pull-right anti-seccion" src="{{ site.baseurl }}/img/alcuino-mod-05.svg">
 			</div>
 		</div>
 	</div>

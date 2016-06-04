@@ -6,7 +6,7 @@ numetapa: etapa1
 leccion: Partes del caracter tipográfico
 anterior: lecc-11
 siguiente: lecc-13
-active: Trazos de forma
+active: Forma y contraforma
 ---
 
 <div class="col-md-4 extracto">
@@ -27,5 +27,12 @@ active: Trazos de forma
 	<h2>Cruz</h2>
 		<p>Un trazo horizontal que cruza de forma perpendicular al asta principal.</p>
 		<img src="{{ site.baseurl }}/img/trazo-estructural-08.png">
+
+	<h2>Contraforma</h2>
+
+		<p>Es el espacio interno de una letra, parcial o totalmente encerrado.</p>
+		<p>La importancia de la contraforma radica en su ralción con la forma de la letra, y cómo los ajustes que modelan este espacio blanco entre caracteres es directamente responsable de la legibilidad de un texto. Esto ocurre por motivos fisiológicos; el ojo humano es incapaz de ver el negro –ausencia de luz– de la tipografía, sin ponerlo en contraste con una contraforma blanca o de color. Por lo tanto, lo que nuestro ojo reconoce al leer, no es la forma, si no la contraforma fr la tipografía.</p>
+
+		<img src="{{ site.baseurl }}/img/trazo-estructural-15.png">
 
 </div>
