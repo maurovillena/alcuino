@@ -7,9 +7,9 @@ title: Alcuino - Curso online de tipografía
 	<li><a href="{{ site.baseurl }}/">Inicio</a></li>
 	<li class="active">¿Por qué Alcuino?</li>
 </ol>
-##¿Por qué Alcuino?
+<h1>¿Por qué Alcuino?</h1>
 <span class="sub">Alcuino de York</span> fue un teólogo, erudito y pedagogo anglosajón.
-Trabajó bajo el alero de Carlomagno, convirtiéndose en su brazo derecho de su política educativa.
+Trabajó bajo el alero de Carlomagno, convirtiéndose en su brazo derecho en su proyecto de reforma educativa.
 
 Carlomagno ordenó la creación de escuelas para su imperio, que funcionaran bajo un currículum unificado, del cual estuvo al mando Alcuino, quien lideró los esfuerzos por escribir libros de texto y listados de palabras, estableciendo además el trivium (gramática, retórica y lógica) y el quadrivium (geometría, aritmética, astronomía y música) como base fundamental de la educación básica.
 

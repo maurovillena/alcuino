@@ -7452,6 +7452,10 @@ li {
 .panel ul li {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+.panel h1 {
+  font-family: "Libre Baskerville", "Times New Roman", Times, serif;
+  font-style: italic;
+}
 .lec .btn-primary {
   margin-right: 0;
 }
@@ -7487,7 +7491,8 @@ li {
   margin-top: 40px;
 }
 .content h1 {
-  margin-top: 20px;
+  margin-top: 10px;
+  font-weight: 400;
 }
 .form-control {
   border-radius: 10px;

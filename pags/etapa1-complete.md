@@ -7,7 +7,7 @@ title: ¡Felicidades!
 	<div class="container">
 		<div class="col-md-8">
 
-			<div class="sidebar">
+			<div class="panel">
 				<h1>¡Felicidades!</h1>
 				
 				<p>Conseguiste completar tu primera lección de forma exitosa.
@@ -15,7 +15,7 @@ title: ¡Felicidades!
 				<p>Ya conoces las diferentes alturas que componen la <strong>caja tipográfica</strong>. El siguiente paso es aprender a reconocer las diferentes <strong>partes que componen cada caracter</strong>.</p>
 				<p>¿Qué deseas hacer ahora?</p>
 
-				<a class="btn btn-primary pull-right" href="{{ site.baseurl }}/pags/lecc-09">Ir a la siguente lección</a>
+				<a class="btn btn-success pull-right" href="{{ site.baseurl }}/pags/lecc-09">Ir a la siguente lección</a>
 
 				<a class="btn btn-primary pull-right" href="{{ site.baseurl }}/pags/indice">Ir al índice</a>
 

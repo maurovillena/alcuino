@@ -3,11 +3,17 @@ var message;
 var score;
 var lines;
 var results = new Array(210, 144, 121, 238);
+var m = 65;
+
+function insidePage(){
+
+  if (mouseX > 20 && mouseX < width - 20 && mouseY > m && mouseY < height - 20 ){return true;}else{return false;}
+}
 
 function setup() {
   var canvas = createCanvas(600, 300);
   canvas.parent('inter001');
-  img = loadImage("http://maurovillena.github.io/alcuino/img/paper.jpg");
+//  img = loadImage("http://maurovillena.github.io/alcuino/img/paper.jpg");
   start();
 }
 
@@ -19,11 +25,21 @@ function start() {
   var maxWidth = document.getElementById('inter001').offsetWidth;
   println(maxWidth);
   resizeCanvas(maxWidth, 300);
-  fill(0);
 }
 
 function draw() {
-  image(img, 0, 0);
+//  fill(30,126,157);
+//  noStroke;
+//  rect(0,0,999,999);
+//Fondo azul
+  background(30,126,157);
+//Fondo Blanco
+  noStroke();
+  fill(255);
+  rect(10, m-10, width - 20, height - m);
+//Instrucciones en pantalla 
+  fill(255);
+//  image(img, 0, 0);
   textFont("Open Sans");
 
   switch (clicks) {
@@ -44,14 +60,17 @@ function draw() {
       if (score < 5) {
         message = "¡Felicidades, lo has conseguido!";
         //background(183, 93, 153);
-        background(75, 198, 75, 100);
+        background(75, 198, 75);
+        fill(255);
+        rect(10, m-10, width - 20, height - m);
         //fill(255);
         $("#siguiente").attr("style","display:block");
         $("#siguiente-desactivado").attr("style","display:none");
       } else {
         message = "¡Fallaste! haz clic para volver a intentarlo";
         background(0);
-        fill(225);
+        fill(255);
+        rect(10, m-10, width - 20, height - m);
       }
       break;
     case 5:
@@ -65,9 +84,11 @@ function draw() {
 
   noStroke();
 
-  textSize(16);
+  textSize(12);
   text(message, 10, 25);
 
+  //letras ejercicio
+  fill(0);
   textFont("Libre Baskerville");
   textSize(120);
   text("Aohg", width * .1, height * .7);
