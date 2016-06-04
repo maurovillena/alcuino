@@ -7,8 +7,8 @@ var results = new Array(210, 144, 121, 238);
 function setup() {
   var canvas = createCanvas(600, 300);
   canvas.parent('inter001');
-  textFont("Merriweather");
-  img = loadImage("../../../img/paper.jpg");
+  textFont("Libre Baskerville");
+  img = loadImage("http://maurovillena.github.io/alcuino/img/paper.jpg");
   start();
 }
 
