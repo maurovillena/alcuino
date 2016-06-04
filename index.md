@@ -179,7 +179,13 @@ title: Inicio
 				
 			</div>
 			<div class="col-md-5">
+
+				<div style="display:block;" id="pluma">
+				<script language="javascript" type="text/javascript" src="{{ site.baseurl }}/interacciones/pluma/sketch.js"></script>
+				</div>
+			<!--
 				<img src="{{ site.baseurl }}/img/001.gif">	
+			-->
 			</div>
 		</div>
 	</div>

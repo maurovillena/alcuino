@@ -3,24 +3,27 @@ var message;
 var veces = 1;
 
 function setup() {
-  //var canvas = createCanvas(600, 300);
-  //canvas.parent('inter002');
-  createCanvas(800, 600);
-  background(208, 61, 100);
-  textFont("Merriweather");
-  widthControl = createSlider(2, 60, 2);
-  widthControl.position(5, 35);
+  var canvas = createCanvas(400, 300);
+  canvas.parent('pluma');
+  var maxWidth = document.getElementById('pluma').offsetWidth;
+  println(maxWidth);
+  resizeCanvas(maxWidth, 300);
+  textFont("Open Sans");
+  background(30,126,157);
   noStroke();
   fill(255);
-  text("Presiona 'r' para comenzar de nuevo", 10, 25);
+  text("Clic y mueve el cursor para dibujar. Presiona 'r' para comenzar de nuevo", 10, 25);
+  
+  widthControl = createSlider(2, 60, 2);
+  widthControl.position(10, 35);
   cursor(ARROW);
-  fill(245);
-  rect(0, m, width - m, height - m);
+  fill(255);
+  rect(10, m-10, width - 20, height - m);
 }
   var m = 65;
 function insidePage(){
 
-  if (mouseX > m && mouseX < width - m && mouseY > m && mouseY < height - m ){return true;}else{return false;}
+  if (mouseX > 20 && mouseX < width - 20 && mouseY > m && mouseY < height - 20 ){return true;}else{return false;}
 }
 
 function draw(){
