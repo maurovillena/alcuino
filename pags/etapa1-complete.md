@@ -24,7 +24,7 @@ title: ¡Felicidades!
 		</div>
 
 		<div class="col-md-4">
-			<img class="pull-right" src="{{ site.baseurl }}/img/alcuino-03.png">
+			<img style="max-width: 100%;" class="pull-right" src="{{ site.baseurl }}/img/alcuino-mod-05.svg">
 		</div>
 
 
