@@ -7,7 +7,6 @@ var results = new Array(210, 144, 121, 238);
 function setup() {
   var canvas = createCanvas(600, 300);
   canvas.parent('inter001');
-  textFont("Libre Baskerville");
   img = loadImage("http://maurovillena.github.io/alcuino/img/paper.jpg");
   start();
 }
@@ -25,7 +24,7 @@ function start() {
 
 function draw() {
   image(img, 0, 0);
-
+  textFont("Open Sans");
 
   switch (clicks) {
     
@@ -45,8 +44,8 @@ function draw() {
       if (score < 5) {
         message = "¡Felicidades, lo has conseguido!";
         //background(183, 93, 153);
-        background(145, 168, 208, 100);
-        fill(255);
+        background(75, 198, 75, 100);
+        //fill(255);
         $("#siguiente").attr("style","display:block");
         $("#siguiente-desactivado").attr("style","display:none");
       } else {
@@ -69,6 +68,7 @@ function draw() {
   textSize(16);
   text(message, 10, 25);
 
+  textFont("Libre Baskerville");
   textSize(120);
   text("Aohg", width * .1, height * .7);
 
