@@ -7535,6 +7535,9 @@ li {
   margin-top: -45px;
   margin-right: -20px;
 }
+.interaccion {
+  padding: 20px 0;
+}
 .light {
   background-color: #2599bf;
   height: 100px;
