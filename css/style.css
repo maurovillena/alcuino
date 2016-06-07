@@ -7032,6 +7032,7 @@ h1 {
   margin-bottom: 30px;
   margin-top: 0;
   padding-top: 0;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 h2,
 h3 {
@@ -7081,8 +7082,23 @@ h6 {
 .breadcrumb > li + li::before {
   content: ">" !important;
 }
+.inicio p,
+.inicio li {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+  font-size: 16px;
+}
+.inicio h1 {
+  font-family: "Libre Baskerville", "Times New Roman", Times, serif;
+  font-size: 35px;
+  text-align: center;
+}
+.inicio .btn {
+  display: block;
+  margin: 30px auto 0 auto;
+  width: 200px;
+}
 .jumbotron {
-  height: 100vh;
+  height: 90vh;
   padding-top: 30vh;
   background: -webkit-radial-gradient(#2599bf, #1E7E9D);
   /* Safari 5.1 to 6.0 */
@@ -7099,13 +7115,13 @@ h6 {
   overflow: hidden;
 }
 .jumbotron h1 {
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Libre Baskerville", "Times New Roman", Times, serif;
   text-align: center;
   letter-spacing: 0.03ex;
   text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
 }
 .jumbotron .btn {
-  margin-top: 50px;
+  margin-top: 30px;
 }
 .jumbo-back {
   color: rgba(252, 251, 251, 0.2);
@@ -7479,6 +7495,7 @@ li {
   max-width: 100%;
 }
 .footnote {
+  padding-top: 20px;
   font-style: italic;
   text-align: center;
   font-size: 13px;

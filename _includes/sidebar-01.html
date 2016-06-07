@@ -18,12 +18,13 @@
 			{% endif %}
 		</li>
 		<li>
-			{% if page.active == 'Altura ascendente' %}
-				<a class="activo" href="#"><i class="fa fa-align-left" aria-hidden="true"></i>Altura ascendente</a>
+			{% if page.active == 'Alturas de la caja tipográfica' %}
+				<a class="activo" href="#"><i class="fa fa-align-left" aria-hidden="true"></i>Alturas de la caja tipográfica</a>
 			{% else %}
-				<a href="{{ site.baseurl }}/pags/lecc-03"><i class="fa fa-align-left" aria-hidden="true"></i>Altura ascendente</a>
+				<a href="{{ site.baseurl }}/pags/lecc-03"><i class="fa fa-align-left" aria-hidden="true"></i>Alturas de la caja tipográfica</a>
 			{% endif %}
 		</li>
+		<!--
 		<li>
 			{% if page.active == 'Altura de x' %}
 				<a class="activo" href="#"><i class="fa fa-align-left" aria-hidden="true"></i>Altura de x</a>
@@ -38,6 +39,7 @@
 				<a href="{{ site.baseurl }}/pags/lecc-05"><i class="fa fa-align-left" aria-hidden="true"></i>Altura descendente</a>
 			{% endif %}
 		</li>
+		-->
 		<li>
 			{% if page.active == 'Rebarba' %}
 				<a class="activo" href="#"><i class="fa fa-align-left" aria-hidden="true"></i>Rebarba</a>
@@ -67,16 +69,17 @@
 <div class="progress">
 {% if page.active == 'Introducción' %}
   <div class="progress-bar" role="progressbar" aria-valuenow="1/6"
-  aria-valuemin="0" aria-valuemax="100" style="width: 12.5%;">
+  aria-valuemin="0" aria-valuemax="100" style="width: 16.6%;">
 {% endif %}
 {% if page.active == 'Línea de base' %}
 	<div class="progress-bar" role="progressbar" aria-valuenow="1/6"
-  aria-valuemin="0" aria-valuemax="100" style="width: 26%;">
+  aria-valuemin="0" aria-valuemax="100" style="width: 33.3%;">
 {% endif %}
-{% if page.active == 'Altura ascendente' %}
+{% if page.active == 'Alturas de la caja tipográfica' %}
 	<div class="progress-bar" role="progressbar" aria-valuenow="1/6"
-  aria-valuemin="0" aria-valuemax="100" style="width: 38.5%;">
+  aria-valuemin="0" aria-valuemax="100" style="width: 50%;">
 {% endif %}
+<!--
 {% if page.active == 'Altura de x' %}
 	<div class="progress-bar" role="progressbar" aria-valuenow="1/6"
   aria-valuemin="0" aria-valuemax="100" style="width: 51%;">
@@ -85,13 +88,14 @@
 	<div class="progress-bar" role="progressbar" aria-valuenow="1/6"
   aria-valuemin="0" aria-valuemax="100" style="width: 63.5%;">
 {% endif %}
+-->
 {% if page.active == 'Rebarba' %}
 	<div class="progress-bar" role="progressbar" aria-valuenow="1/6"
-  aria-valuemin="0" aria-valuemax="100" style="width: 76%;">
+  aria-valuemin="0" aria-valuemax="100" style="width: 66.6%;">
 {% endif %}
 {% if page.active == 'Cuerpo' %}
 	<div class="progress-bar" role="progressbar" aria-valuenow="1/6"
-  aria-valuemin="0" aria-valuemax="100" style="width: 88.5%;">
+  aria-valuemin="0" aria-valuemax="100" style="width: 83.3%;">
 {% endif %}
 {% if page.active == 'Prueba' %}
 	<div class="progress-bar" role="progressbar" aria-valuenow="1/6"

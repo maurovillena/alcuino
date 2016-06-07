@@ -67,7 +67,7 @@ function draw() {
         $("#siguiente").attr("style","display:block");
         $("#siguiente-desactivado").attr("style","display:none");
       } else {
-        message = "¡Fallaste! haz clic para volver a intentarlo";
+        message = "¡Fallaste! haz clic, o presiona 'r' para volver a intentarlo";
         background(0);
         fill(255);
         rect(10, m-10, width - 20, height - m);
@@ -85,7 +85,8 @@ function draw() {
   noStroke();
 
   textSize(12);
-  text(message, 10, 25);
+  text(message, 10, 20);
+  text("Presiona 'r' para comenzar de nuevo.", 10, 40);
 
   //letras ejercicio
   fill(0);
@@ -114,4 +115,8 @@ function mouseReleased() {
 
     clicks++;
   }
+}
+
+function keyReleased (){
+ if (key = ' r ') start();
 }

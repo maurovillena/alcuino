@@ -10,7 +10,7 @@ active: Prueba
 ---
 
 <div class="col-md-4 extracto">
-	Pon a prueba lo aprendido completando este ejercicio
+	Ahora que conoces las diferentes líneas y alturas que conforman la caja tipográfica, y cómo se comportan los caracteres en relación a ellas, demuestralo resolviendo esta sencilla prueba para continuar aprendiendo en el siguiente nivel.
 </div>
 
 <div class="col-md-8">

@@ -202,7 +202,7 @@ title: Inicio
 				<h1>¡Más de 20 video lecciones!</h1>
 				<p>Sabemos que es más fácil aprender usando nuestros sentidos, por eso Alcuino también te enseña viendo y escuchando.</p>
 
-				<a class="btn btn-primary pull-right" href="{{ site.baseurl }}/pags/introduccion/" role="link">¡Quiero Aprender Ahora!</a>
+				<a class="btn btn-primary" href="{{ site.baseurl }}/pags/introduccion/" role="link">¡Quiero Aprender Ahora!</a>
 			</div>
 		</div>
 	</div>
