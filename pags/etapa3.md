@@ -20,7 +20,7 @@ title: Etapa 3 - Legibilidad
 	</div>
 
 	<div class="col-md-4">
-		<div class="nivel">
+		<div class="panel nivel">
 			<img src="{{ site.baseurl }}/img/iconos-lecciones-06.svg">
 
 				<div class="text">
@@ -31,7 +31,7 @@ title: Etapa 3 - Legibilidad
 	</div>
 
 	<div class="col-md-4">
-		<div class="nivel">
+		<div class="panel nivel">
 			<img src="{{ site.baseurl }}/img/iconos-lecciones-07.svg">
 
 				<div class="text">

@@ -213,8 +213,8 @@ title: Inicio
 		<div class="row">
 			<div class="col-md-5 col-md-offset-1">
 				<h1>Registra tu progreso</h1>
-
-				<p><strong>Alcuino</strong> te permite registrar tus avances, almacenando datos en la memoria caché de tu navegador<strong>, actualizando tu nivel de acuerdo a tus logros</strong>.</p>
+				
+				<p><strong>Alcuino</strong> te permite registrar tus avances sin necesidad de registrarte, ya que utilzia la memoria caché de tu navegador para guardar tus logros.</p>
 
 				<a class="btn btn-primary" href="{{ site.baseurl }}/pags/introduccion/" role="link">¡Comienza ya!</a>
 			</div>

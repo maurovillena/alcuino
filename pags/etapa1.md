@@ -21,7 +21,7 @@ title: Etapa 1 - Elementos de la tipografía
 
 	<div class="col-md-4">
 		<a href="{{ site.baseurl }}/pags/lecc-01">
-			<div class="nivel">
+			<div class="panel nivel">
 			<img src="{{ site.baseurl }}/img/iconos-lecciones-02.svg">
 				<div class="text">
 					<h4>La caja tipográfica</h4>
@@ -33,7 +33,7 @@ title: Etapa 1 - Elementos de la tipografía
 
 	<div class="col-md-4">
 		<a href="{{ site.baseurl }}/pags/lecc-09">
-			<div class="nivel">
+			<div class="panel nivel">
 			<img src="{{ site.baseurl }}/img/iconos-lecciones-03.svg">
 				<div class="text">
 					<h4>Partes del caracter</h4>

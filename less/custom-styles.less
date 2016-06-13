@@ -131,6 +131,9 @@ h4,h5,h6{
 		margin: 30px auto 0 auto;
 		width: 200px;
 	}
+	footer h2{
+		font-size: 14px!important;
+	}
 }
 
 .jumbotron{
@@ -293,47 +296,6 @@ h4,h5,h6{
 .inicial{
 	padding-top: 70px;
 	background: @gradient-primary;
-}
-
-footer{
-	font-family: @font-family-sans-serif;
-	background-color: @gray-dark;
-	padding: 20px 0;
-	color: @gray-light;
-	
-	a{
-		color: @gray-light;
-		letter-spacing: 0.01ex;
-		font-weight: 400;
-	}
-	
-	a:hover{
-		color: @gray-lighter;
-		text-decoration: none;
-	}
-
-	p{
-	font-size: 12px;
-	}
-	
-	ul{
-		font-size: 12px;
-		list-style: none;
-		padding: 0;
-	}
-
-
-	h2{
-		font-family: @font-family-sans-serif;
-		font-size: 14px;
-		color: @gray-lighter;
-		font-weight: 400;
-	}
-
-	strong{
-		font-weight: 400;
-		color: @gray-lighter;
-	}
 }
 
 .merri{
@@ -602,12 +564,12 @@ li{
 }
 
 .nivel{
-	background-color: @white;
-	color: @type-black;
-	padding: 20px;
-	border: 1px solid @brand-primary;
-	border-radius: @border-radius-base;
-	box-shadow: fade(@brand-primary, 40%) 7px 7px 0px;
+//	background-color: @white;
+//	color: @type-black;
+//	padding: 20px;
+//	border: 1px solid @brand-primary;
+//	border-radius: @border-radius-base;
+//	box-shadow: fade(@brand-primary, 40%) 7px 7px 0px;
 	margin-bottom: 15px;
 	height: 270px;
 
@@ -637,18 +599,6 @@ li{
 		background-color: @brand-lighter;
 	}
 
-	.miniatura{
-		background-color: @gray;
-		display: inline-block;
-		height: 60px;
-		width: 60px;
-		border-radius: 100%;
-		top:0;
-		&:hover{
-			text-decoration: none!important;
-		}
-	}
-
 	.text{
 		display: inline-block;
 		padding: 0 5%;
@@ -670,15 +620,22 @@ li{
 //	margin-top: 30px;
 	border: 1px solid @brand-primary;
 	border-radius: @border-radius-base;
-	box-shadow: fade(@brand-primary, 40%) 7px 7px 0px;
-	
+	//box-shadow: fade(@brand-primary, 40%) 7px 7px 0px;
+	box-shadow: @brand-light 7px 7px 0px;
+
 	ul li{
 		font-family: @font-family-sans-serif;
+	}
+
+	h4{
+		line-height: 24px;
+		margin-top: 0;
 	}
 }
 
 .panel{
-	background-color: #fefefes;
+	color: @type-black;
+//	background-color: #fefefes;
 	padding: 30px;
 //	margin-top: 30px;
 	border: 1px solid @brand-primary;
@@ -727,6 +684,7 @@ li{
 
 .footnote{
 	padding-top: 20px;
+	margin-bottom: 50px;
 	font-style: italic;
 	text-align: center;
 	font-size: (@font-size-base - 2);
@@ -807,4 +765,51 @@ li{
 	background-color: @brand-light;
 	height: 100px;
 	width: 100px;
+}
+
+.lighter{
+	background-color: @brand-lighter;
+	height: 100px;
+	width: 100px;
+}
+
+footer{
+	font-family: @font-family-sans-serif;
+	background-color: @gray-dark;
+	padding: 20px 0;
+	color: @gray-light;
+	
+	a{
+		color: @gray-light;
+		letter-spacing: 0.01ex;
+		font-weight: 400;
+	}
+	
+	a:hover{
+		color: @gray-lighter;
+		text-decoration: none;
+	}
+
+	p{
+	font-size: 12px!important;
+	}
+	
+	ul li{
+		font-size: 12px!important;
+		list-style: none;
+		padding: 0;
+	}
+
+
+	h2{
+		font-family: @font-family-sans-serif;
+		font-size: 14!important;
+		color: @gray-lighter;
+		font-weight: 400;
+	}
+
+	strong{
+		font-weight: 400;
+		color: @gray-lighter;
+	}
 }

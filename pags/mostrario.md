@@ -14,6 +14,8 @@ title: Página de prueba tipografía
 <div style="height:100px;dispay:block;background:#fff;"></div> 
 <!--separador-->
 
+
+
 <div class="seccion uno">
 	<div class="container">
 		<div class="col-md-6">
@@ -42,6 +44,9 @@ title: Página de prueba tipografía
 		<h2>Esta es una sección de fondo blanco con encabezado h2</h2>
 
 		<div class="col-md-6">
+
+		<div class="light"></div>
+		<div class="lighter"></div>
 
 			<h3>Encabezado h3</h3>
 

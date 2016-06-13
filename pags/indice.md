@@ -18,7 +18,7 @@ title: Índice
 
 			<div class="col-md-6">
 			<a href="{{ site.baseurl }}/pags/lecc-01">
-				<div class="nivel">
+				<div class="panel nivel">
 
 					<img src="{{ site.baseurl }}/img/iconos-lecciones-02.svg">
 
@@ -32,7 +32,7 @@ title: Índice
 
 		<div class="col-md-6">
 		<a href="{{ site.baseurl }}/pags/lecc-09">
-			<div class="nivel">
+			<div class="panel nivel">
 
 				<img src="{{ site.baseurl }}/img/iconos-lecciones-03.svg">
 
@@ -49,7 +49,7 @@ title: Índice
 		</div>
 
 		<div class="col-md-6">
-			<div class="nivel desactivado">
+			<div class="panel nivel desactivado">
 
 				<img src="{{ site.baseurl }}/img/iconos-lecciones-04.svg">
 
@@ -61,7 +61,7 @@ title: Índice
 		</div>
 
 		<div class="col-md-6">
-			<div class="nivel desactivado">
+			<div class="panel nivel desactivado">
 
 			<img src="{{ site.baseurl }}/img/iconos-lecciones-05.svg">
 
@@ -77,7 +77,7 @@ title: Índice
 		</div>
 
 		<div class="col-md-6">
-			<div class="nivel desactivado">
+			<div class="panel nivel desactivado">
 
 			<img src="{{ site.baseurl }}/img/iconos-lecciones-06.svg">
 
@@ -89,7 +89,7 @@ title: Índice
 		</div>
 
 		<div class="col-md-6">
-			<div class="nivel desactivado">
+			<div class="panel nivel desactivado">
 
 			<img src="{{ site.baseurl }}/img/iconos-lecciones-07.svg">
 
@@ -105,7 +105,7 @@ title: Índice
 		</div>
 
 		<div class="col-md-6">
-			<div class="nivel desactivado">
+			<div class="panel nivel desactivado">
 
 			<img src="{{ site.baseurl }}/img/iconos-lecciones-08.svg">
 
@@ -117,7 +117,7 @@ title: Índice
 		</div>
 
 		<div class="col-md-6">
-			<div class="nivel desactivado">
+			<div class="panel nivel desactivado">
 
 			<img src="{{ site.baseurl }}/img/iconos-lecciones-09.svg">
 
@@ -131,7 +131,7 @@ title: Índice
 		<div class="clearfix"></div>
 
 		<div class="col-md-6">
-			<div class="nivel desactivado">
+			<div class="panel nivel desactivado">
 
 			<img src="{{ site.baseurl }}/img/iconos-lecciones-10.svg">
 
@@ -152,18 +152,47 @@ title: Índice
 		<div class="col-md-4">
 		<h2>Tu avance</h2>
 
-			<div>
-				<div class="avance-primary">
-					<h4>Nivel:</h4>
-					<h6>Principiante</h6>
-				</div>
-				
-				<div class="porcentaje-avance">
-				<p>11,1%</p>
-				</div>
-			</div>
+			<h3>Etapa 1:</h3>
 
-			<p>Aún eres un novato, ya puedes reconocer las partes de un caracter tipográfico, pero falta mucho por aprender para poder aplicar correctamtene las diferentes familias tipográficas.</p>
+				<h5>Completado: 100%</h5>
+
+				<div class="progress">
+				  <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;">
+				    <span class="sr-only">100% Completado</span>
+				  </div>
+				</div>
+
+			<h3>Etapa 2:</h3>
+
+				<h5>Completado: 0%</h5>
+
+				<div class="progress">
+				  <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 0%;">
+				    <span class="sr-only">0% Completado</span>
+				  </div>
+				</div>
+
+			<h3>Etapa 3:</h3>
+
+				<h5>Completado: 0%</h5>
+
+				<div class="progress">
+				  <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 0%;">
+				    <span class="sr-only">0% Completado</span>
+				  </div>
+				</div>
+
+			<h3>Etapa 4:</h3>
+
+				<h5>Completado: 0%</h5>
+
+				<div class="progress">
+				  <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 0%;">
+				    <span class="sr-only">0% Completado</span>
+				  </div>
+				</div>
+
+			
 			<a class="btn btn-primary pull-right" href="{{ site.baseurl }}/pags/lecc-01">Continuar</a>
 		</div> <!-- col-md-4 -->
 

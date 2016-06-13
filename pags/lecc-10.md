@@ -19,4 +19,8 @@ active: Trazo estructural
 	<img src="{{ site.baseurl }}/img/0006.png">
 	<p>Se puede decir que el trazo es el "alma" de la letra, y que su forma suele ser muy similar entre las diferentes familias tipográficas, aunque hay casos en que una misma letra tiene una escructura completamente diferente a otra.</p>
 
+	<h2>Modulación del trazo</h2>
+
+	<p>La modulación se refiere al contraste en el grosor que envuelve al trazo. Esta variación grueso-delgado, proviene de la herramienta y la técnica con la que se realizaba el tipo de escritura que simula una tipografía. Por ejemplo, una tipografía proveniente de una técnica de escritura con pincel, no tendrá la misma modulación que una proveniente del tallado con cincel y martillo, así como una tipografía geométrica será menos contrastada que una de base caligráfica.</p>
+	<p>Este rasgo afecta la manera en que la contraforma de las letras influye en su facilidad o dificultad para ser leídas.</p>
 </div>

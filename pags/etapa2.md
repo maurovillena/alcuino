@@ -19,7 +19,7 @@ title: Etapa 2 - Origen y tradición tipográfica
 	</div>
 
 	<div class="col-md-4">
-		<div class="nivel">
+		<div class="panel nivel">
 			<img src="{{ site.baseurl }}/img/iconos-lecciones-04.svg">
 
 				<div class="text">
@@ -30,7 +30,7 @@ title: Etapa 2 - Origen y tradición tipográfica
 	</div>
 
 	<div class="col-md-4">
-		<div class="nivel">
+		<div class="panel nivel">
 			<img src="{{ site.baseurl }}/img/iconos-lecciones-05.svg">
 
 				<div class="text">

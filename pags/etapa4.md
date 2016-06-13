@@ -20,7 +20,7 @@ title: Etapa 4 - Diagramación y Composición
 	</div>
 
 	<div class="col-md-4">
-		<div class="nivel">
+		<div class="panel nivel">
 			<img src="{{ site.baseurl }}/img/iconos-lecciones-08.svg">
 
 				<div class="text">
@@ -31,7 +31,7 @@ title: Etapa 4 - Diagramación y Composición
 	</div>
 
 	<div class="col-md-4">
-		<div class="nivel">
+		<div class="panel nivel">
 			<img src="{{ site.baseurl }}/img/iconos-lecciones-09.svg">
 
 				<div class="text">
@@ -42,7 +42,7 @@ title: Etapa 4 - Diagramación y Composición
 	</div>
 
 	<div class="col-md-4">
-		<div class="nivel">
+		<div class="panel nivel">
 			<div class="text">
 					<h4>Elección de una paleta tipográfica</h4>
 					<p>Criterios de elección de familias tipográficas afines</p>
