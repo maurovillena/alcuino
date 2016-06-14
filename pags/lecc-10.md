@@ -10,6 +10,11 @@ active: Trazo estructural
 ---
 
 <div class="col-md-4 extracto">
+
+	<img src="{{ site.baseurl }}/img/trazo-estructural-01.png">
+	<p class="footnote">Tipografía con su trazo estructural resaltado</p>
+	<img src="{{ site.baseurl }}/img/trazo-estructural-31.png">
+	<p class="footnote">Trazo estructural separado de la tipografía</p>
 	
 </div>
 

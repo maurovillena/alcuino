@@ -7,19 +7,18 @@ leccion: Partes del caracter tipográfico
 anterior: #
 siguiente: lecc-10
 active: Introducción
+percent: 16,6
 ---
 
 <div class="col-md-4 extracto">
 
-	<img src="{{ site.baseurl }}/img/gutenberg-08.svg">
+	<img src="{{ site.baseurl }}/img/gutenberg-01.png">
 
 	<p class="footnote">Johannes Gutenberg, inventor de la imprenta de tipos móviles.</p>
 
 	<img src="{{ site.baseurl }}/img/ilus-lecc-01.svg">
 
-	<p class="footnote">Tipo móvil correspondiente a la letra "B".
-	</br>
-	El diseño del relieve de cada letra es espejado, para que al imprimirlas, se voltearan a su dirección natural.</p>
+	<p class="footnote">Tipo móvil correspondiente a la letra "B". El diseño del relieve de cada letra es espejado, para que al imprimirlas, se voltearan a su dirección natural.</p>
 
 </div>
 
