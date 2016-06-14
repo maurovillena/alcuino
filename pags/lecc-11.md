@@ -10,11 +10,12 @@ active: Astas
 ---
 
 <div class="col-md-4 extracto">
+	<p>El asta es un trazo vertical o diagonal que define la forma de la letra, actuando como pilar del caracter, y siendo la línea principal, y más fácil de identificar.</p>
 </div>
 
 <div class="col-md-8">
 
-<p>El asta es un trazo vertical o diagonal que define la forma de la letra, actuando como pilar del caracter, y siendo la línea principal, y más fácil de identificar.</p>
+<p>Según su forma y dirección, las astas de un caracter se pueden clasificar de diferentes maneras.</p>
 
 <img src="{{ site.baseurl }}/img/trazo-estructural-16.png">
 <h2>Asta ascendente</h2>
