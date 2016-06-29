@@ -15,6 +15,6 @@ active: Ancho
 
 <div class="col-md-8">
 
-	
+<p>Las variaciones de ancho se refieren al ancho de la caja de “m” y cómo los demás caracteres se ajustan en función de el. También se pueden observar leves diferencias estructurales, como los ápices de la letra M.</p>
 
 </div>

@@ -15,6 +15,7 @@ active: Inclinación
 
 <div class="col-md-8">
 
-	
+<p>Las familias tipográficas también presentan variaciones <em>en cuanto a la inclinación del eje</em> de las letras (itálicas), las que a su vez, también pueden o no tener variaciones de peso</p>
+<p>Cabe destacar que las variables itálicas no son sólo una versión inclinada de la tipografía original, sino que son rediseños, que se acercan levemente a la caligrafía, manteniendo rasgos particulares de su familia.</p>
 
 </div>
