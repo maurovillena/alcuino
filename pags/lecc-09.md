@@ -7,7 +7,7 @@ leccion: Partes del caracter tipográfico
 anterior: #
 siguiente: lecc-10
 active: Introducción
-percent: 16,6
+percent: 16.6
 ---
 
 <div class="col-md-4 extracto">

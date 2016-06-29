@@ -20,6 +20,7 @@ title: Etapa 3 - Legibilidad
 	</div>
 
 	<div class="col-md-4">
+	<a href="{{ site.baseurl }}/pags/lecc-35">
 		<div class="panel nivel">
 			<img src="{{ site.baseurl }}/img/iconos-lecciones-06.svg">
 
@@ -28,9 +29,11 @@ title: Etapa 3 - Legibilidad
 					<p>¿En función de qué se logra el ajuste óptiomo de un texto?</p>
 				</div>
 		</div>
+	</a>
 	</div>
 
 	<div class="col-md-4">
+	<a href="{{ site.baseurl }}/pags/lecc-41">
 		<div class="panel nivel">
 			<img src="{{ site.baseurl }}/img/iconos-lecciones-07.svg">
 
@@ -38,8 +41,8 @@ title: Etapa 3 - Legibilidad
 					<h4>Variaciones Tipográficas</h4>
 					<p>Cada familia tipográfica presenta doferentes variaciones en función de su forma</p>
 				</div>
-			</div>
 		</div>
+	</a>
 	</div>
 
 	</div> <!-- container -->

@@ -1,0 +1,114 @@
+<div class="sidebar lec">
+
+<h4>{{ page.title }}</h4>
+	
+	<ul>
+		<li>
+			{% if page.active == 'Introducción' %}
+				<a class="activo" href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i>Introducción</a>
+			{% else %}
+				<a href="{{ site.baseurl }}/pags/lecc-16"><i class="fa fa-youtube-play" aria-hidden="true"></i>Introducción</a>
+			{% endif %}
+		</li>
+		<li>
+			{% if page.active == 'Mesopotamia y Egipto' %}
+				<a class="activo" href="#"><i class="fa fa-align-left" aria-hidden="true"></i>Mesopotamia y Egipto</a>
+			{% else %}
+				<a href="{{ site.baseurl }}/pags/lecc-17"><i class="fa fa-align-left" aria-hidden="true"></i>Mesopotamia y Egipto</a>
+			{% endif %}
+		</li>
+		<li>
+			{% if page.active == 'Escritura Fenicia' %}
+				<a class="activo" href="#"><i class="fa fa-align-left" aria-hidden="true"></i>Escritura Fenicia</a>
+			{% else %}
+				<a href="{{ site.baseurl }}/pags/lecc-18"><i class="fa fa-align-left" aria-hidden="true"></i>Escritura Fenicia</a>
+			{% endif %}
+		</li>
+		<li>
+			{% if page.active == 'Escritura Griega' %}
+				<a class="activo" href="#"><i class="fa fa-align-left" aria-hidden="true"></i>Escritura Griega</a>
+			{% else %}
+				<a href="{{ site.baseurl }}/pags/lecc-19"><i class="fa fa-align-left" aria-hidden="true"></i>Escritura Griega</a>
+			{% endif %}
+		</li>
+		<li>
+			{% if page.active == 'Escritura Etrusca' %}
+				<a class="activo" href="#"><i class="fa fa-cubes" aria-hidden="true"></i>Escritura Etrusca</a>
+			{% else %}
+				<a href="{{ site.baseurl }}/pags/lecc-20"><i class="fa fa-cubes" aria-hidden="true"></i>Escritura Etrusca</a>
+			{% endif %}
+		</li>
+		<li>
+			{% if page.active == 'Escritura Romana' %}
+				<a class="activo" href="#"><i class="fa fa-cubes" aria-hidden="true"></i>Escritura Romana</a>
+			{% else %}
+				<a href="{{ site.baseurl }}/pags/lecc-21"><i class="fa fa-cubes" aria-hidden="true"></i>Escritura Romana</a>
+			{% endif %}
+		</li>
+		<li>
+			{% if page.active == 'Escritura Gótica' %}
+				<a class="activo" href="#"><i class="fa fa-cubes" aria-hidden="true"></i>Escritura Gótica</a>
+			{% else %}
+				<a href="{{ site.baseurl }}/pags/lecc-22"><i class="fa fa-cubes" aria-hidden="true"></i>Escritura Gótica</a>
+			{% endif %}
+		</li>
+		<li>
+			{% if page.active == 'Prueba' %}
+				<a class="activo" href="#"><i class="fa fa-cubes" aria-hidden="true"></i>Prueba</a>
+			{% else %}
+				<a href="{{ site.baseurl }}/pags/lecc-23"><i class="fa fa-cubes" aria-hidden="true"></i>Prueba</a>
+			{% endif %}
+		</li>
+	</ul>
+
+<h4>Completado:</h4>
+
+
+<div class="progress">
+{% if page.active == 'Introducción' %}
+  <div class="progress-bar" role="progressbar" aria-valuenow="1/6"
+  aria-valuemin="0" aria-valuemax="100" style="width: 12.5%;">
+{% endif %}
+{% if page.active == 'Mesopotamia y Egipto' %}
+	<div class="progress-bar" role="progressbar" aria-valuenow="1/6"
+  aria-valuemin="0" aria-valuemax="100" style="width: 25%;">
+{% endif %}
+{% if page.active == 'Escritura Fenicia' %}
+	<div class="progress-bar" role="progressbar" aria-valuenow="1/6"
+  aria-valuemin="0" aria-valuemax="100" style="width: 37.5%;">
+{% endif %}
+{% if page.active == 'Escritura Griega' %}
+	<div class="progress-bar" role="progressbar" aria-valuenow="1/6"
+  aria-valuemin="0" aria-valuemax="100" style="width: 50%;">
+{% endif %}
+{% if page.active == 'Escritura Etrusca' %}
+	<div class="progress-bar" role="progressbar" aria-valuenow="1/6"
+  aria-valuemin="0" aria-valuemax="100" style="width: 62.5%;">
+{% endif %}
+{% if page.active == 'Escritura Romana' %}
+	<div class="progress-bar" role="progressbar" aria-valuenow="1/6"
+  aria-valuemin="0" aria-valuemax="100" style="width: 75%;">
+{% endif %}
+{% if page.active == 'Escritura Gótica' %}
+	<div class="progress-bar" role="progressbar" aria-valuenow="1/6"
+  aria-valuemin="0" aria-valuemax="100" style="width: 87.5%;">
+{% endif %}
+{% if page.active == 'Prueba' %}
+	<div class="progress-bar" role="progressbar" aria-valuenow="1/6"
+  aria-valuemin="0" aria-valuemax="100" style="width: 100%;">
+{% endif %}
+    <span class="sr-only">1/6</span>
+  </div>
+</div>
+
+	<div>
+		<a class="btn btn-primary pull-left" href="{{ site.baseurl }}/pags/{{ page.anterior }}">Anterior</a>
+		{% if page.active == 'Prueba' %}
+		<a id="siguiente" class="btn btn-primary pull-right" style="display:none;" href="{{ site.baseurl }}/pags/{{ page.siguiente }}">Siguiente</a>
+
+		<a id="siguiente-desactivado" class="desactivado btn btn-primary pull-right" style="display:block;" href="{{ site.baseurl }}/pags/{{ page.siguiente }}">Siguiente</a>
+		{% else %}
+		<a class="btn btn-primary pull-right" href="{{ site.baseurl }}/pags/{{ page.siguiente }}">Siguiente</a>
+		{% endif %}
+	</div>
+</div>

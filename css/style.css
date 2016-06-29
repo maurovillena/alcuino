@@ -7390,17 +7390,6 @@ li {
 .nivel:hover {
   background-color: #70c8e4;
 }
-.nivel .miniatura {
-  background-color: #555555;
-  display: inline-block;
-  height: 60px;
-  width: 60px;
-  border-radius: 100%;
-  top: 0;
-}
-.nivel .miniatura:hover {
-  text-decoration: none!important;
-}
 .nivel .text {
   display: inline-block;
   padding: 0 5%;
@@ -7559,7 +7548,7 @@ footer ul li {
 }
 footer h2 {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14!important;
+  font-size: 14px!important;
   color: #eeeeee;
   font-weight: 400;
 }

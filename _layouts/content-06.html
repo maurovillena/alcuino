@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include head.html %}
+{% include navsession.html %}
+	<body>
+		<div class='seccion dos first'>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<ol class="breadcrumb">
+							<li><a href="{{ site.baseurl }}/pags/indice">Índice</a></li>
+							<li><a href="{{ site.baseurl }}/pags/{{ page.numetapa }}">{{ page.etapa }}</a></li>
+							<li>{{ page.leccion }}</li>
+						</ol>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-md-12 content">
+						<h1>{{ page.active }}</h1>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-8">
+						{{ content }}
+					</div>
+					<div class="col-md-4">
+						{% include sidebar-06.html %}
+					</div>
+				</div>
+			</div>
+		</div>
+		{% include footer.html %}
+	</body>
+</html>

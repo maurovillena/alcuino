@@ -19,6 +19,6 @@ percent: 14
 <div class="col-md-8">
 	
 
-	<iframe class="video" width="100%" height="315" src="https://www.youtube.com/embed/gRjS1d3kSis" frameborder="0" allowfullscreen></iframe>
+	<iframe class="video" width="100%" height="315" src="https://www.youtube.com/embed/VBwvYcvPyU4" frameborder="0" allowfullscreen></iframe>
 
 </div>

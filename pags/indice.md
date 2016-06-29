@@ -49,7 +49,8 @@ title: Índice
 		</div>
 
 		<div class="col-md-6">
-			<div class="panel nivel desactivado">
+		<a href="{{ site.baseurl }}/pags/lecc-16">
+			<div class="panel nivel">
 
 				<img src="{{ site.baseurl }}/img/iconos-lecciones-04.svg">
 
@@ -58,10 +59,12 @@ title: Índice
 					<p>El origen de la tipografía en el tiempo y geografía</p>
 				</div>
 			</div>
+		</a>
 		</div>
 
 		<div class="col-md-6">
-			<div class="panel nivel desactivado">
+		<a href="{{ site.baseurl }}/pags/lecc-24">
+			<div class="panel nivel">
 
 			<img src="{{ site.baseurl }}/img/iconos-lecciones-05.svg">
 
@@ -70,6 +73,7 @@ title: Índice
 					<p>Clasificaciones de las familias tipográficas según era y forma</p>
 				</div>
 			</div>
+		</a>
 		</div>
 
 		<div class="col-md-12">
@@ -77,7 +81,8 @@ title: Índice
 		</div>
 
 		<div class="col-md-6">
-			<div class="panel nivel desactivado">
+		<a href="{{ site.baseurl }}/pags/lecc-35">
+			<div class="panel nivel">
 
 			<img src="{{ site.baseurl }}/img/iconos-lecciones-06.svg">
 
@@ -86,10 +91,12 @@ title: Índice
 					<p>¿En función de qué se logra el ajuste óptiomo de un texto?</p>
 				</div>
 			</div>
+		</a>
 		</div>
 
 		<div class="col-md-6">
-			<div class="panel nivel desactivado">
+		<a href="{{ site.baseurl }}/pags/lecc-41">
+		<div class="panel nivel">
 
 			<img src="{{ site.baseurl }}/img/iconos-lecciones-07.svg">
 
@@ -98,6 +105,7 @@ title: Índice
 					<p>Cada familia tipográfica presenta doferentes variaciones en función de su forma</p>
 				</div>
 			</div>
+		</a>
 		</div>
 
 		<div class="col-md-12">

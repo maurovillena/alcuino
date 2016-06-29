@@ -1,0 +1,147 @@
+<div class="sidebar lec">
+
+<h4>{{ page.title }}</h4>
+	
+	<ul>
+		<li>
+			{% if page.active == 'Introducción' %}
+				<a class="activo" href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i>Introducción</a>
+			{% else %}
+				<a href="{{ site.baseurl }}/pags/lecc-24"><i class="fa fa-youtube-play" aria-hidden="true"></i>Introducción</a>
+			{% endif %}
+		</li>
+		<li>
+			{% if page.active == 'La prensa de tipos móviles' %}
+				<a class="activo" href="#"><i class="fa fa-align-left" aria-hidden="true"></i>La prensa de tipos móviles</a>
+			{% else %}
+				<a href="{{ site.baseurl }}/pags/lecc-25"><i class="fa fa-align-left" aria-hidden="true"></i>La prensa de tipos móviles</a>
+			{% endif %}
+		</li>
+		<li>
+			{% if page.active == 'Tipografía Gótica' %}
+				<a class="activo" href="#"><i class="fa fa-align-left" aria-hidden="true"></i>Tipografía Gótica</a>
+			{% else %}
+				<a href="{{ site.baseurl }}/pags/lecc-26"><i class="fa fa-align-left" aria-hidden="true"></i>Tipografía Gótica</a>
+			{% endif %}
+		</li>
+		<li>
+			{% if page.active == 'Tipografía Humanística' %}
+				<a class="activo" href="#"><i class="fa fa-align-left" aria-hidden="true"></i>Tipografía Humanística</a>
+			{% else %}
+				<a href="{{ site.baseurl }}/pags/lecc-27"><i class="fa fa-align-left" aria-hidden="true"></i>Tipografía Humanística</a>
+			{% endif %}
+		</li>
+		<li>
+			{% if page.active == 'Tipografía Transicional' %}
+				<a class="activo" href="#"><i class="fa fa-cubes" aria-hidden="true"></i>Tipografía Transicional</a>
+			{% else %}
+				<a href="{{ site.baseurl }}/pags/lecc-28"><i class="fa fa-cubes" aria-hidden="true"></i>Tipografía Transicional</a>
+			{% endif %}
+		</li>
+		<li>
+			{% if page.active == 'Tipografía Neoclásica' %}
+				<a class="activo" href="#"><i class="fa fa-cubes" aria-hidden="true"></i>Tipografía Neoclásica</a>
+			{% else %}
+				<a href="{{ site.baseurl }}/pags/lecc-29"><i class="fa fa-cubes" aria-hidden="true"></i>Tipografía Neoclásica</a>
+			{% endif %}
+		</li>
+		<li>
+			{% if page.active == 'Tipografía Moderna' %}
+				<a class="activo" href="#"><i class="fa fa-cubes" aria-hidden="true"></i>Tipografía Moderna</a>
+			{% else %}
+				<a href="{{ site.baseurl }}/pags/lecc-30"><i class="fa fa-cubes" aria-hidden="true"></i>Tipografía Moderna</a>
+			{% endif %}
+		</li>
+		<li>
+			{% if page.active == 'Tipografía Egipcia' %}
+				<a class="activo" href="#"><i class="fa fa-cubes" aria-hidden="true"></i>Tipografía Egipcia</a>
+			{% else %}
+				<a href="{{ site.baseurl }}/pags/lecc-31"><i class="fa fa-cubes" aria-hidden="true"></i>Tipografía Egipcia</a>
+			{% endif %}
+		</li>
+		<li>
+			{% if page.active == 'Tipografía Display' %}
+				<a class="activo" href="#"><i class="fa fa-cubes" aria-hidden="true"></i>Tipografía Display</a>
+			{% else %}
+				<a href="{{ site.baseurl }}/pags/lecc-32"><i class="fa fa-cubes" aria-hidden="true"></i>Tipografía Display</a>
+			{% endif %}
+		</li>
+		<li>
+			{% if page.active == 'Tipografía Sans-Serif' %}
+				<a class="activo" href="#"><i class="fa fa-cubes" aria-hidden="true"></i>Tipografía Sans-Serif</a>
+			{% else %}
+				<a href="{{ site.baseurl }}/pags/lecc-33"><i class="fa fa-cubes" aria-hidden="true"></i>Tipografía Sans-Serif</a>
+			{% endif %}
+		</li>
+		<li>
+			{% if page.active == 'Prueba' %}
+				<a class="activo" href="#"><i class="fa fa-cubes" aria-hidden="true"></i>Prueba</a>
+			{% else %}
+				<a href="{{ site.baseurl }}/pags/lecc-34"><i class="fa fa-cubes" aria-hidden="true"></i>Prueba</a>
+			{% endif %}
+		</li>
+	</ul>
+
+<h4>Completado:</h4>
+
+
+<div class="progress">
+{% if page.active == 'Introducción' %}
+  <div class="progress-bar" role="progressbar" aria-valuenow="1/6"
+  aria-valuemin="0" aria-valuemax="100" style="width: 9.09%;">
+{% endif %}
+{% if page.active == 'La prensa de tipos móviles' %}
+	<div class="progress-bar" role="progressbar" aria-valuenow="1/6"
+  aria-valuemin="0" aria-valuemax="100" style="width: 18.18%;">
+{% endif %}
+{% if page.active == 'Tipografía Gótica' %}
+	<div class="progress-bar" role="progressbar" aria-valuenow="1/6"
+  aria-valuemin="0" aria-valuemax="100" style="width: 27.27%;">
+{% endif %}
+{% if page.active == 'Tipografía Humanística' %}
+	<div class="progress-bar" role="progressbar" aria-valuenow="1/6"
+  aria-valuemin="0" aria-valuemax="100" style="width: 36.36%;">
+{% endif %}
+{% if page.active == 'Tipografía Transicional' %}
+	<div class="progress-bar" role="progressbar" aria-valuenow="1/6"
+  aria-valuemin="0" aria-valuemax="100" style="width: 45.45%;">
+{% endif %}
+{% if page.active == 'Tipografía Neoclásica' %}
+	<div class="progress-bar" role="progressbar" aria-valuenow="1/6"
+  aria-valuemin="0" aria-valuemax="100" style="width: 54.54%;">
+{% endif %}
+{% if page.active == 'Tipografía Moderna' %}
+	<div class="progress-bar" role="progressbar" aria-valuenow="1/6"
+  aria-valuemin="0" aria-valuemax="100" style="width: 63.63%;">
+{% endif %}
+{% if page.active == 'Tipografía Egipcia' %}
+	<div class="progress-bar" role="progressbar" aria-valuenow="1/6"
+  aria-valuemin="0" aria-valuemax="100" style="width: 72.72%;">
+{% endif %}
+{% if page.active == 'Tipografía Display' %}
+	<div class="progress-bar" role="progressbar" aria-valuenow="1/6"
+  aria-valuemin="0" aria-valuemax="100" style="width: 81.81%;">
+{% endif %}
+{% if page.active == 'Tipografía Sans-Serif' %}
+	<div class="progress-bar" role="progressbar" aria-valuenow="1/6"
+  aria-valuemin="0" aria-valuemax="100" style="width: 90.9%;">
+{% endif %}
+{% if page.active == 'Prueba' %}
+	<div class="progress-bar" role="progressbar" aria-valuenow="1/6"
+  aria-valuemin="0" aria-valuemax="100" style="width: 100%;">
+{% endif %}
+    <span class="sr-only">1/6</span>
+  </div>
+</div>
+
+	<div>
+		<a class="btn btn-primary pull-left" href="{{ site.baseurl }}/pags/{{ page.anterior }}">Anterior</a>
+		{% if page.active == 'Prueba' %}
+		<a id="siguiente" class="btn btn-primary pull-right" style="display:none;" href="{{ site.baseurl }}/pags/{{ page.siguiente }}">Siguiente</a>
+
+		<a id="siguiente-desactivado" class="desactivado btn btn-primary pull-right" style="display:block;" href="{{ site.baseurl }}/pags/{{ page.siguiente }}">Siguiente</a>
+		{% else %}
+		<a class="btn btn-primary pull-right" href="{{ site.baseurl }}/pags/{{ page.siguiente }}">Siguiente</a>
+		{% endif %}
+	</div>
+</div>
